@@ -1,0 +1,31 @@
+\chapter{Methodology}
+\label{cha:methodology}
+
+\section{Hardware Pipeline}
+\label{sec:hw pipeline}
+• Structure of the system (1 ESP32 + 2 Syntiant NDP101)\newline
+-> SPI communication NDP101 + Arduino MKRZero\newline
+-> SPI communication between ESP32 + NDP101\newline\newline
+
+\section{Software Pipeline}
+\label{sec:sw pipeline}
+
+\subsection{Signal Capture}
+\label{subsec:signal}
+Simulation (PortAudio), Real (Direct PDM sampling on NDP101) [Output: 15488]\newline
+\subsection{MFE Block Generation}
+\label{subsec:mfe}
+Simulation (Block explaining, validation with edge impulse generated spectrogram), real (Feature Extractor) [Output: 1600]\newline
+\subsection{KWS Model}
+\label{subsec:kws model}
+Input (1600) → FC256 (ReLU) → FC256 (ReLU) → FC256 (ReLU) → Output (4, Softmax)\newline
+Simulation (Weight extraction, target word, dataset), Real (model uploading and classification method)\newline
+\subsection{SV Model} 
+\label{subsec:signal}
+Input (40x40) → Conv+BatchNorm layers → 256-dimensional d-vector \newline
+Simulation (model-size, classification purpose, truncation explaination, verification methods (best-matching and mean-cosine)), Real (custom logic for verification)\newline
+\subsubsection{Enrollment phase}
+\label{subsec:enrollment} 
+Only for real logic, in simulation is not performed (various iteration of the process) [how to verify this? Model SV impossibility of uploading because of int-4 impossible deployment]\newline
+
+\newpage

@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Gottardelli_Matteo_ICE_2024_2025.aux
+The style file: plain.bst
+Database file #1: biblio.bib
+Warning--I'm ignoring esp32documentation's extra "note" field
+--line 79 of file biblio.bib
+Warning--to sort, need author or key in nodejs_repository
+Name 1 in "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" has a comma at the end for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Name 1 in "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" has a comma at the end for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Warning--empty journal in dvector_extractor_TinySV
+Warning--empty publisher in audio_processing_theory
+You've used 19 entries,
+            2118 wiz_defined-function locations,
+            585 strings with 7154 characters,
+and the built_in function-call counts, 4296 in all, are:
+= -- 416
+> -- 166
+< -- 0
++ -- 71
+- -- 50
+* -- 154
+:= -- 735
+add.period$ -- 72
+call.type$ -- 19
+change.case$ -- 81
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 144
+empty$ -- 411
+format.name$ -- 50
+if$ -- 927
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 4
+newline$ -- 113
+num.names$ -- 36
+pop$ -- 164
+preamble$ -- 1
+purify$ -- 63
+quote$ -- 0
+skip$ -- 114
+stack$ -- 0
+substring$ -- 97
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 74
+warning$ -- 3
+while$ -- 36
+width$ -- 21
+write$ -- 215
+(There were 6 error messages)

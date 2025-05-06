@@ -1,0 +1,34 @@
+\contentsline {chapter}{Abstract}{1}{}%
+\contentsline {chapter}{\numberline {1}Introduction to Syntiant NDP101}{2}{}%
+\contentsline {section}{\numberline {1.1}NDP101 Definition and TinyML Concept}{2}{}%
+\contentsline {section}{\numberline {1.2}Project Objectives}{2}{}%
+\contentsline {section}{\numberline {1.3}Constraints of NDP101 device}{2}{}%
+\contentsline {chapter}{\numberline {2}Background \& Related Work}{3}{}%
+\contentsline {section}{\numberline {2.1}NDP101 Architecture}{3}{}%
+\contentsline {section}{\numberline {2.2}Audio Processing}{3}{}%
+\contentsline {section}{\numberline {2.3}Keyword Spotting Approaches}{3}{}%
+\contentsline {section}{\numberline {2.4}Speaker Verification Approaches}{3}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{4}{}%
+\contentsline {section}{\numberline {3.1}Hardware Pipeline}{4}{}%
+\contentsline {section}{\numberline {3.2}Software Pipeline}{4}{}%
+\contentsline {subsection}{\numberline {3.2.1}Signal Capture}{4}{}%
+\contentsline {subsection}{\numberline {3.2.2}MFE Block Generation}{4}{}%
+\contentsline {subsection}{\numberline {3.2.3}KWS Model}{4}{}%
+\contentsline {subsection}{\numberline {3.2.4}SV Model}{4}{}%
+\contentsline {subsubsection}{Enrollment phase}{4}{}%
+\contentsline {chapter}{\numberline {4}Implementation}{5}{}%
+\contentsline {section}{\numberline {4.1}KWS Model}{5}{}%
+\contentsline {section}{\numberline {4.2}SV Model}{5}{}%
+\contentsline {subsection}{\numberline {4.2.1}Quantization of SV Model}{5}{}%
+\contentsline {chapter}{\numberline {5}Results}{6}{}%
+\contentsline {section}{\numberline {5.1}KWS Performance}{6}{}%
+\contentsline {section}{\numberline {5.2}SV Performance}{6}{}%
+\contentsline {section}{\numberline {5.3}System Integration}{6}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{7}{}%
+\contentsline {section}{\numberline {6.1}Technical Limitations}{7}{}%
+\contentsline {section}{\numberline {6.2}Design Trade-offs}{7}{}%
+\contentsline {section}{\numberline {6.3}Comparison with State-of-Art}{7}{}%
+\contentsline {chapter}{\numberline {7}Conclusion \& Future Work}{8}{}%
+\contentsline {section}{\numberline {7.1}Key Contributions}{8}{}%
+\contentsline {section}{\numberline {7.2}Future Directions}{8}{}%
+\contentsline {chapter}{Bibliography}{9}{}%

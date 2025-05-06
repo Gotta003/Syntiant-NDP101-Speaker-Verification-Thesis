@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{nodejs_repository}
+Node js repository.
+\newblock deb.nodesource.com.
+\newblock Last Access 06/05/2025.
+
+\bibitem{analysis_syntiant_performances}
+Will McDonald Atul Gupta Mallik~Moturi Alireza~Yousefi, Luiz Franca-Neto and David Garrett.
+\newblock The intelligence of things enabled by syntiant's tinyml board.
+\newblock Last Access 06/05/2025.
+
+\bibitem{esp32documentation}
+Espressif.
+\newblock Esp32 documentation.
+\newblock https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf, 2025.
+\newblock Last Access 06/05/2025.
+
+\bibitem{syntiant_audio_block}
+Edge Impulse.
+\newblock Audio syntiant.
+\newblock https://docs.edgeimpulse.com/docs/edge-impulse-studio/processing-blocks/audio-syntiant.
+\newblock Last Access 06/05/2025.
+
+\bibitem{edgeimpulse_syntiant_tinyml}
+Edge Impulse.
+\newblock Edge impulse syntiant tinyml deploying.
+\newblock https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu-+-ai-accelerators/syntiant-tinyml-board.
+\newblock Last Access 06/05/2025.
+
+\bibitem{edgeimpulse_kws_example}
+Edge Impulse.
+\newblock Keyword spotting on syntiant stop/go example by edge impulse.
+\newblock Last Access 06/05/2025.
+
+\bibitem{edgeimpulse_dataset_499022}
+Edge Impulse.
+\newblock Audio classification - keyword spotting.
+\newblock https://studio.edgeimpulse.com/public/499022/latest, 2024.
+\newblock Apache 2.0, Last Access 06/05/2025.
+
+\bibitem{edgeimpulse_processing_blocks}
+Edge Impulse.
+\newblock Edge impulse block processing repository.
+\newblock https://github.com/edgeimpulse/processing-blocks, 2025.
+\newblock Last Access 06/05/2025.
+
+\bibitem{edgeimpulse_firmware_syntiant}
+Edge Impulse.
+\newblock Firmware syntiant tinyml github repository.
+\newblock https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree/master, 2025.
+\newblock Last Access 06/05/2025.
+
+\bibitem{PDM_module}
+Thomas Kite.
+\newblock Understanding pdm digital audio.
+\newblock https://users.ece.utexas.edu/~bevans/courses/rtdsp/lectures/10\_Data\_Conversion/AP\_Understanding\_PDM\_Digital\_Audio.pdf, 2012.
+\newblock Last Access 06/05/2025.
+
+\bibitem{origin_code_1}
+Christian Neuhaus.
+\newblock Code experimental implementation on ndp101.
+\newblock https://github.com/happychriss/Goodwatch\_NDP101\_SpeeechRecognition/tree/master/include, 2021.
+\newblock Last Access 06/05/2025.
+
+\bibitem{experimental_try_on_ndp101}
+Christian Neuhaus.
+\newblock Ndp101 experimental implementation on ndp101.
+\newblock https://44-2.de/syntiant-ndp-101-always-on-low-power-speech-recognition/, 2022.
+\newblock No other resources that corroborates data listed, Last Access 06/05/2025.
+
+\bibitem{neural_network_training}
+Eugeniu Ostrovan.
+\newblock Tinyml on-device neural network training.
+\newblock https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-82f5e501630e/TinyML\_on\_device\_neural\_network\_training%20fin.pdf, 2021-2022.
+\newblock Last Access 06/05/2025.
+
+\bibitem{dvector_extractor_TinySV}
+Massimo Pavan, Gioele Mombelli, Francesco Sinacori, and Manuel Roveri.
+\newblock Tinysv: Speaker verification in tinyml with on-device learning.
+\newblock 2025.
+\newblock Last Access 06/05/2025.
+
+\bibitem{description_ndp101}
+Syntiant.
+\newblock General description of ndp101 device.
+\newblock https://www.syntiant.com/ndp101\#data\_sheet.
+\newblock Last Access 06/05/2025.
+
+\bibitem{syntiant_tutorial_edgeimpulse}
+Syntiant.
+\newblock Syntiant tutorial edge impulse.
+\newblock https://www.eetree.cn/wiki/\_media/syntiant\_tinyml\_tutorial\_mac\_.pdf, 2021.
+\newblock Last Access 06/05/2025.
+
+\bibitem{audio_processing_theory}
+Rishabh Tak, Dharmesh Agrawal, and Hemant Patil.
+\newblock {\em Novel Phase Encoded Mel Filterbank Energies for Environmental Sound Classification}.
+\newblock 11 2017.
+
+\bibitem{tinyML_2021_summit}
+TinyML.
+\newblock Tinyml 2021 summit presentation syntiant ndp120.
+\newblock https://cms.tinyml.org/wp-content/uploads/summit2021/tinyMLSummit2021d1\_Awards\_Syntiant.pdf, 2021.
+\newblock Last Access 06/05/2025.
+
+\bibitem{dnn_speaker_verification}
+Feng Ye and Jun Yang.
+\newblock A deep neural network model for speaker identification.
+\newblock {\em Applied Sciences}, 11(8), 2021.
+\newblock Last Access 06/05/2025.
+
+\end{thebibliography}
