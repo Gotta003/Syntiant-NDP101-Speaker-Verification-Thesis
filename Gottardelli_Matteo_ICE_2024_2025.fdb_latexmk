@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Gottardelli_Matteo_ICE_2024_2025"] 1746609929 "Gottardelli_Matteo_ICE_2024_2025.aux" "Gottardelli_Matteo_ICE_2024_2025.bbl" "Gottardelli_Matteo_ICE_2024_2025" 1746609929 2
+["bibtex Gottardelli_Matteo_ICE_2024_2025"] 1746610059 "Gottardelli_Matteo_ICE_2024_2025.aux" "Gottardelli_Matteo_ICE_2024_2025.bbl" "Gottardelli_Matteo_ICE_2024_2025" 1746610060 2
   "./biblio.bib" 1746609927 13371 dcb32e9be562a84d11b2ada481da196f ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Gottardelli_Matteo_ICE_2024_2025.aux" 1746609928 7126 cdcae7115b40a4adc0565b10b797b6de "pdflatex"
+  "Gottardelli_Matteo_ICE_2024_2025.aux" 1746610059 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "Gottardelli_Matteo_ICE_2024_2025.bbl"
   "Gottardelli_Matteo_ICE_2024_2025.blg"
   (rewritten before read)
-["pdflatex"] 1746609928 "/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex" "Gottardelli_Matteo_ICE_2024_2025.pdf" "Gottardelli_Matteo_ICE_2024_2025" 1746609929 0
+["pdflatex"] 1746610058 "/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex" "Gottardelli_Matteo_ICE_2024_2025.pdf" "Gottardelli_Matteo_ICE_2024_2025" 1746610059 0
   "/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex" 1746554412 6052 b39901e4f8b5b6e15e267d7a7dd60ca5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -15,11 +15,18 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
@@ -68,11 +75,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1707219732 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1707219729 7883452 50e5df22c1253856f59c475b93b0cddd ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Gottardelli_Matteo_ICE_2024_2025.aux" 1746609928 7126 cdcae7115b40a4adc0565b10b797b6de "pdflatex"
-  "Gottardelli_Matteo_ICE_2024_2025.bbl" 1746609929 5396 1f60e14c83311799184f4e276d0b0f1b "bibtex Gottardelli_Matteo_ICE_2024_2025"
+  "Gottardelli_Matteo_ICE_2024_2025.aux" 1746610059 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Gottardelli_Matteo_ICE_2024_2025.bbl" 1746610060 0 d41d8cd98f00b204e9800998ecf8427e "bibtex Gottardelli_Matteo_ICE_2024_2025"
   "Gottardelli_Matteo_ICE_2024_2025.tex" 1746554412 6052 b39901e4f8b5b6e15e267d7a7dd60ca5 ""
-  "Gottardelli_Matteo_ICE_2024_2025.toc" 1746609928 2241 ad0df6049d2e92a063f6e340b0974929 "pdflatex"
-  "abstract.tex" 1746609911 2591 c8f8cc1e1354f6b685a246b930936daf ""
+  "Gottardelli_Matteo_ICE_2024_2025.toc" 0 -1 0 "pdflatex"
+  "abstract.tex" 1746610058 2689 187ae6fd9ceb1e7d8533b72007a2e6da ""
   "acknowledgements.tex" 1746541329 111 ef94b906b39e70223ad4f79d0823c7f4 ""
   "attachments.tex" 1746546528 421 a7622727e51cc232767ca2d7dce825fb ""
   "chapters/1. Introduction.tex" 1746547399 806 9aaf1e7a421a4a50a6f985a881570477 ""
