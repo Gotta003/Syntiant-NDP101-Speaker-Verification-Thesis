@@ -1,19 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  6 MAY 2025 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  7 MAY 2025 11:25
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**your_thesis.tex
-(./Gottardelli_Matteo_ICE_2024_2025.tex
-! Interruption.
-<to be read again> 
-                   \begingroup 
-l.1 
-    \documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
-? r
-OK, entering \nonstopmode...
+**/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
+(/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22>
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -30,29 +23,22 @@ File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
@@ -60,23 +46,18 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
 \epsfxsize=\dimen143
 \epsfysize=\dimen144
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
 Package: plain 1996/04/22 Plain TeX emulation (DPC)
 \tabs@latex=\box51
 \tabsyet@latex=\box52
 \tabsdone@latex=\box53
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count194
@@ -91,8 +72,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip50
@@ -103,13 +83,11 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen155
 \titlewidthlast=\dimen156
 \titlewidthfirst=\dimen157
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2022/08/07 UCS: Input encoding UTF-8
 
 
@@ -122,8 +100,7 @@ Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -134,8 +111,7 @@ File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -183,8 +159,7 @@ File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -463,8 +438,7 @@ File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -556,8 +530,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-)))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count197
 \l__pdf_internal_box=\box55
@@ -566,11 +539,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [epsfig].
 
-(./Gottardelli_Matteo_ICE_2024_2025.aux
-
-LaTeX Warning: Label `subsec:signal' multiply defined.
-
-)
+No file Gottardelli_Matteo_ICE_2024_2025.aux.
 \openout1 = `Gottardelli_Matteo_ICE_2024_2025.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -587,7 +556,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count198
 \scratchdimen=\dimen158
@@ -602,41 +571,30 @@ LaTeX Font Info:    ... okay on input line 21.
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -676,21 +634,16 @@ e
 Package epstopdf Info: Source file: <marchio_unitrento_colore_it_202002.eps>
 (epstopdf)                    date: 2020-02-12 00:03:20
 (epstopdf)                    size: 222744 bytes
-(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-con
-verted-to.pdf>
+(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-02-12 00:12:40
 (epstopdf)                    size: 183512 bytes
-(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_i
-t_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
+(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_it_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=1, 369.7815pt x 11
-4.6684pt>
-File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (typ
-e pdf)
+<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=1, 369.7815pt x 114.6684pt>
+File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (type pdf)
 <use marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
-Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pd
-f  used on input line 7.
+Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pdf  used on input line 7.
 (pdftex.def)             Requested size: 290.22107pt x 90.00262pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 27.
@@ -698,31 +651,97 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 27.
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./march
-io_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./marchio_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
 
 
 ]
-(./Gottardelli_Matteo_ICE_2024_2025.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+No file Gottardelli_Matteo_ICE_2024_2025.toc.
 \tf@toc=\write3
 \openout3 = `Gottardelli_Matteo_ICE_2024_2025.toc'.
 
- [1
+[1
 
 ] (./abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]) (./chapters/1. Introduction.tex
+
+LaTeX Warning: Citation `edgeimpulse_syntiant_tinyml' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation `edgeimpulse_kws_example' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `edgeimpulse_firmware_syntiant' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `edgeimpulse_processing_blocks' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `nodejs_repository' on page 2 undefined on input line 16.
+
+
+LaTeX Warning: Citation `edgeimpulse_dataset_499022' on page 2 undefined on input line 17.
+
+
+LaTeX Warning: Citation `speechcommands' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Citation `netron' on page 2 undefined on input line 19.
+
+
+LaTeX Warning: Citation `esp32documentation' on page 2 undefined on input line 23.
+
+
+LaTeX Warning: Citation `syntiant_tutorial_edgeimpulse' on page 2 undefined on input line 24.
+
+
+LaTeX Warning: Citation `tinyML_2021_summit' on page 2 undefined on input line 28.
+
+
+LaTeX Warning: Citation `experimental_try_on_ndp101' on page 2 undefined on input line 29.
+
+
+LaTeX Warning: Citation `origin_code_1' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Citation `analysis_syntiant_performances' on page 2 undefined on input line 31.
+
+
+LaTeX Warning: Citation `description_ndp101' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Citation `syntiant_audio_block' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Citation `hardware_ndp101' on page 2 undefined on input line 34.
+
+
+LaTeX Warning: Citation `PDM_module' on page 2 undefined on input line 38.
+
+
+LaTeX Warning: Citation `audio_processing_theory' on page 2 undefined on input line 39.
+
+
+LaTeX Warning: Citation `neural_network_training' on page 2 undefined on input line 40.
+
+
+LaTeX Warning: Citation `distillation_from_cnn_to_dnn' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Citation `knowledge_distillation' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `dnn_speaker_verification' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Citation `dvector_extractor_code' on page 2 undefined on input line 48.
+
+[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./chapters/1. Introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
@@ -790,8 +809,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
 
 Overfull \hbox (1.69295pt too wide) in paragraph at lines 21--23
-\OT1/cmr/m/n/10.95 Simulation (Weight ex-trac-tion, tar-get word, dataset), Rea
-l (model up-load-ing and clas-si-fi-ca-tion method) 
+\OT1/cmr/m/n/10.95 Simulation (Weight ex-trac-tion, tar-get word, dataset), Real (model up-load-ing and clas-si-fi-ca-tion method) 
  []
 
 
@@ -873,128 +891,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
  []
 
 [9]) (./Gottardelli_Matteo_ICE_2024_2025.bbl
-Overfull \hbox (105.9612pt too wide) in paragraph at lines 14--18
-[]\OT1/cmr/m/n/10.95 Espressif.  Esp32 doc-u-men-ta-tion.  https://www.espressi
-f.com/sites/default/files/documentation/esp32[]datasheet[]en.pdf,
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+[]\OT1/cmr/m/n/10.95 Neuhaus Chris-tian.  Code ex-per-i-men-tal im-ple-men-ta-tion on ndp101.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Au-dio syn-tiant.  https://docs.edgeimpuls
-e.com/docs/edge-impulse-
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+\OT1/cmr/m/n/10.95 https://github.com/happychriss/Goodwatch[]NDP101[]SpeeechRecognition/tree/master/include,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Edge im-pulse syn-tiant tinyml de-ploy-ing
-.
+Overfull \hbox (105.9612pt too wide) in paragraph at lines 26--30
+[]\OT1/cmr/m/n/10.95 Espressif.  Esp32 doc-u-men-ta-tion.  https://www.espressif.com/sites/default/files/documentation/esp32[]datasheet[]en.pdf,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
-\OT1/cmr/m/n/10.95 https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu-+-ai-
-accelerators/syntiant-tinyml-
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+[]\OT1/cmr/m/n/10.95 Ostrovan Eu-ge-niu.  Tinyml on-device neu-ral net-work train-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Au-dio clas-si-fi-ca-tion - key-word spot-
-ting.
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+\OT1/cmr/m/n/10.95 ing.  https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 37--41
-\OT1/cmr/m/n/10.95 https://studio.edgeimpulse.com/public/499022/latest, 2024.  
-Apache 2.0, Last Ac-cess
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Au-dio syn-tiant.  https://docs.edgeimpulse.com/docs/edge-impulse-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Edge im-pulse block pro-cess-ing repos-i-t
-ory.
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Edge im-pulse syn-tiant tinyml de-ploy-ing.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--53
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Firmware syn-tiant tinyml github repos-i-t
-ory.
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 49--53
-\OT1/cmr/m/n/10.95 https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree
-/master, 2025.  Last Ac-cess
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 55--59
-[]\OT1/cmr/m/n/10.95 Thomas Kite.  Un-der-stand-ing pdm dig-i-tal au-dio.  http
-s://users.ece.utexas.edu/ be-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
-\OT1/cmr/m/n/10.95 vans/courses/rtdsp/lectures/10[]Data[]Conversion/AP[]Underst
-anding[]PDM[]Digital[]Audio.pdf,
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+\OT1/cmr/m/n/10.95 https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu-+-ai-accelerators/syntiant-tinyml-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--65
-[]\OT1/cmr/m/n/10.95 Christian Neuhaus.  Code ex-per-i-men-tal im-ple-men-ta-ti
-on on ndp101.
+[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Au-dio clas-si-fi-ca-tion - key-word spot-ting.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
-\OT1/cmr/m/n/10.95 https://github.com/happychriss/Goodwatch[]NDP101[]SpeeechRec
-ognition/tree/master/include,
+Underfull \hbox (badness 5847) in paragraph at lines 61--65
+\OT1/cmr/m/n/10.95 https://studio.edgeimpulse.com/public/499022/latest, 2024.  Apache 2.0, Last Ac-cess
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Edge im-pulse block pro-cess-ing repos-i-tory.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--77
-[]\OT1/cmr/m/n/10.95 Eugeniu Os-trovan.  Tinyml on-device neu-ral net-work trai
-n-
+[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Firmware syn-tiant tinyml github repos-i-tory.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
-\OT1/cmr/m/n/10.95 ing.  https://www.politesi.polimi.it/retrieve/e9f5774c-592d-
-4741-a6d4-
- []
-
-
-Overfull \hbox (71.58432pt too wide) in paragraph at lines 91--95
-[]\OT1/cmr/m/n/10.95 Syntiant.  Syn-tiant tu-to-rial edge im-pulse.  https://ww
-w.eetree.cn/wiki/[]media/syntiant[]tinyml[]tutorial[]mac[].pdf,
+Underfull \hbox (badness 2512) in paragraph at lines 73--77
+\OT1/cmr/m/n/10.95 https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree/master, 2025.  Last Ac-cess
  []
 
 [10
 
-]) (./attachments.tex) [11] (./acknowledgements.tex) [12]
-(./Gottardelli_Matteo_ICE_2024_2025.aux)
+]
+Overfull \hbox (71.58432pt too wide) in paragraph at lines 115--119
+[]\OT1/cmr/m/n/10.95 Syntiant.  Syn-tiant tu-to-rial edge im-pulse.  https://www.eetree.cn/wiki/[]media/syntiant[]tinyml[]tutorial[]mac[].pdf,
+ []
 
-LaTeX Warning: There were multiply-defined labels.
+
+Underfull \hbox (badness 3439) in paragraph at lines 126--130
+[]\OT1/cmr/m/n/10.95 Kite Thomas.  Un-der-stand-ing pdm dig-i-tal au-dio.  https://users.ece.utexas.edu/ be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+\OT1/cmr/m/n/10.95 vans/courses/rtdsp/lectures/10[]Data[]Conversion/AP[]Understanding[]PDM[]Digital[]Audio.pdf,
+ []
+
+) (./attachments.tex) [11] (./acknowledgements.tex) [12] (./Gottardelli_Matteo_ICE_2024_2025.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3097 strings out of 476025
- 54398 string characters out of 5790018
+ 3082 strings out of 476025
+ 54287 string characters out of 5790018
  1860388 words of memory out of 5000000
- 23468 multiletter control sequences out of 15000+600000
- 519700 words of font info for 56 fonts, out of 8000000 for 9000
+ 23463 multiletter control sequences out of 15000+600000
+ 517261 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,76p,307b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Gottardelli_Matteo_ICE_2024_2025.pdf (14 pages, 336110 bytes)
-.
+ 72i,7n,76p,369b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Gottardelli_Matteo_ICE_2024_2025.pdf (14 pages, 331733 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

@@ -10,11 +10,35 @@ Will McDonald Atul Gupta Mallik~Moturi Alireza~Yousefi, Luiz Franca-Neto and Dav
 \newblock The intelligence of things enabled by syntiant's tinyml board.
 \newblock Last Access 06/05/2025.
 
+\bibitem{origin_code_1}
+Neuhaus Christian.
+\newblock Code experimental implementation on ndp101.
+\newblock https://github.com/happychriss/Goodwatch\_NDP101\_SpeeechRecognition/tree/master/include, 2021.
+\newblock Last Access 06/05/2025.
+
+\bibitem{experimental_try_on_ndp101}
+Neuhaus Christian.
+\newblock Ndp101 experimental implementation on ndp101.
+\newblock https://44-2.de/syntiant-ndp-101-always-on-low-power-speech-recognition/, 2022.
+\newblock No other resources that corroborates data listed, Last Access 06/05/2025.
+
 \bibitem{esp32documentation}
 Espressif.
 \newblock Esp32 documentation.
 \newblock https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf, 2025.
 \newblock Last Access 06/05/2025.
+
+\bibitem{neural_network_training}
+Ostrovan Eugeniu.
+\newblock Tinyml on-device neural network training.
+\newblock https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-82f5e501630e/TinyML\_on\_device\_neural\_network\_training%20fin.pdf, 2021-2022.
+\newblock Last Access 06/05/2025.
+
+\bibitem{knowledge_distillation}
+Jianping Gou, Baosheng Yu, Stephen Maybank, and Dacheng Tao.
+\newblock Knowledge distillation: A survey.
+\newblock 06 2020.
+\newblock Last Access 07/05/2025.
 
 \bibitem{syntiant_audio_block}
 Edge Impulse.
@@ -51,41 +75,41 @@ Edge Impulse.
 \newblock https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree/master, 2025.
 \newblock Last Access 06/05/2025.
 
-\bibitem{PDM_module}
-Thomas Kite.
-\newblock Understanding pdm digital audio.
-\newblock https://users.ece.utexas.edu/~bevans/courses/rtdsp/lectures/10\_Data\_Conversion/AP\_Understanding\_PDM\_Digital\_Audio.pdf, 2012.
-\newblock Last Access 06/05/2025.
+\bibitem{distillation_from_cnn_to_dnn}
+Ying Liu, Yan Song, Ian McLoughlin, Lin Liu, and Li-rong Dai.
+\newblock {\em An Effective Deep Embedding Learning Method Based on Dense-Residual Networks for Speaker Verification}.
+\newblock 2021.
+\newblock Last Access 07/05/2025.
 
-\bibitem{origin_code_1}
-Christian Neuhaus.
-\newblock Code experimental implementation on ndp101.
-\newblock https://github.com/happychriss/Goodwatch\_NDP101\_SpeeechRecognition/tree/master/include, 2021.
-\newblock Last Access 06/05/2025.
-
-\bibitem{experimental_try_on_ndp101}
-Christian Neuhaus.
-\newblock Ndp101 experimental implementation on ndp101.
-\newblock https://44-2.de/syntiant-ndp-101-always-on-low-power-speech-recognition/, 2022.
-\newblock No other resources that corroborates data listed, Last Access 06/05/2025.
-
-\bibitem{neural_network_training}
-Eugeniu Ostrovan.
-\newblock Tinyml on-device neural network training.
-\newblock https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-82f5e501630e/TinyML\_on\_device\_neural\_network\_training%20fin.pdf, 2021-2022.
-\newblock Last Access 06/05/2025.
+\bibitem{dvector_extractor_code}
+Massimo Pavan, Gioele Mombelli, Francesco Sinacori, and Manuel Roveri.
+\newblock Tinysv d-vector extractor github reference.
+\newblock https://github.com/AI-Tech-Research-Lab/TinySV, 2023.
+\newblock Last Access 07/05/2025.
 
 \bibitem{dvector_extractor_TinySV}
 Massimo Pavan, Gioele Mombelli, Francesco Sinacori, and Manuel Roveri.
 \newblock Tinysv: Speaker verification in tinyml with on-device learning.
 \newblock 2025.
-\newblock Last Access 06/05/2025.
+\newblock Last Access 07/05/2025.
+
+\bibitem{netron}
+Lutz Roeder.
+\newblock Netron.app tool for model representation.
+\newblock https://netron.app.
+\newblock Last Access 07/05/2025.
 
 \bibitem{description_ndp101}
 Syntiant.
 \newblock General description of ndp101 device.
 \newblock https://www.syntiant.com/ndp101\#data\_sheet.
 \newblock Last Access 06/05/2025.
+
+\bibitem{hardware_ndp101}
+Syntiant.
+\newblock hardware\_ndp101.
+\newblock https://www.syntiant.com/hardware.
+\newblock Last Access 07/05/2025.
 
 \bibitem{syntiant_tutorial_edgeimpulse}
 Syntiant.
@@ -98,11 +122,23 @@ Rishabh Tak, Dharmesh Agrawal, and Hemant Patil.
 \newblock {\em Novel Phase Encoded Mel Filterbank Energies for Environmental Sound Classification}.
 \newblock 11 2017.
 
+\bibitem{PDM_module}
+Kite Thomas.
+\newblock Understanding pdm digital audio.
+\newblock https://users.ece.utexas.edu/~bevans/courses/rtdsp/lectures/10\_Data\_Conversion/AP\_Understanding\_PDM\_Digital\_Audio.pdf, 2012.
+\newblock Last Access 06/05/2025.
+
 \bibitem{tinyML_2021_summit}
 TinyML.
 \newblock Tinyml 2021 summit presentation syntiant ndp120.
 \newblock https://cms.tinyml.org/wp-content/uploads/summit2021/tinyMLSummit2021d1\_Awards\_Syntiant.pdf, 2021.
 \newblock Last Access 06/05/2025.
+
+\bibitem{speechcommands}
+Pete Warden.
+\newblock Speech commands: A public dataset for single-word speech recognition.
+\newblock 2017.
+\newblock Last Access 07/05/2025.
 
 \bibitem{dnn_speaker_verification}
 Feng Ye and Jun Yang.
