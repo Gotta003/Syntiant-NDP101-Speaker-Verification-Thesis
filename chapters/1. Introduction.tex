@@ -1,22 +1,41 @@
-\chapter{Introduction to Syntiant NDP101}
+\chapter{Introduction}
 \label{cha:intro}
+The microcontrollers (MCU) are computing systems, which are integrated in a larger system and in that case they are called embedded system, to perform a specific function that need a software implementation (programmed in C or assembly) and a hardware one (interconnectivity wires and sensor handle)
+They operate in a closed environment and elaborate environment inputs which may be visual, acustic and with more recent technology even tactile or movement and elaborate it to generate an output which may be an action in a bigger system, an audio response or a trigger depending on the microcontroller specifics. 
+So, these MCUs work in application-specific fields and they are typically used in real time.
+The programmer can implement a desired application, which allows personalization of the functionalities and the possibility of optimization and because of that with a correct usage a MCU may be a good addition to reduce costs in power and energy terms, the possibility of build a desired application and adding more than one feature at the same time connecting various sensors thanks to their peripherals.    
+Each MCU can be optimized in a specific sub-application, like monitoring, communications and networking (Internet-of-Thing) and digital signal processing.
+\section{TinyML Concept and Limits}
+\label{sec:context}                                                                      
+During the years, MCU's technology made steps ahead in optimizing the computation velocity, meanwhile minimizing power consumption and a result is TinyML (Tiny Machine Learning). These devices enable machine and deep learning models to operate on a MCU, enabling more complex program introduction, like Anomaly Detection in images or analog data collection, Keyword Spotting, recognizing a specific word in an audio stream, or identifying objects in an image.
+These complex functionality can be implemented thanks to a Neural Network, which is trained typically on cloud resources in Python programming language and this leads in performing only the inference phase on these tiny devices. This approach does not allow data exploitation directly, limiting incremental training or adapting algorithm through the device life. This is a limit on the Machine Learning side, but on the Tiny one there are some trade-offs. A direct consequence of being really small devices is having limited memory to reduce power consumption, so sometimes adapting a Neural Network which typically may occupy much memory isn't easy and requires precision reduction. 
+\section{Goals - TinySV}
+\label{sec:tinysv}
+This thesis studies how to adapt with a TinyML devices base system that performs Speaker Verification, which task consists in recognizing the identity of a user with references samples and comparing them with an input audio stream. For this goal already exists a solution from which was taken reference\cite{dvector_extractor_TinySV}. The objective originally was creating a Keyword Spotting model (KWS) and a Speaker Verification (SV) one, trying to adapt that algorithm on two Syntiant TinyML NDP101 devices, but because of a NDA problem the access to device documentation was inaccessible, allowing KWS development thanks to Edge Impulse\cite{edgeimpulse_syntiant_tinyml}, but SV, on the other hand, uses a technique not supported by Edge Impulse and because of the inability of accessing to a model compression tool, we had to opt on a STM32 to perform a model verification. To preserve the initial idea, the model was tested as it would be a Syntiant TinyML NDP101, to show the validation of the technique. The full logic has to be hardware implemented that could have been possible using Syntiant SDK, but because of this impossibility, with this thesis the objective is to show the feasibility of this idea from a software perspective and partially hardware. For real testing the model verification will be single, but the whole system has been tested with a software code working on Computer-side. All the codes used in this thesis is provided on a GitHub repository\footnotemark{}\footnotetext{Thesis GitHub Repository - https://github.com/Gotta003/Thesis}
+\section{Brief Summary}
+The thesis is divided into chapters. After this introduction, Chapter 2 aims to present theoretical concepts that will be used in this thesis, like Audio Processing, KWS and SV. Chapter 3 introduces the general methodology of the final objective and explains how it works. Chapter 4 explains the work flow of models training and optimization. Chapter 5 presents the software C code implementation for deploying both algorithms. Chapter 6 draws up the results obtained from computer testing.
+\newpage
+\chapter{Introduction}
+\label{cha:intro}
+The microcontrollers (MCUs) are computing systems which are integrated into a larger system, and in that case, they are called embedded systems. They perform a specific function that requires both a software implementation (programmed in C or assembly) and a hardware one (interconnectivity wires and sensor handling).  
+They operate in a closed environment and process environmental inputs, which may be visual, acoustic, or—thanks to more recent technology—even tactile or movement-based, and elaborate them to generate an output. This output may be an action in a larger system, an audio response, or a trigger, depending on the microcontroller's specifics.  
+Thus, these MCUs work in application-specific fields and are typically used in real-time applications.  
+The programmer can implement a desired application, which allows for the personalization of functionalities and the possibility of optimization. Because of that, with proper usage, an MCU may be a good addition to reduce costs in terms of power and energy, to build a desired application, and to add multiple features simultaneously by connecting various sensors through their peripherals.  
+Each MCU can be optimized for a specific sub-application, such as monitoring, communications and networking (Internet-of-Things), or digital signal processing.
 
-\section{NDP101 Definition and TinyML Concept}
-\label{sec:context}
-• NDP101 what it performs?\newline
-• What do make NDP101 different from the other voice IoT devices?\newline
-• Evolution during time?\newline
-• TinyML concept?\newline\newline
+\section{TinyML Concept and Limits}
+\label{sec:context}                                                                      
+Over the years, MCU technology has made significant progress in optimizing computational speed while minimizing power consumption, and one result of this is TinyML (Tiny Machine Learning). These devices enable machine and deep learning models to operate on an MCU, allowing for the implementation of more complex programs such as anomaly detection in images or analog data, keyword spotting (recognizing a specific word in an audio stream), or object identification in images.  
+These complex functionalities can be implemented thanks to a neural network, which is typically trained using cloud resources in the Python programming language. This leads to performing only the inference phase on these tiny devices. This approach does not allow direct data exploitation, limiting incremental training or algorithm adaptation over the device's life. This is a limitation on the machine learning side, but there are trade-offs on the TinyML side as well. A direct consequence of being very small devices is having limited memory to reduce power consumption, so adapting a neural network—which typically occupies much memory—is not easy and often requires precision reduction.
 
-\section{Project Objectives}
-• KWS model Deploying (Edge Impulse)\newline
-• Extend functionality to SV to be compatible with device (Python)\newline
-• Optimize neural network to be deployed on the device and verifying on simulation (Syntiant NDP101 and C-code)\newline\newline
+\section{Goals - TinySV}
+\label{sec:tinysv}
+This thesis studies how to adapt a base system with TinyML devices that performs speaker verification, a task that consists of recognizing the identity of a user through reference samples and comparing them with an input audio stream.  
+For this goal, an existing solution was used as a reference\cite{dvector_extractor_TinySV}. The original objective was to create both a keyword spotting (KWS) model and a speaker verification (SV) model, and to try to adapt that algorithm to two Syntiant TinyML NDP101 devices. However, due to an NDA problem, access to the device documentation was unavailable. This allowed for KWS development thanks to Edge Impulse\cite{edgeimpulse_syntiant_tinyml}, but SV, on the other hand, uses a technique not supported by Edge Impulse. Due to the inability to access a model compression tool, we had to opt for an STM32 to perform model verification.  
+To preserve the initial idea, the model was tested as if it were running on a Syntiant TinyML NDP101 device to demonstrate the validation of the technique. The full logic should be hardware-implemented, which could have been possible using the Syntiant SDK. However, due to this impossibility, this thesis aims to show the feasibility of the idea from a software perspective and partially from a hardware one.  
+For real testing, model verification will be done individually, but the whole system has been tested with software code running on the computer side.  
+All the code's files created for this thesis are provided in a GitHub repository\footnotemark{}\footnotetext{Thesis GitHub Repository - https://github.com/Gotta003/Thesis}
 
-\section{Constraints of NDP101 device}
-\label{sec:problem}
-• 4-bit weight constraints (589k parameter limit ~294,5 kB)\newline
-• SDK restrictions (NDA)\newline
-• Multi-model deployment\newline
-
+\section{Brief Summary}
+The thesis is divided into chapters. After this introduction, Chapter 2 presents theoretical concepts used in this thesis, such as audio processing, KWS, and SV. Chapter 3 introduces the general methodology of the final objective and explains how it works. Chapter 4 explains the workflow of model training and optimization. Chapter 5 presents the software C code implementation for deploying both algorithms. Chapter 6 presents the results obtained from computer testing.
 \newpage

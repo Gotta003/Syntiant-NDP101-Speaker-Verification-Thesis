@@ -1,15 +1,17 @@
-\chapter{Implementation}
+\chapter{KWS Model Pipeline}
 \label{cha:implementation} 
 \section{KWS Model}
 \label{sec:kws deployment}
 • Edge Impulse Integration - Model training and validation\newline
 • C implementation, direct MFE computation on device\newline
+• KWS model Deploying (Edge Impulse)\newline
 
 \section{SV Model}
 \label{sec:sv implementation}
 • D-vector extraction - C port of Python CNN model \newline
 • Database design for sample saving \newline
 • Cosine similarity EER \newline
+• Extend functionality to SV to be compatible with device (Python)\newline
 
 \subsection{Quantization of SV Model}
 \label{sec:quantization}
@@ -18,6 +20,6 @@
 • Performance Comparison:\newline
     - Original CNN model vs. distilled DNN\newline
     - Full-precision vs. quantized implementations\newline
-
+• Optimize neural network to be deployed on the device and verifying on simulation (Syntiant NDP101 and C-code)\newline\newline
 
 \newpage

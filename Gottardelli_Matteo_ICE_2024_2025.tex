@@ -1,6 +1,10 @@
 \documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
 \usepackage{epsfig}
 \usepackage{plain}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{wrapfig}
 \usepackage{setspace}
 \usepackage[paperheight=29.7cm,paperwidth=21cm,outer=1.5cm,inner=2.5cm,top=2cm,bottom=2cm]{geometry} % layout setting
 \usepackage{titlesec} % custom setup title of chanpter
@@ -99,11 +103,11 @@
       % \input or \include
       %
       \input{chapters/1. Introduction.tex}
-      \input{chapters/2. Background and Related Work.tex}
+      \input{chapters/2. Background Notions.tex}
       \input{chapters/3. Methodology.tex}
-      \input{chapters/4. Implementation.tex}
-      \input{chapters/5. Results.tex}
-      \input{chapters/6. Discussion.tex}
+      \input{chapters/4. Models Training.tex}
+      \input{chapters/5. SW and HW Implementation.tex}
+      \input{chapters/6. Results.tex}
       \input{chapters/7. Conclusion & Future Work.tex}
       
     \endgroup
@@ -156,7 +160,7 @@
         {\normalfont\Huge\bfseries}{Appendix \thechapter}{1em}{}
     % Appendix / attachment section - optional
     \appendix
-    \input{attachments}
+    \input{attachments.tex}
     \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

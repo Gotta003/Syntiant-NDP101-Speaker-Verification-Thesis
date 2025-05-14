@@ -1,0 +1,34 @@
+\contentsline {chapter}{Abstract}{2}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{4}{}%
+\contentsline {section}{\numberline {1.1}TinyML Concept and Limits}{4}{}%
+\contentsline {section}{\numberline {1.2}Goals - TinySV}{4}{}%
+\contentsline {section}{\numberline {1.3}Brief Summary}{5}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{6}{}%
+\contentsline {section}{\numberline {2.1}TinyML Concept and Limits}{6}{}%
+\contentsline {section}{\numberline {2.2}Goals - TinySV}{6}{}%
+\contentsline {section}{\numberline {2.3}Brief Summary}{7}{}%
+\contentsline {chapter}{\numberline {3}Background Notions}{8}{}%
+\contentsline {section}{\numberline {3.1}NDP101 Architecture Overview}{8}{}%
+\contentsline {section}{\numberline {3.2}Syntiant Audio Block Processing}{9}{}%
+\contentsline {section}{\numberline {3.3}Deep Learning Overview}{11}{}%
+\contentsline {section}{\numberline {3.4}Keyword Spotting Approaches}{11}{}%
+\contentsline {section}{\numberline {3.5}Speaker Verification Approaches}{11}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{12}{}%
+\contentsline {section}{\numberline {4.1}Hardware Pipeline}{12}{}%
+\contentsline {section}{\numberline {4.2}Software Pipeline}{12}{}%
+\contentsline {subsection}{\numberline {4.2.1}Signal Capture}{12}{}%
+\contentsline {subsection}{\numberline {4.2.2}MFE Block Generation}{12}{}%
+\contentsline {subsection}{\numberline {4.2.3}KWS Model}{12}{}%
+\contentsline {subsection}{\numberline {4.2.4}SV Model}{12}{}%
+\contentsline {subsubsection}{Enrollment phase}{12}{}%
+\contentsline {chapter}{\numberline {5}Software and Hardware Implementation}{13}{}%
+\contentsline {section}{\numberline {5.1}KWS Performance}{13}{}%
+\contentsline {section}{\numberline {5.2}SV Performance}{13}{}%
+\contentsline {section}{\numberline {5.3}System Integration}{13}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{14}{}%
+\contentsline {chapter}{\numberline {7}Conclusion \& Future Work}{15}{}%
+\contentsline {section}{\numberline {7.1}Technical Limitations}{15}{}%
+\contentsline {section}{\numberline {7.2}Design Trade-offs}{15}{}%
+\contentsline {section}{\numberline {7.3}Key Contributions}{15}{}%
+\contentsline {section}{\numberline {7.4}Future Directions}{15}{}%
+\contentsline {chapter}{Bibliography}{16}{}%
