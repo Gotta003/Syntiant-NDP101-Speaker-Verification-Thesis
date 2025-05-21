@@ -368,6 +368,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./Gottardelli_Matteo_ICE_2024_2025.aux
+INPUT Gottardelli_Matteo_ICE_2024_2025.aux
+INPUT Gottardelli_Matteo_ICE_2024_2025.aux
 OUTPUT Gottardelli_Matteo_ICE_2024_2025.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -514,19 +517,10 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT Gottardelli_Matteo_ICE_2024_2025.toc
-INPUT ./abstract.tex
-INPUT abstract.tex
-INPUT ./abstract.tex
-INPUT abstract.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT ./Gottardelli_Matteo_ICE_2024_2025.toc
+INPUT Gottardelli_Matteo_ICE_2024_2025.toc
+INPUT Gottardelli_Matteo_ICE_2024_2025.toc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./chapters/1. Introduction.tex
-INPUT chapters/1. Introduction.tex
-INPUT ./chapters/1. Introduction.tex
-INPUT chapters/1. Introduction.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -544,6 +538,18 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT Gottardelli_Matteo_ICE_2024_2025.toc
+INPUT ./abstract.tex
+INPUT abstract.tex
+INPUT ./abstract.tex
+INPUT abstract.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./chapters/1. Introduction.tex
+INPUT chapters/1. Introduction.tex
+INPUT ./chapters/1. Introduction.tex
+INPUT chapters/1. Introduction.tex
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
@@ -593,6 +599,11 @@ INPUT ./chapters/3. Keyword Spotting and Speaker Verification Models.tex
 INPUT chapters/3. Keyword Spotting and Speaker Verification Models.tex
 INPUT ./chapters/3. Keyword Spotting and Speaker Verification Models.tex
 INPUT chapters/3. Keyword Spotting and Speaker Verification Models.tex
+INPUT ./images/3.01 D-vector Extractor.png
+INPUT ./images/3.01 D-vector Extractor.png
+INPUT images/3.01 D-vector Extractor.png
+INPUT ./images/3.01 D-vector Extractor.png
+INPUT ./images/3.01 D-vector Extractor.png
 INPUT ./chapters/4. SW and HW Implementation.tex
 INPUT chapters/4. SW and HW Implementation.tex
 INPUT ./chapters/4. SW and HW Implementation.tex

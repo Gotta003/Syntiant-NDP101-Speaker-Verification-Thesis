@@ -159,6 +159,11 @@ TinyML.
 \newblock https://cms.tinyml.org/wp-content/uploads/summit2021/tinyMLSummit2021d1\_Awards\_Syntiant.pdf, 2021.
 \newblock Last Access 06/05/2025.
 
+\bibitem{librispeech}
+Daniel~Povey Vassil~Panayotov, Guoguo~Chen and Sanjeev Khudanpur.
+\newblock Open dataset speech with various speakers and many hours speaking.
+\newblock https://www.openslr.org/12, 2015.
+
 \bibitem{speechcommands}
 Pete Warden.
 \newblock Speech commands: A public dataset for single-word speech recognition.
