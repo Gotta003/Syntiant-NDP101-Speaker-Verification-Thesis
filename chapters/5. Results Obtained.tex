@@ -1,25 +1,34 @@
 \chapter{Results Obtained}
 \label{cha:results obtained}
 
-5 PAGES\newline\newline
-
-
+6 PAGES\newline\newline
 \section{KWS Performance}
 \label{sec:kws performance}
 Analysis using simulation data (confusion matrix)\newline 
 \section{SV Performance}
 \label{sec:sv performance}
+\subsection{Evaluation of CNN Model}
+
+\subsection{Evaluation and Results of d-vector extractor, distillated and quantized models}
 Comparison between float32, int8 and int4 (int4 impossible to obtain good results using basic PQT, difficulties in deploying good QAT training, not true support by tensorflow and the fake quantization technique did not work)\newline 
-\section{System Integration}
+• Database design for sample saving \newline
+• Cosine similarity EER \newline
+• Extend functionality to SV to be compatible with device (Python)\newline
+Input (40x40) → Conv+BatchNorm layers → 256-dimensional d-vector \newline
+Simulation (model-size, classification purpose, truncation explaination, verification methods (best-matching and mean-cosine)), Real (custom logic for verification)\newline
+
+\section{System Integration SW \& HW}
 \label{sec: system integration}
 • Overall Power Consumption (ESP32 + 2 Syntiant NDP101)\newline
 • Memory Usage\newline
-
-\newpage
 \newpage
 PAGE 2
 \newpage
 PAGE 3
 \newpage
 PAGE 4
+\newpage
+PAGE 5
+\newpage
+PAGE 6
 \newpage

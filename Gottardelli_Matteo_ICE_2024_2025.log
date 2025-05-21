@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  21 MAY 2025 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  21 MAY 2025 16:40
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
-(/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
+**Gottardelli_Matteo_ICE_2024_2025.tex
+(./Gottardelli_Matteo_ICE_2024_2025.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -23,22 +23,29 @@ File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
@@ -46,12 +53,14 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
 \epsfxsize=\dimen143
 \epsfysize=\dimen144
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
 Package: plain 1996/04/22 Plain TeX emulation (DPC)
 \tabs@latex=\box51
 \tabsyet@latex=\box52
 \tabsdone@latex=\box53
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -59,21 +68,25 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen145
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen146
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count194
@@ -123,11 +136,14 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen154
 \captionmargin=\dimen155
@@ -146,26 +162,32 @@ Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count274
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count275
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen162
 \WF@size=\dimen163
 \c@WF@wrappedlines=\count276
 \WF@box=\box56
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count277
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip53
- (/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count278
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip54
@@ -203,13 +225,17 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count281
 \algocf@algoframe=\box63
 \algocf@algobox=\box64
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count282
@@ -224,7 +250,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen176
 \Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks24
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box65
 \beforetitleunit=\skip72
@@ -235,11 +262,13 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen180
 \titlewidthlast=\dimen181
 \titlewidthfirst=\dimen182
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
- (/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2022/08/07 UCS: Input encoding UTF-8
 
 
@@ -252,7 +281,8 @@ Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -263,7 +293,8 @@ File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -311,7 +342,8 @@ File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -590,7 +622,8 @@ File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -682,7 +715,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box66
@@ -708,7 +742,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
- (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
 \scratchdimen=\dimen183
@@ -723,30 +758,41 @@ LaTeX Font Info:    ... okay on input line 26.
 \everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
@@ -790,30 +836,40 @@ Package caption Info: End \AtBeginDocument code.
 Package epstopdf Info: Source file: <marchio_unitrento_colore_it_202002.eps>
 (epstopdf)                    date: 2020-02-12 00:03:20
 (epstopdf)                    size: 222744 bytes
-(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
+(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-con
+verted-to.pdf>
 (epstopdf)                    date: 2020-02-12 00:12:40
 (epstopdf)                    size: 183512 bytes
-(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_it_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
+(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_i
+t_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=1, 369.7815pt x 114.6684pt>
-File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (type pdf)
+<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=1, 369.7815pt x 11
+4.6684pt>
+File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (typ
+e pdf)
 <use marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
-Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pdf  used on input line 7.
+Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pd
+f  used on input line 7.
 (pdftex.def)             Requested size: 290.22107pt x 90.00262pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./marchio_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./march
+io_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
 
 
-] (./Gottardelli_Matteo_ICE_2024_2025.toc [1
+]
+(./Gottardelli_Matteo_ICE_2024_2025.toc [1
 
 ])
 \tf@toc=\write3
@@ -831,29 +887,333 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--15
 
 [3
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4]) (./chapters/1. Introduction.tex
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+ [4]) (./chapters/1. Introduction.tex
 Chapter 1.
 [5]) [6] (./chapters/2. Background Notions.tex
 Chapter 2.
 <images/2.01 NDP101 High Level Workflow.png, id=47, 1373.13pt x 497.86pt>
 File: images/2.01 NDP101 High Level Workflow.png Graphic file (type png)
 <use images/2.01 NDP101 High Level Workflow.png>
-Package pdftex.def Info: images/2.01 NDP101 High Level Workflow.png  used on input line 11.
+Package pdftex.def Info: images/2.01 NDP101 High Level Workflow.png  used on in
+put line 11.
 (pdftex.def)             Requested size: 435.32422pt x 157.8295pt.
 <images/2.02 Design with peripherals.png, id=49, 413.545pt x 203.76125pt>
 File: images/2.02 Design with peripherals.png Graphic file (type png)
 <use images/2.02 Design with peripherals.png>
-Package pdftex.def Info: images/2.02 Design with peripherals.png  used on input line 23.
+Package pdftex.def Info: images/2.02 Design with peripherals.png  used on input
+ line 23.
 (pdftex.def)             Requested size: 435.32422pt x 214.4966pt.
 [7 <./images/2.01 NDP101 High Level Workflow.png>]
 <images/2.03 MFE Block Processing.png, id=54, 808.9723pt x 121.50394pt>
 File: images/2.03 MFE Block Processing.png Graphic file (type png)
 <use images/2.03 MFE Block Processing.png>
-Package pdftex.def Info: images/2.03 MFE Block Processing.png  used on input line 32.
+Package pdftex.def Info: images/2.03 MFE Block Processing.png  used on input li
+ne 32.
 (pdftex.def)             Requested size: 483.69687pt x 72.64891pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-[8 <./images/2.02 Design with p
+[8 <./images/2.02 Design with peripherals.png> <./images/2.03 MFE Block Process
+ing.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+<images/2.04 Neuron.png, id=71, 1002.74625pt x 1039.885pt>
+File: images/2.04 Neuron.png Graphic file (type png)
+<use images/2.04 Neuron.png>
+Package pdftex.def Info: images/2.04 Neuron.png  used on input line 95.
+(pdftex.def)             Requested size: 183.80716pt x 190.61444pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./images/2.04 Neuron.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+<images/2.05 Neural Network Structure.png, id=76, 747.79375pt x 518.93875pt>
+File: images/2.05 Neural Network Structure.png Graphic file (type png)
+<use images/2.05 Neural Network Structure.png>
+Package pdftex.def Info: images/2.05 Neural Network Structure.png  used on inpu
+t line 121.
+(pdftex.def)             Requested size: 362.77264pt x 251.74834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+[11 <./images/2.05 Neural Network Structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--164
+
+ []
+
+
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [12]
+<images/2.06 Convolutional Neural Network.png, id=85, 408.52625pt x 221.82875pt
+>
+File: images/2.06 Convolutional Neural Network.png Graphic file (type png)
+<use images/2.06 Convolutional Neural Network.png>
+Package pdftex.def Info: images/2.06 Convolutional Neural Network.png  used on 
+input line 167.
+(pdftex.def)             Requested size: 386.95897pt x 210.1302pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+[13 <./images/2.06 Convolutional Neural Network.png>] [14])
+(./chapters/3. Keyword Spotting and Speaker Verification Models.tex
+Chapter 3.
+<images/3.01 KWS Model.png, id=93, 1357.07pt x 189.70876pt>
+File: images/3.01 KWS Model.png Graphic file (type png)
+<use images/3.01 KWS Model.png>
+Package pdftex.def Info: images/3.01 KWS Model.png  used on input line 15.
+(pdftex.def)             Requested size: 483.69687pt x 67.61484pt.
+[15 <./images/3.01 KWS Model.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
+
+ []
+
+
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [16]
+<images/3.02 D-vector Extractor.png, id=101, 1297.84875pt x 576.1525pt>
+File: images/3.02 D-vector Extractor.png Graphic file (type png)
+<use images/3.02 D-vector Extractor.png>
+Package pdftex.def Info: images/3.02 D-vector Extractor.png  used on input line
+ 40.
+(pdftex.def)             Requested size: 483.69687pt x 214.72035pt.
+
+[17 <./images/3.02 D-vector Extractor.png>]
+<images/3.03 Distillation Technique.png, id=107, 483.8075pt x 220.825pt>
+File: images/3.03 Distillation Technique.png Graphic file (type png)
+<use images/3.03 Distillation Technique.png>
+Package pdftex.def Info: images/3.03 Distillation Technique.png  used on input 
+line 54.
+(pdftex.def)             Requested size: 483.69687pt x 220.78401pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+[18 <./images/3.03 Distillation Technique.png>]
+<images/3.04 Quantization Flow.jpg, id=112, 1405.25pt x 849.1725pt>
+File: images/3.04 Quantization Flow.jpg Graphic file (type jpg)
+<use images/3.04 Quantization Flow.jpg>
+Package pdftex.def Info: images/3.04 Quantization Flow.jpg  used on input line 
+66.
+(pdftex.def)             Requested size: 169.29684pt x 102.29797pt.
+<images/3.05 Quantized Model Int8.png, id=113, 1362.08875pt x 498.86375pt>
+File: images/3.05 Quantized Model Int8.png Graphic file (type png)
+<use images/3.05 Quantized Model Int8.png>
+Package pdftex.def Info: images/3.05 Quantized Model Int8.png  used on input li
+ne 75.
+(pdftex.def)             Requested size: 483.69687pt x 177.15495pt.
+ [19 <./images/3.04 Quantization Flow.jpg> <./images/3.05 Quantized Model Int8.
+png>] [20])
+(./chapters/4. SW and HW Implementation.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--19
+
+ []
+
+<images/4.01 Software Pipeline.png, id=121, 1309.89375pt x 436.63126pt>
+File: images/4.01 Software Pipeline.png Graphic file (type png)
+<use images/4.01 Software Pipeline.png>
+Package pdftex.def Info: images/4.01 Software Pipeline.png  used on input line 
+22.
+(pdftex.def)             Requested size: 483.69687pt x 161.23123pt.
+[21 <./images/4.01 Software Pipeline.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+<images/4.02 Spectrogram Edge Impulse.png, id=126, 286.06876pt x 261.97874pt>
+File: images/4.02 Spectrogram Edge Impulse.png Graphic file (type png)
+<use images/4.02 Spectrogram Edge Impulse.png>
+Package pdftex.def Info: images/4.02 Spectrogram Edge Impulse.png  used on inpu
+t line 48.
+(pdftex.def)             Requested size: 193.47578pt x 177.18379pt.
+<images/4.03 Spectrogram My Code.png, id=127, 814.04124pt x 560.0925pt>
+File: images/4.03 Spectrogram My Code.png Graphic file (type png)
+<use images/4.03 Spectrogram My Code.png>
+Package pdftex.def Info: images/4.03 Spectrogram My Code.png  used on input lin
+e 54.
+(pdftex.def)             Requested size: 241.84843pt x 166.3967pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+Overfull \vbox (36.582pt too high) has occurred while \output is active []
+
+
+[23 <./images/4.02 Spectrogram Edge Impulse.png> <./images/4.03 Spectrogram My 
+Code.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
+
+ []
+
+<images/4.04 D-Vector Processing.png, id=141, 1299.85625pt x 683.55376pt>
+File: images/4.04 D-Vector Processing.png Graphic file (type png)
+<use images/4.04 D-Vector Processing.png>
+Package pdftex.def Info: images/4.04 D-Vector Processing.png  used on input lin
+e 166.
+(pdftex.def)             Requested size: 483.69687pt x 254.36072pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24]
+<images/4.05 Hardware Pipeline 2 NDP101.png, id=146, 1418.29875pt x 447.17062pt
+>
+File: images/4.05 Hardware Pipeline 2 NDP101.png Graphic file (type png)
+<use images/4.05 Hardware Pipeline 2 NDP101.png>
+Package pdftex.def Info: images/4.05 Hardware Pipeline 2 NDP101.png  used on in
+put line 180.
+(pdftex.def)             Requested size: 483.69687pt x 152.49997pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./images/4.04 D-Vector Processing.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
+
+ []
+
+[26 <./images/4.05 Hardware Pipeline 2 NDP101.png>] [27]) [28]
+(./chapters/5. Results Obtained.tex
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[29] [30] [31] [32] [33] [34]) (./chapters/6. Conclusion & Future Work.tex
+Chapter 6.
+
+Underfull \hbox (ba

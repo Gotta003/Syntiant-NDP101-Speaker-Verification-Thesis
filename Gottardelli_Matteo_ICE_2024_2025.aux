@@ -11,6 +11,8 @@
 \citation{portaudio}
 \citation{FFTW}
 \citation{librispeech}
+\citation{pqt_tensorflow}
+\citation{qat_tensorflow}
 \citation{esp32documentation}
 \citation{syntiant_tutorial_edgeimpulse}
 \citation{tinyML_2021_summit}
@@ -20,9 +22,9 @@
 \citation{description_ndp101}
 \citation{syntiant_audio_block}
 \citation{hardware_ndp101}
-\citation{neural_network_theory}
 \newlabel{abtract}{{}{3}}
 \@writefile{toc}{\contentsline {chapter}{Abstract}{3}{}\protected@file@percent }
+\citation{neural_network_theory}
 \citation{PDM_module}
 \citation{audio_processing_theory}
 \citation{neural_network_training}
@@ -30,6 +32,7 @@
 \citation{knowledge_distillation}
 \citation{wu2023understandingint4quantizationtransformer}
 \citation{introduction_CNN}
+\citation{ptq_and_qat_indepth_quantization}
 \citation{dnn_speaker_verification}
 \citation{dvector_extractor_TinySV}
 \citation{dvector_extractor_code}
@@ -72,4 +75,58 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Convolutional Neural Network (CNN)}{12}{}\protected@file@percent }
 \citation{dvector_extractor_TinySV}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Convolutional Neural Network Architecture\relax }}{13}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Neural
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Neural Network Parameter Performance}{13}{}\protected@file@percent }
+\citation{kws_rnn_based}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Speaker Verification Approaches}{14}{}\protected@file@percent }
+\newlabel{subsec:sv approaches}{{2.4}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Keyword Spotting Approaches}{14}{}\protected@file@percent }
+\newlabel{subsec:kws approaches}{{2.5}{14}}
+\citation{speechcommands}
+\citation{edgeimpulse_dataset_499022}
+\citation{edgeimpulse_kws_example}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}KWS and SV Models}{15}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{cha:training}{{3}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}KWS Model}{15}{}\protected@file@percent }
+\newlabel{sec:kws deployment}{{3.1}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Keyword Spotting Model\relax }}{15}{}\protected@file@percent }
+\citation{librispeech}
+\citation{dvector_extractor_TinySV}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}SV Model}{16}{}\protected@file@percent }
+\newlabel{sec:sv introduction}{{3.2}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}D-Vector Extractor Creation}{16}{}\protected@file@percent }
+\newlabel{subsec:d-vector extractor creation}{{3.2.1}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Speaker Verification Neural Network and D-vector Extractor\relax }}{17}{}\protected@file@percent }
+\citation{distillation_from_cnn_to_dnn}
+\citation{knowledge_distillation}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Knowledge Distillation Training}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Distillation Model from CNN to DNN\relax }}{18}{}\protected@file@percent }
+\citation{description_ndp101}
+\citation{pqt_tensorflow}
+\citation{wu2023understandingint4quantizationtransformer}
+\citation{qat_tensorflow}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Quantization of SV Model}{19}{}\protected@file@percent }
+\newlabel{sec:quantization}{{3.2.3}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Quantization with Tensorflow\relax }}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Quantized Model Int8\relax }}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}SW and HW Implementation}{21}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{cha:software and hardware implementation}{{4}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Software Pipeline\relax }}{21}{}\protected@file@percent }
+\citation{portaudio}
+\citation{FFTW}
+\citation{edgeimpulse_processing_blocks}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Software Pipeline}{22}{}\protected@file@percent }
+\newlabel{sec:sw pipeline}{{4.1}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Signal Capture}{22}{}\protected@file@percent }
+\newlabel{subsec:signal}{{4.1.1}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}MFE Block Generation and Processing}{22}{}\protected@file@percent }
+\newlabel{subsec:mfe}{{4.1.2}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of Spectrograms\relax }}{23}{}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Spectrogram Computation Pipeline\relax }}{23}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Models Processing}{24}{}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Neural Network Inference Example\relax }}{24}{}\protected@fi
