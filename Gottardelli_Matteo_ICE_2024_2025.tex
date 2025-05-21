@@ -1,10 +1,12 @@
-\documentclass[epsfig,a4paper,11pt,titlepage,twoside,openany]{book}
+\documentclass[epsfig,a4paper,11pt,titlepage,twoside,openright]{book}
 \usepackage{epsfig}
 \usepackage{plain}
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{wrapfig}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 \usepackage{setspace}
 \usepackage[paperheight=29.7cm,paperwidth=21cm,outer=1.5cm,inner=2.5cm,top=2cm,bottom=2cm]{geometry} % layout setting
 \usepackage{titlesec} % custom setup title of chanpter
@@ -18,7 +20,6 @@
 %\usepackage[applemac]{inputenc} % Mac.
 
 \singlespacing
-
 % italian language
 %\usepackage[italian]{babel}
 
@@ -54,17 +55,22 @@
 
     % index
     \tableofcontents
-    \newpage
-    %\clearpage
-    
-    
-          
+    \cleardoublepage
+    \let\origclearpage\clearpage
+    \let\origcleardoublepage\cleardoublepag
     % group to define space between chapters
     \begingroup
       % no page break between chapters
       % override clear page commands
-      \renewcommand{\cleardoublepage}{} 
+      %\renewcommand{\cleardoublepage}{} 
       \renewcommand{\clearpage}{} 
+       \newcommand{\includechapterwithblank}[1]{%
+          \input{#1}%
+          \origclearpage
+          \ifodd\value{page}%
+            \hbox{}\thispagestyle{empty}\origclearpage%
+          \fi%
+        }
       % override format of title chapter
       % from
       %   Chapter X
@@ -79,7 +85,11 @@
       \titlespacing*{\section}{0pt}{0.20in}{0.02in}
       \titlespacing*{\subsection}{0pt}{0.10in}{0.02in}
       % summary / abstract
-      \input{abstract}
+      \newpage
+      \newpage
+
+      \input{abstract.tex}
+      \cleardoublepage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Note
@@ -103,15 +113,17 @@
       % \input or \include
       %
       \input{chapters/1. Introduction.tex}
+      \cleardoublepage
       \input{chapters/2. Background Notions.tex}
-      \input{chapters/3. Methodology.tex}
-      \input{chapters/4. Models Training.tex}
-      \input{chapters/5. SW and HW Implementation.tex}
-      \input{chapters/6. Results.tex}
-      \input{chapters/7. Conclusion & Future Work.tex}
-      
-    \endgroup
-
+       \cleardoublepage
+      \input{chapters/3. Keyword Spotting and Speaker Verification Models.tex}
+      \cleardoublepage
+      \input{chapters/4. SW and HW Implementation.tex}
+      \cleardoublepage
+      \input{chapters/5. Results Obtained.tex}
+      \cleardoublepage
+      \input{chapters/6. Conclusion & Future Work.tex}
+        \cleardoublepage
 
     % bibliography - bibtex format
     %

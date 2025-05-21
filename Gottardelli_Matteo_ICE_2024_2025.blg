@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Gottardelli_Matteo_ICE_2024_2025.aux
+The style file: plain.bst
+Database file #1: biblio.bib
+Warning--I'm ignoring esp32documentation's extra "note" field
+--line 79 of file biblio.bib
+Warning--to sort, need author or key in nodejs_repository
+Name 1 in "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" has a comma at the end for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in neural_network_theory
+Name 1 in "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" has a comma at the end for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Alireza Yousefi, Luiz Franca-Neto, Will McDonald, Atul Gupta, Mallik Moturi, and David Garrett" for entry analysis_syntiant_performances
+while executing---line 1090 of file plain.bst
+Warning--empty journal in knowledge_distillation
+Warning--empty publisher in distillation_from_cnn_to_dnn
+Warning--empty journal in dvector_extractor_TinySV
+Warning--empty publisher in audio_processing_theory
+Warning--empty journal in speechcommands
+You've used 31 entries,
+            2118 wiz_defined-function locations,
+            646 strings with 9356 characters,
+and the built_in function-call counts, 7491 in all, are:
+= -- 716
+> -- 341
+< -- 0
++ -- 144
+- -- 108
+* -- 328
+:= -- 1285
+add.period$ -- 115
+call.type$ -- 31
+change.case$ -- 145
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 246
+empty$ -- 666
+format.name$ -- 108
+if$ -- 1588
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 10
+newline$ -- 180
+num.names$ -- 58
+pop$ -- 265
+preamble$ -- 1
+purify$ -- 116
+quote$ -- 0
+skip$ -- 194
+stack$ -- 0
+substring$ -- 185
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 7
+while$ -- 60
+width$ -- 33
+write$ -- 344
+(There were 6 error messages)
