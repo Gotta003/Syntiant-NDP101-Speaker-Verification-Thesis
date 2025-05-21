@@ -11,8 +11,6 @@ Simulation (Weight extraction, target word, dataset), Real (model uploading and 
 \newpage
 PAGE 2
 \newpage
-PAGE 3
-\newpage
 \section{SV Model}
 \label{sec:sv introduction}
 After creating the KWS model, the objective is creating a text-dependent Speaker Verification model, which requires only one train. This is known as ASV (Adaptive Speaker Verification), which relies on comparing the results of the model (d-vectors) with reference samples stored in system dataset, which have to be captured during inference phase. Speaker Verification is used in recognizing the identity of a user in a on-device learning context. To approach this way a large amount of data is required at first to train the model, performing a meticulous extraction of d-vectors to recognize patterns in user voice and possibly trying to minimize the required number of samples, maximizing the security recognition. A sample, because of text-depencendy, will correspond to a word said by one user and should compare only with its similar.\newline
@@ -54,7 +52,8 @@ Simulation (model-size, classification purpose, truncation explaination, verific
     - Original CNN model vs. distilled DNN\newline
     - Full-precision vs. quantized implementations\newline
 • Optimize neural network to be deployed on the device and verifying on simulation (Syntiant NDP101 and C-code)\newline\newline
-
+\newpage
+PAGE 5
 \newpage
 PAGE 6
 \newpage 
