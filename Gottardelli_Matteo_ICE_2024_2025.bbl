@@ -7,42 +7,32 @@ Node js repository.
 
 \bibitem{pqt_tensorflow}
 Post training quantization tensorflow lite.
-\newblock
-  https://www.tensorflow.org/model_optimization/guide/quantization/post_training?hl=en.
+\newblock https://www.tensorflow.org/model_optimization/guide/quantization/post_training?hl=en.
 
 \bibitem{qat_tensorflow}
 Quantization aware training tensorflow lite.
-\newblock @misc{pqt_tensorflow, title={Post-Training-Quantization Tensorflow
-  Lite}, publisher={Tensorflow}, howpublished =
-  {https://www.tensorflow.org/model_optimization/guide/quantization/post_training?hl=en},
-  }.
+\newblock @misc{pqt_tensorflow, title={Post-Training-Quantization Tensorflow Lite}, publisher={Tensorflow}, howpublished = {https://www.tensorflow.org/model_optimization/guide/quantization/post_training?hl=en}, }.
 
 \bibitem{neural_network_theory}
 Neural network definition and components.
 \newblock https://s.mriquestions.com/what-is-a-neural-network.html, 2024.
 
 \bibitem{analysis_syntiant_performances}
-Will McDonald Atul Gupta Mallik~Moturi Alireza~Yousefi, Luiz Franca-Neto and
-  David Garrett.
+Will McDonald Atul Gupta Mallik~Moturi Alireza~Yousefi, Luiz Franca-Neto and David Garrett.
 \newblock The intelligence of things enabled by syntiant's tinyml board.
 \newblock Last Access 06/05/2025.
 
 \bibitem{origin_code_1}
 Neuhaus Christian.
 \newblock Code experimental implementation on ndp101.
-\newblock
-  https://github.com/happychriss/Goodwatch\_NDP101\_SpeeechRecognition/tree/master/include,
-  2021.
+\newblock https://github.com/happychriss/Goodwatch\_NDP101\_SpeeechRecognition/tree/master/include, 2021.
 \newblock Last Access 06/05/2025.
 
 \bibitem{experimental_try_on_ndp101}
 Neuhaus Christian.
 \newblock Ndp101 experimental implementation on ndp101.
-\newblock
-  https://44-2.de/syntiant-ndp-101-always-on-low-power-speech-recognition/,
-  2022.
-\newblock No other resources that corroborates data listed, Last Access
-  06/05/2025.
+\newblock https://44-2.de/syntiant-ndp-101-always-on-low-power-speech-recognition/, 2022.
+\newblock No other resources that corroborates data listed, Last Access 06/05/2025.
 
 \bibitem{portaudio}
 PortAudio Community.
@@ -52,25 +42,20 @@ PortAudio Community.
 \bibitem{esp32documentation}
 Espressif.
 \newblock Esp32 documentation.
-\newblock
-  https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf,
-  2025.
+\newblock https://www.espressif.com/sites/default/files/documentation/esp32\_datasheet\_en.pdf, 2025.
 \newblock Last Access 06/05/2025.
 
 \bibitem{neural_network_training}
 Ostrovan Eugeniu.
 \newblock Tinyml on-device neural network training.
-\newblock
-  https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-82f5e501630e/TinyML\_on\_device\_neural\_network\_training%20fin.pdf,
-  2021-2022.
+\newblock https://www.politesi.polimi.it/retrieve/e9f5774c-592d-4741-a6d4-82f5e501630e/TinyML\_on\_device\_neural\_network\_training%20fin.pdf, 2021-2022.
 \newblock Last Access 06/05/2025.
 
 \bibitem{FFTW}
 Matteo Frigo and Steven~G. Johnson.
 \newblock The design and implementation of {FFTW3}.
 \newblock {\em Proceedings of the IEEE}, 93(2):216--231, 2005.
-\newblock Special issue on ``Program Generation, Optimization, and Platform
-  Adaptation''.
+\newblock Special issue on ``Program Generation, Optimization, and Platform Adaptation''.
 
 \bibitem{knowledge_distillation}
 Jianping Gou, Baosheng Yu, Stephen Maybank, and Dacheng Tao.
@@ -80,28 +65,24 @@ Jianping Gou, Baosheng Yu, Stephen Maybank, and Dacheng Tao.
 
 \bibitem{ptq_and_qat_indepth_quantization}
 Jahid Hasan.
-\newblock Optimizing large language models through quantization: A comparative
-  analysis of ptq and qat techniques.
+\newblock Optimizing large language models through quantization: A comparative analysis of ptq and qat techniques.
 \newblock https://arxiv.org/pdf/2411.06084, 2024.
 
 \bibitem{kws_rnn_based}
 Kyuyeon Hwang, Minjae Lee, and Wonyong Sung.
-\newblock Online keyword spotting with a character-level recurrent neural
-  network.
+\newblock Online keyword spotting with a character-level recurrent neural network.
 \newblock https://arxiv.org/abs/1512.08903, 2015.
 
 \bibitem{syntiant_audio_block}
 Edge Impulse.
 \newblock Audio syntiant.
-\newblock
-  https://docs.edgeimpulse.com/docs/edge-impulse-studio/processing-blocks/audio-syntiant.
+\newblock https://docs.edgeimpulse.com/docs/edge-impulse-studio/processing-blocks/audio-syntiant.
 \newblock Last Access 06/05/2025.
 
 \bibitem{edgeimpulse_syntiant_tinyml}
 Edge Impulse.
 \newblock Edge impulse syntiant tinyml deploying.
-\newblock
-  https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu-+-ai-accelerators/syntiant-tinyml-board.
+\newblock https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu-+-ai-accelerators/syntiant-tinyml-board.
 \newblock Last Access 06/05/2025.
 
 \bibitem{edgeimpulse_kws_example}
@@ -124,14 +105,12 @@ Edge Impulse.
 \bibitem{edgeimpulse_firmware_syntiant}
 Edge Impulse.
 \newblock Firmware syntiant tinyml github repository.
-\newblock https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree/master,
-  2025.
+\newblock https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree/master, 2025.
 \newblock Last Access 06/05/2025.
 
 \bibitem{distillation_from_cnn_to_dnn}
 Ying Liu, Yan Song, Ian McLoughlin, Lin Liu, and Li-rong Dai.
-\newblock {\em An Effective Deep Embedding Learning Method Based on
-  Dense-Residual Networks for Speaker Verification}.
+\newblock {\em An Effective Deep Embedding Learning Method Based on Dense-Residual Networks for Speaker Verification}.
 \newblock 2021.
 \newblock Last Access 07/05/2025.
 
@@ -173,31 +152,24 @@ Syntiant.
 \bibitem{syntiant_tutorial_edgeimpulse}
 Syntiant.
 \newblock Syntiant tutorial edge impulse.
-\newblock
-  https://www.eetree.cn/wiki/\_media/syntiant\_tinyml\_tutorial\_mac\_.pdf,
-  2021.
+\newblock https://www.eetree.cn/wiki/\_media/syntiant\_tinyml\_tutorial\_mac\_.pdf, 2021.
 \newblock Last Access 06/05/2025.
 
 \bibitem{audio_processing_theory}
 Rishabh Tak, Dharmesh Agrawal, and Hemant Patil.
-\newblock {\em Novel Phase Encoded Mel Filterbank Energies for Environmental
-  Sound Classification}.
+\newblock {\em Novel Phase Encoded Mel Filterbank Energies for Environmental Sound Classification}.
 \newblock 11 2017.
 
 \bibitem{PDM_module}
 Kite Thomas.
 \newblock Understanding pdm digital audio.
-\newblock
-  https://users.ece.utexas.edu/~bevans/courses/rtdsp/lectures/10\_Data\_Conversion/AP\_Understanding\_PDM\_Digital\_Audio.pdf,
-  2012.
+\newblock https://users.ece.utexas.edu/~bevans/courses/rtdsp/lectures/10\_Data\_Conversion/AP\_Understanding\_PDM\_Digital\_Audio.pdf, 2012.
 \newblock Last Access 06/05/2025.
 
 \bibitem{tinyML_2021_summit}
 TinyML.
 \newblock Tinyml 2021 summit presentation syntiant ndp120.
-\newblock
-  https://cms.tinyml.org/wp-content/uploads/summit2021/tinyMLSummit2021d1\_Awards\_Syntiant.pdf,
-  2021.
+\newblock https://cms.tinyml.org/wp-content/uploads/summit2021/tinyMLSummit2021d1\_Awards\_Syntiant.pdf, 2021.
 \newblock Last Access 06/05/2025.
 
 \bibitem{librispeech}
@@ -213,8 +185,7 @@ Pete Warden.
 
 \bibitem{wu2023understandingint4quantizationtransformer}
 Xiaoxia Wu, Cheng Li, Reza~Yazdani Aminabadi, Zhewei Yao, and Yuxiong He.
-\newblock Understanding int4 quantization for transformer models: Latency
-  speedup, composability, and failure cases.
+\newblock Understanding int4 quantization for transformer models: Latency speedup, composability, and failure cases.
 \newblock https://arxiv.org/abs/2301.12017, 2023.
 \newblock Last Access 07/05/2025.
 
