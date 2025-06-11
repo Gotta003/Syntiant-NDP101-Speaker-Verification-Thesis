@@ -27,13 +27,12 @@
 \contentsline {subsection}{\numberline {4.1.4}Output Processing}{24}{}%
 \contentsline {subsection}{\numberline {4.1.5}Enrollment phase}{25}{}%
 \contentsline {section}{\numberline {4.2}Hardware Pipeline}{26}{}%
-\contentsline {subsection}{\numberline {4.2.1}Original System Implementation}{26}{}%
-\contentsline {chapter}{\numberline {5}Results Obtained}{29}{}%
-\contentsline {section}{\numberline {5.1}KWS Performance}{29}{}%
-\contentsline {section}{\numberline {5.2}SV Performance}{29}{}%
-\contentsline {subsection}{\numberline {5.2.1}Evaluation of CNN Model}{29}{}%
-\contentsline {subsection}{\numberline {5.2.2}Evaluation and Results of d-vector extractor, distilled and quantized models}{29}{}%
-\contentsline {section}{\numberline {5.3}System Integration SW \& HW}{29}{}%
+\contentsline {chapter}{\numberline {5}Results Obtained}{27}{}%
+\contentsline {section}{\numberline {5.1}KWS Performance}{28}{}%
+\contentsline {section}{\numberline {5.2}SV Performance}{28}{}%
+\contentsline {subsection}{\numberline {5.2.1}Evaluation of CNN Model}{28}{}%
+\contentsline {subsection}{\numberline {5.2.2}Evaluation and Results of d-vector extractor, distilled and quantized models}{28}{}%
+\contentsline {section}{\numberline {5.3}System Integration SW \& HW}{28}{}%
 \contentsline {chapter}{\numberline {6}Conclusion \& Future Work}{35}{}%
 \contentsline {section}{\numberline {6.1}Technical Limitations}{35}{}%
 \contentsline {section}{\numberline {6.2}Design Trade-offs}{35}{}%

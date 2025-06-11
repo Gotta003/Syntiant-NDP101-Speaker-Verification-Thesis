@@ -173,22 +173,70 @@ On inference, the complete application of this method is restricted due to the i
 The memory structure for the dataset is designed such that each keyword is allocated a fixed portion of memory. In addition, a separate structure tracks the number of samples collected per keyword. Since each d-vector has a fixed length, it becomes straightforward to calculate the memory offset for appending new vectors. In the simulation, this dataset resides in a header file for simplicity, whereas in the actual inference phase, only the logic has been implemented—full system integration has not been completed due to the limitations in connecting with the KWS system on hardware. Ideally, the dataset would be stored directly in internal SRAM, taking into account its typical 256-byte size constraint. However, some microcontrollers (MCUs) support external SD card storage, which could be used as an alternative. Using a memory mapping technique to manage allocation could be effective even with larger memory sizes and is unlikely to significantly impact energy consumption. Nevertheless, internal storage is generally preferable and should be tailored based on the remaining available memory after code and global variable allocations. A best-matching approach, where multiple samples per user are stored and compared, typically yields higher accuracy but consumes more memory. Alternatively, averaging the d-vectors into a single representative vector per user results in lower precision but significantly reduces memory usage, as it eliminates the need for storing multiple individual vectors.
 \section{Hardware Pipeline}
 \label{sec:hw pipeline}
-\subsection{Original System Implementation}
+Viewing the system from a hardware perspective, the system will be composed of 2 Syntiant NDP101, one being the master device and the other the slave. The MCUs are both always on-devices, so they are continuously capturing audio, but the device that is handling KWS will always process all its software pipeline, instead SV one requires a trigger, because of it being a slave. Going on or not should be setup with a SPI communication, which on Syntiant is provided by a internal SDK tool, allowing to setup 4 out of the 5 GPIO ports. The benefits of using an SPI communication stays in no interruptions, during the data transfer, so it would be a continuous stream, allowing that the master device performs a synchronous and serial communication with the device. Another reason why this is preferable is the scalability, because knowing that Syntiant NDP101 could not hold much memory, to avoid more energy consumption with an external memory, may be used other Syntiant NDP101 for different words and create an hardware logic to redirect the sample to the correct microcontroller. The ports' setting to allow this communication are:\newline
+• MOSI (Master Output/Slave Input) - line that sends data/trigger to the slave\newline
+• MISO (Master Input/Slave Output) - line that slave uses to send data to the master\newline
+• SCLK (Clock) - line for the clock signal\newline 
+• SS/CS (Slave select) - line to select which slave to send data to, allowing the scalability\newline
+The setup in practice is the following:\newline
 \begin{center}
     \centering
     \begin{figure}[!h]
         \includegraphics[width=1.0\textwidth]{images/4.05 Hardware Pipeline 2 NDP101.png}
-        \caption{SV Model Output Processing}
+        \caption{System Hardware Setup}
     \end{figure}
 \end{center}
-The interaction of the system for 
-• Structure of the system (2 Syntiant NDP101)\newline
--> SPI communication NDP101 + Arduino MKRZero\newline
--> SPI communication between ESP32 + NDP101\newline\newline
-PAGE 22
+The code pseudocode of each MCU consists in a setup function, called only once when the devices are turned on or after a reset and another that is continuously running and it is instead the core of the implementation.
+The NDP101 is composed by sub elements like the audio buffer that are not programmable, the only functions that can have some code uploaded can be the Flash Memory, to upload the trained AI model and the SRAM memory for the output management and other hardware components configuration.
+The standard initialization of the microcontroller consists in loading the model generated, setting up the peripherals and the modalities, like low-power mode, to ensure the minimum energy consumption, so only when the microphone will recognize a noise distinguishable it will run the model. This is done via WFI implementation (Wait For Interrupt), which handles in an efficient way the computation. When a relevant sound is detected, the peripherals are enabled again and the interrupt NDP\_ISR is called. When the interrupt is triggered, the audio is automatically converted via MFE block and gives the result in input to the model. If the model configuration and operations are directly in the binary file, the only thing that needs to be programmable is the output processing, distinguish the classification with a softmax activation function in KWS model case and a more compose logic with the dataset initialization, population and comparison of d-vectors via cosine similarity introduced before. The code to perform both models on Syntiant has been written, however was verified only for KWS, because of the inability of generating a model 4-int weight Syntiant compatible quantization.
+%The Syntiant has an Arduino inside it, so the code uploading is performed through Arduino IDE. 
+
+%\begin{algorithm}[B]
+%\caption{Pseudocode Hardware Integration}
+%\KwIn{Microphone audio stream}
+%\KwOut{Result of the model (binary)}
+    
+%\nl \textbf{System Initialization:}\;
+%\Indp
+%    Load NDP with the binary executable obtained by Edge Impulse or Syntiant Quantization Tool;
+%    Set up microphone on and as input source\;
+%   Set up interrupt handler for output classification\;
+%    Initialize low-power/sleep mode parameters, to reduce power consumption\;
+%\Indm
+%
+%\nl \textbf{Main Processing Loop:}\;
+%\Indp
+%    \While{system running}{
+%        \textbf{Enter Low-Power State:}\;
+%        \Indp
+%            Disable ADC and serial peripherals\;
+%            Configure deep sleep mode\;
+%            Execute Wait-For-Interrupt (WFI) instruction\;
+%        \Indm
+        
+%        \textbf{On Wake Event:}\;
+%        \Indp
+%            Re-enable system peripherals\;
+%        \Indm
+%    }
+%\Indm
+
+%\nl \textbf{Interrupt Handler (NDP\_ISR):}\;
+%\Indp
+%    Triggered when NDP detects audio pattern\;
+%    Using NDP.poll() to get model output (SV requires modification, because function output is single)\;
+%    Classification matching or cosine similarity computation\;
+%\Indm
+
+%\nl \textbf{Output Service Routine:}\;
+%\Indp
+%    At each loop, if a sound was detected it performs a hardware reaction, else does nothing\;
+%    Customizable part by the user\;
+%\Indm
+
+%\KwRet{Classification result to application layer to be used by the upper system}
+%\end{algorithm}
 \newpage
 
-PAGE 23
-\newpage
 
 

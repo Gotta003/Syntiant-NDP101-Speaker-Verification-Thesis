@@ -169,26 +169,34 @@ P is the polling window size, s is the stride, and max is the maximum value in t
     \end{figure}
 \end{center}
 \subsection{Neural Network Parameter Performance}
-As follows, are listed some notions that will be recalled when talking about models and results:\newline
+Confusion matrix consists in a visualization method to classify the samples given in input to a neural network. The elements on both rows are columns are the same, but the row corresponds to the result obtained, instead the column to the result expected. In case of binary classifications, the elements can be True Positive (TP), the user expected a correct output and the system validated it, False Negative (FN), the user expected a correct output and the system outputted that it is false, False Positive (FP), the user expected a wrong output and the system outputted a right one, and, ultimately, True Negative (TN), the user expected a false output and the system gave a coherent result. Thanks to this, it is possible to compute various performance metrics:\newline
 • Accuracy - Measures the proportion of correct predictions over all predictions:\newline 
 \[
 \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
 \]
+• Precision - Measure the right computed instances over the ones that the model given corrected as output:\newline
+\[
+text{Precision}=\frac{TP}{TP+FP}
+\]
+• Recall - Measure the right computed instances over the ones that the user said were corrected:\newline
+\[
+text{Recall}=\frac{TP}{TP+FN}=TPR
+\]
 • F1 Score - Harmonic mean of precision and recall, balancing false positives and negatives:\newline 
 \[
-F1 = \frac{2TP}{2TP + FP + FN}
+F1 = \frac{2\cdot precision\cdot recall}{precision+recall}=\frac{2TP}{2TP + FP + FN}
 \]
-• Loss - Represents the prediction error:\newline
+• Classification Error - Represents the prediction error:\newline
 \[
-\mathcal{L} = -\sum y \log(\hat{y})
+\text{Classification Error} = \frac{FP + FN}{TP + TN + FP + FN}=1-accuracy
 \]
-• AUC (Area Under Curve) - Evaluates classifier performance across all thresholds via ROC curve: \newline 
+• AUC (Area Under Curve) - Evaluates classifier performance across all thresholds via ROC curve: \newline 
 \[
-\text{AUC} = \int_{0}^{1} \text{TPR}(FPR) \, d(\text{FPR})
+\text{AUC} = \int_{0}^{1} \text{TPR}(FPR) \, d(\text{FPR})\rightarrow FPR=\frac{FP}{FP+TN}
 \]
 • EER (Equal Error Rate) - The rate at which the false acceptance rate equals the false rejection rate:\newline
 \[
-\text{EER} \text{ when } FAR(t) = FRR(t)
+\text{EER} \text{ when } FAR(t) = FRR(t)\,\,\,\,\,\,FAR=FPR\,\,\,\,\,\,FRR=1-TPR
 \]
 • EER Threshold - The decision threshold value at which EER occurs:\newline
 \[
@@ -201,8 +209,8 @@ t_{\text{EER}} = \arg\min_t |FAR(t) - FRR(t)|
 
 \section{Speaker Verification Approaches}
 \label{subsec:sv approaches}
-The goal of the thesis is to propose a text-dependent implementation of Syntiant NDP101, leading that each word said by a user has to have a reference sample. From this comes the necessity of having a keyword spotting algorithm to recognize a word and a speaker verification algorithm for extraction of relevant features of the sample and comparison with the word-user reference.\newline\newline
-The purpose of speaker verification is to identify if a user is part of a dataset or not. The networks can be trainable with specific user samples, bringing the disadvantage of requiring retraining each time a user is added to the system, so during inference and product release this approach is not recommended. Another solution is choosing a one-time training approach, providing a large dataset of various people. It will generate a feature extraction, which compared with a reference array of equal size can provide the cosine similarity parameter. For application, the second one is the best, but requires more training, a variety amount of data, and a good amount of samples, resulting in a more difficult implementation. Another key difference of the model stays in its text-dependency. If the model is text-dependent, the reference samples of two different words of the same user will be different ones, requiring more memory space allocation with more words required, instead a text-independent approach, which is difficult to achieve without retraining, consists of a memory optimization because the user does not care about saving samples of the words he says, but relies only on his data reference. As a fact, the no-retraining required gives to the model feasibility, instead, text-dependency will provide more accuracy on single words, but will have more memory expenses. It is not our case, but if dealing with a system, not requiring user addition in inference, a solution may be relying on a retraining approach and text-independency. This may be possible only if a large person-dedicated dataset is provided. There are some relevant solutions, to implement a SV model, however, no one is deployable in a Tiny system, except for a d-vector extractor technique, relying on finding patterns in voice before the classification process.\cite{dvector_extractor_TinySV}\newline 
+%The goal of the thesis is to propose a text-dependent implementation of Syntiant NDP101, leading that each word said by a user has to have a reference sample. From this comes the necessity of having a keyword spotting algorithm to recognize a word and a speaker verification algorithm for extraction of relevant features of the sample and comparison with the word-user reference.\newline\newline
+The purpose of speaker verification is to identify if a user is part of a dataset or not. The networks can be trainable with specific user samples, bringing the disadvantage of requiring retraining each time a user is added to the system, so during inference and product release this approach is not recommended. Another solution is choosing a one-time training approach, providing a large dataset of various people. It will generate a feature extraction, which compared with a reference array of equal size can provide the cosine similarity parameter. For application, the second one is the best, but requires more training, a variety amount of data, and a good amount of samples. Another key difference of the model stays in its text-dependency. If the model is text-dependent, the reference samples of two different words of the same user will be different ones, requiring more memory space allocation with more words required, instead a text-independent approach, which is difficult to achieve without retraining, consists of a memory optimization. In this case, the user does not care about saving samples of the words he is saying, but relies only on his data reference. No-retraining requirement gives feasibility, instead, text-dependency will provide more accuracy on single words, but will have more memory expenses. It is not the case, but if dealing with a system, not requiring user addition in inference, a solution may be relying on a retraining approach and text-independency. This may be possible only if a large person-dedicated dataset is provided. There are some relevant solutions, to implement a SV model, however, no one is deployable in a Tiny system, except for a d-vector extractor technique, relying on finding patterns in voice before the classification process.\cite{dvector_extractor_TinySV}\newline 
 
 \section{Keyword Spotting Approaches}
 \label{subsec:kws approaches}

@@ -1,10 +1,42 @@
 \chapter{Results Obtained}
 \label{cha:results obtained}
-
-6 PAGES\newline\newline
-\section{KWS Performance}
+This chapter shows the performances of the algorithms previously discussed, focusing on a standard version developed on Edge Impulse\cite{edge_impulse_kws_example}, 2 d-vector versions, one emulating an existing solution\cite{TinySV} (d-vector extractor size 256) and another solution with size 128, that could be adapted to the system, to reduce the required dimension in the dataset storage, and 5 distilled models (1 from 128 version and 4 from 256 one). The reason why for 256 were generated so many, is due to not fitting. To be deployed on Syntiant after the distillation the models should be quantized in 4-int weights and knowing that the model can host at most 589.000 4-int parameters, for 128's solution is straight forward in converting to a solid dense model, instead 256's version is more difficult to adapt to these tiny dimensions. To determine if a model can be hosted in a Syntiant NDP101, knowing that the dense layers are 3 intermediate and one output. The formula to compute model size of a dense neural network is using the following formula.
+\begin{equation*}
+    model\_size=\sum_{i=1}^{N}((in\_size_i+1)*out\_size_i)\,\,\,\,\,condition:\,\,model\_size<294.500\,bytes
+\end{equation*} 
+Instead, to compute the one of a convolutional neural network should be used this one because of multidimensionality, considering a general filter shape like (width, height, channels):
+\begin{equation*}
+    model\_size=\sum_{i=1}^{N}((in\_channels*f\_width*f\_height+1)*out\_channels)
+\end{equation*}
+Following, there is a table summarizing which model will be deployable on Syntiant:
+\begin{table}[!h]
+\centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        Model Name & KWS & SV128 & SV256 & SVD1256 & SVDU256 & SVD192 & SVD240 & SVD2256\\
+        \hline
+        Type & Dense & Conv & Conv & Dense & Dense & Dense & Dense & Dense\\
+        Origin & - & - &  - & SV128 & SV256 & SV256 & SV256 & SV256\\
+        Input & 1600 & (40x40x1) & (40x40x1) & 1600 & 1600 & 1600 & 1600 & 1600\\
+        Layer 1 & 256 & (13x13x8) & (13x13x8) & 256 & 256 & 192 & 240 & 256\\
+        Layer 2 & 256 & (6x6x16) & (6x6x16) & 256 & 256 & 192 & 240 & 256\\
+        Layer 3 & 256 & (3x3x32) & (3x3x32) & 256 & 128 & 192 & 240 & 256\\
+        Layer 4 & - & (2x2x64) & - & - & - & - & - & -\\
+        Layer Out & 2 & 128 & 256 & 128 & 256 & 256 & 256 & 256\\
+        Total (KB) & 2117 & 95,2 & 383,6 & 2243,5 & 2115,5 & 1683,25 & 2193,8 & 2372\\
+        Deployable & YES & NO & NO & YES & YES & YES & YES & NO\\
+        \hline
+    \end{tabular}
+\end{table}
+Note that the width and height of convolution formula are for filter size, meanwhile in the table there are input and output of the steps. The filter used was always (3x3xchannels), with channels instead matching the ones in the table. The condition for a model to be deployable in float configuration, before quantization, is that it should be smaller than 2300 KB, and it should be a dense model. The choice of the distillation models having as father 256-size version are respectively:\newline
+• U256 - consisting in an unbalanced distribution of neurons, having a layer downscaling to 218 from the standard of 256 to fit inside the Flash memory\newline
+• 192 - considering that model neurons should be typically power of two, considering 128 neurons in all layers too restrictive in mimic father's behavior, it was chosen a general multiple of two with a reasonable value that fits inside the device\newline
+• 240 - it was the optimal multiple of 2 that could fit inside the device, having all the intermediate layers with equal neurons and the output of 256\newline
+• 256 - this model does not fit, but was used to compare the behavior with the another model with 256 neurons in intermediate layers and 128 d-vector as output\newline\newline
+                                                                        \section{KWS Performance}
 \label{sec:kws performance}
 Analysis using simulation data (confusion matrix)\newline 
+
 \section{SV Performance}
 \label{sec:sv performance}
 \subsection{Evaluation of CNN Model}
@@ -19,8 +51,9 @@ Simulation (model-size, classification purpose, truncation explanation, verifica
 
 \section{System Integration SW \& HW}
 \label{sec: system integration}
-• Overall Power Consumption (ESP32 + 2 Syntiant NDP101)\newline
+• Overall Power Consumption (2 Syntiant NDP101)\newline
 • Memory Usage\newline\newline
+
 PAGE 24
 \newpage
 PAGE 25
