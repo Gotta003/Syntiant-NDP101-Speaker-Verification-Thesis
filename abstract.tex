@@ -1,15 +1,18 @@
 \chapter*{Abstract} % no number
 \label{abtract}
+This thesis focuses on adapting a TinyML device-based system to perform Speaker Verification, which involves recognizing a user's identity by comparing reference samples with an input audio stream, using a Neural Network trained on a personal created dataset. The main objectives were to create a Keyword Spotting model and a Speaker Verification text-dependent one, adapting their dimension to fit inside a TinyML device, specifically the Syntiant NDP101. The methods used in the study included a training of the neural network, using Edge Impulse framework for model compression, validation and deployment for Keyword Spotting and a d-vector extractor technique to develop a Speaker Verification one. The key findings include the development of a system, which in theory can be deployed on a TinyML device, however because of an NDA on Syntiant NDP101 it could not be verified on hardware, but only on Software. It was underlying during the thesis, the importance of output size in achieving better performance, with increasing representational capacity, leading in proposing d-vector model's versions. It was created a software C logic to emulate audio MFE block processing and models behavior and a proposed distillation knowledge algorithm for Syntiant NDP101 that does not support Convolutional Neural Networks, but only Dense ones. The results of the study showed which of the models developed and distillated are deployable on the MCU, in particular a Keyword Spotting Model, 2 d-vector extractors and 5 distilled models. From this thesis can be acquired the processed developed to create and deploy a model on a TinyML device and an in-depth on their performances in terms of accuracy, precision, recall, EER and AUC from a general purpose perspective, so choosing a threshold that minimizes EER value and a security one which has a precision equal to 1. 
+The limitations include the limited complexity of the neural network deployable on Syntiant NDP101 and some careful considerations on computation velocity, memory usage, precision, recall, true positive rate and false positive rate. The future work includes exploring the use of other Neural Network or techniques to optimize the generated models to achieve better results, especially in distilled versions and an actual deployment on Syntiant (if the access to SDK is granted), in other case it could a possibility to switch to other platform with similar properties. The usage of such system may be for general purpose application, like voice assistants or smart home devices, or security ones, allowing less energy consumption even though it is an always-on chip.\newline\newline
+
 
 ROWS TO ELIMINATE OR ADD:\newline\newline
-TABLE OF CONTENTS: 1 page (COMPLETE)\newline
-ABSTRACT: 0/1 page (IN DEVELOPMENT)\newline
+TABLE OF CONTENTS: 1.25 page (COMPLETE)\newline
+ABSTRACT: 0.5 page (IN DEVELOPMENT)\newline
 1. INTRODUCTION: 1 page (COMPLETE)\newline
 2. BACKGROUND NOTIONS: 8 pages (COMPLETE)\newline
 3. KEYWORD SPOTTING AND SPEAKER VERIFICATION TRAINING: 5 pages (COMPLETE)\newline
 4. SW AND HW IMPLEMENTATION: 6 pages (COMPLETE)\newline 
-5. RESULTS OBTAINED: (0/7 pages) (IN DEVELOPMENT)\newline 
-6. CONCLUSION: 1 page\newline
+5. RESULTS OBTAINED: (5.5/7 pages) (IN DEVELOPMENT)\newline 
+6. CONCLUSION: 1 page (COMPLETE)\newline
 \addcontentsline{toc}{chapter}{Abstract} % add to index
 List of reference explanation:\newline
 \begin{itemize} 
@@ -58,6 +61,7 @@ List of reference explanation:\newline
     \item Understanding 4-bit Quantization: \cite{wu2023understandingint4quantizationtransformer}
     \item CNN Notions: \cite{introduction_CNN}
     \item PQT and QAT - Quantization Theory: \cite{ptq_and_qat_indepth_quantization}
+    \item Weiszfeld's Algorithm: \cite{weiszfeldsalgorithm}
 \end{enumerate}
 \item SV Model:
 \begin{enumerate}

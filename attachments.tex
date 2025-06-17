@@ -1,20 +1,383 @@
-%\chapter{Code Listing}
+\chapter{Complete Test Results}
+\section{Convolutional Models (EER Threshold)}
+\begin{table}[!h]
+    \label{table:cnneer}
+    \centering
+    \begin{tabular}{llc|ccccccc}
+    \toprule
+    \textbf{Type} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1 Score} & \textbf{EER} & \textbf{AUC} & \textbf{Thres}\\
+    \midrule
+    \multirow{12}{*}{128(MY)} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.7989} & \colorvalpos{0.5057} & \colorvalpos{0.6858} & \colorvalpos{0.5822} & \colorvalneg{0.3142} & \colorvalpos{0.5005} & 0.5\\
+        & & 8  & \colorvalpos{0.9007} & \colorvalpos{0.6864} & \colorvalpos{0.9348} & \colorvalpos{0.7916} & \colorvalneg{0.1079} & \colorvalpos{0.9241} & 0.6\\
+        & & 16 & \colorvalpos{0.9145} & \colorvalpos{0.7114} & \colorvalpos{0.9588} & \colorvalpos{0.8168} & \colorvalneg{0.0965} & \colorvalpos{0.9650} & 0.65\\
+        & & 64 & \colorvalpos{0.9526} & \colorvalpos{0.8121} & \colorvalpos{0.9616} & \colorvalpos{0.8806} & \colorvalneg{0.0494} & \colorvalpos{0.9842} & 0.7\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.7989} & \colorvalpos{0.5057} & \colorvalpos{0.6858} & \colorvalpos{0.5822} & \colorvalneg{0.3142} & \colorvalpos{0.5005} & 0.5\\
+        & & 8  & \colorvalpos{0.9238} & \colorvalpos{0.7551} & \colorvalpos{0.9213} & \colorvalpos{0.8300} & \colorvalneg{0.0786} & \colorvalpos{0.9340} & 0.6\\
+        & & 16 & \colorvalpos{0.9200} & \colorvalpos{0.7326} & \colorvalpos{0.9405} & \colorvalpos{0.8236} & \colorvalneg{0.0852} & \colorvalpos{0.9505} & 0.6\\
+        & & 64 & \colorvalpos{0.9535} & \colorvalpos{0.8407} & \colorvalpos{0.9182} & \colorvalpos{0.8777} & \colorvalneg{0.0818} & \colorvalpos{0.9633} & 0.65\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.7989} & \colorvalpos{0.5057} & \colorvalpos{0.6858} & \colorvalpos{0.5822} & \colorvalneg{0.3142} & \colorvalpos{0.5005} & 0.5\\
+        & & 8  & \colorvalpos{0.9252} & \colorvalpos{0.7583} & \colorvalpos{0.9236} & \colorvalpos{0.8328} & \colorvalneg{0.0764} & \colorvalpos{0.9359} & 0.6\\
+        & & 16 & \colorvalpos{0.9204} & \colorvalpos{0.7331} & \colorvalpos{0.9428} & \colorvalpos{0.8248} & \colorvalneg{0.0852} & \colorvalpos{0.9525} & 0.65\\
+        & & 64 & \colorvalpos{0.9526} & \colorvalpos{0.8353} & \colorvalpos{0.9207} & \colorvalpos{0.8759} & \colorvalneg{0.0793} & \colorvalpos{0.9639} & 0.65\\
+    \midrule
+    \multirow{12}{*}{256\cite{dvector_extractor_TinySV}} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.6751} & \colorvalpos{0.3321} & \colorvalpos{0.5847} & \colorvalpos{0.4234} & \colorvalneg{0.4159} & \colorvalpos{0.4787} & 0.5\\
+        & & 8  & \colorvalpos{0.9429} & \colorvalpos{0.7874} & \colorvalpos{0.9820} & \colorvalpos{0.8740} & \colorvalneg{0.0670} & \colorvalpos{0.9878} & 0.65\\
+        & & 16 & \colorvalpos{0.9745} & \colorvalpos{0.8944} & \colorvalpos{0.9886} & \colorvalpos{0.9391} & \colorvalneg{0.0290} & \colorvalpos{0.9968} & 0.7\\
+        & & 64 & \colorvalpos{0.9805} & \colorvalpos{0.9125} & \colorvalpos{0.9872} & \colorvalpos{0.9484} & \colorvalneg{0.0210} & \colorvalpos{0.9974} & 0.75\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+            & 1  & \colorvalpos{0.6751} & \colorvalpos{0.3321} & \colorvalpos{0.5847} & \colorvalpos{0.4234} & \colorvalneg{0.4159} & \colorvalpos{0.4787} & 0.6\\
+        & & 8  & \colorvalpos{0.9198} & \colorvalpos{0.7454} & \colorvalpos{0.9146} & \colorvalpos{0.8214} & \colorvalneg{0.0854} & \colorvalpos{0.9366} & 0.6\\
+        & & 16 & \colorvalpos{0.8917} & \colorvalpos{0.6628} & \colorvalpos{0.9268} & \colorvalpos{0.7729} & \colorvalneg{0.1170} & \colorvalpos{0.9408} & 0.6\\
+        & & 64 & \colorvalpos{0.9610} & \colorvalpos{0.8434} & \colorvalpos{0.9642} & \colorvalpos{0.9000} & \colorvalneg{0.0398} & \colorvalpos{0.9800}& 0.65\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.6751} & \colorvalpos{0.3321} & \colorvalpos{0.5847} & \colorvalpos{0.4234} & \colorvalneg{0.4159} & \colorvalpos{0.4787} & 0.5\\
+        & & 8  & \colorvalpos{0.8395} & \colorvalpos{0.5658} & \colorvalpos{0.8786} & \colorvalpos{0.6884} & \colorvalneg{0.1704} & \colorvalpos{0.9511} & 0.65\\
+        & & 16 & \colorvalpos{0.9290} & \colorvalpos{0.7513} & \colorvalpos{0.9611} & \colorvalpos{0.8438} & \colorvalneg{0.0789} & \colorvalpos{0.9559} & 0.6\\
+        & & 64 & \colorvalpos{0.9577} & \colorvalpos{0.8289} & \colorvalpos{0.9667} & \colorvalpos{0.8926} & \colorvalneg{0.044} & \colorvalpos{0.9824}& 0.65\\
+    \midrule
+    \multirow{12}{*}{COMP} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \posorneg{12.38} & \posorneg{17.36} & \posorneg{10.18}& \posorneg{15.87}& \posorneg{10.18}& \posorneg{2.36} & \\
+        & & 8  & \posorneg{-4.22} & \posorneg{-10.09} & \posorneg{-4.72} & \posorneg{-8.24} & \posorneg{-4.09} & \posorneg{-6.37} &\\
+        & & 16 & \posorneg{-6.01} & \posorneg{-18.30} & \posorneg{-2.97} & \posorneg{-12.24} & \posorneg{-6.76} & \posorneg{-3.18} &\\
+        & & 64 & \posorneg{-2.79} & \posorneg{-10.04} & \posorneg{-2.56} & \posorneg{-6.78} & \posorneg{-2.84} & \posorneg{-1.32} &\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+            & 1  & \posorneg{12.38} & \posorneg{17.36} & \posorneg{10.18} & \posorneg{15.87} & \posorneg{10.18} & \posorneg{2.36} &\\
+        & & 8  & \posorneg{3.45} & \posorneg{9.11} & \posorneg{0.67} & \posorneg{6.06} & \posorneg{3.83} & \posorneg{-0.05}&\\
+        & & 16 & \posorneg{2.59} & \posorneg{6.43} & \posorneg{1.37} & \posorneg{4.70} & \posorneg{2.90} & \posorneg{0.80} &\\
+        & & 64 & \posorneg{0.65} & \posorneg{5.04} & \posorneg{-4.60} & \posorneg{0.91} & \posorneg{-2.51} & \posorneg{-1.46}&\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \posorneg{12.38} & \posorneg{17.36} & \posorneg{10.18} & \posorneg{15.87} & \posorneg{10.18} & \posorneg{2.36} &\\
+        & & 8  & \posorneg{2.72} & \posorneg{8.31} & \posorneg{-2.92} & \posorneg{4.25} & \posorneg{3.94} & \posorneg{-1.62} &\\
+        & & 16 & \posorneg{-2.27} & \posorneg{-10.90} & \posorneg{6.41} & \posorneg{-3.52} & \posorneg{3.61} & \posorneg{-0.26} &\\
+        & & 64 & \posorneg{0.46} & \posorneg{4.28} & \posorneg{-4.60} & \posorneg{0.49} & \posorneg{-2.31} & \posorneg{-1.69}&\\
+    \bottomrule
+    \end{tabular}
+    \caption{SV Convolutional Models (EER Threshold)}
+\end{table}
+\newpage 
+\section{Convolutional Models (Minimizing Only False Positive)}
+\begin{table}[!h]
+    \label{table:cnnnofp}
+    \centering
+    \begin{tabular}{llc|ccccccc}
+    \toprule
+    \textbf{Type} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1 Score} & \textbf{EER} & \textbf{AUC} & \textbf{Thres}\\
+    \midrule
+    \multirow{12}{*}{128(MY)} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8156} & \colorvalpos{1} & \colorvalpos{0.0973} & \colorvalpos{0.1774} & \colorvalneg{0.9026} & \colorvalpos{0.5023} & 0.7\\
+        & & 8  & \colorvalpos{0.8173} & \colorvalpos{1} & \colorvalpos{0.0944} & \colorvalpos{0.1725} & \colorvalneg{0.9056} & \colorvalpos{0.9241} & 0.85\\
+        & & 16 & \colorvalpos{0.8312} & \colorvalpos{1} & \colorvalpos{0.1510} & \colorvalpos{0.2624} & \colorvalneg{0.8490} & \colorvalpos{0.9650} & 0.85\\
+        & & 64 & \colorvalpos{0.8815} & \colorvalpos{1} & \colorvalpos{0.3478} & \colorvalpos{0.5161} & \colorvalneg{0.6522} & \colorvalpos{0.9843} & 0.85\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8156} & \colorvalpos{1} & \colorvalpos{0.0973} & \colorvalpos{0.1774} & \colorvalneg{0.9026} & \colorvalpos{0.5023} & 0.7\\
+        & & 8  & \colorvalpos{0.8676} & \colorvalpos{1} & \colorvalpos{0.3438} & \colorvalpos{0.5117} & \colorvalneg{0.6562} & \colorvalpos{0.9340} & 0.8\\
+        & & 16 & \colorvalpos{0.8844} & \colorvalpos{1} & \colorvalpos{0.4188} & \colorvalpos{0.5903} & \colorvalneg{0.5812} & \colorvalpos{0.9505} & 0.8\\
+        & & 64 & \colorvalpos{0.8587} & \colorvalpos{1} & \colorvalpos{0.2225} & \colorvalpos{0.3640} & \colorvalneg{0.7775} & \colorvalpos{0.9633} & 0.85\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8156} & \colorvalpos{1} & \colorvalpos{0.0973} & \colorvalpos{0.1774} & \colorvalneg{0.9026} & \colorvalpos{0.5023} & 0.7\\
+        & & 8  & \colorvalpos{0.8694} & \colorvalpos{1} & \colorvalpos{0.3528} & \colorvalpos{0.5216} & \colorvalneg{0.6472} & \colorvalpos{0.9340} & 0.8\\
+        & & 16 & \colorvalpos{0.8849} & \colorvalpos{1} & \colorvalpos{0.4211} & \colorvalpos{0.5926} & \colorvalneg{0.5789} & \colorvalpos{0.9505} & 0.8\\
+        & & 64 & \colorvalpos{0.8583} & \colorvalpos{1} & \colorvalpos{0.2200} & \colorvalpos{0.3606} & \colorvalneg{0.7801} & \colorvalpos{0.9633} & 0.85\\
+    \midrule
+    \multirow{12}{*}{256\cite{dvector_extractor_TinySV}} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8269} & \colorvalpos{1} & \colorvalpos{0.1526} & \colorvalpos{0.2649} & \colorvalneg{0.8473} & \colorvalpos{0.5023} & 0.8\\
+        & & 8  & \colorvalpos{0.9057} & \colorvalpos{1} & \colorvalpos{0.5326} & \colorvalpos{0.6950} & \colorvalneg{0.4674} & \colorvalpos{0.9359} & 0.8\\
+        & & 16 & \colorvalpos{0.9545} & \colorvalpos{1} & \colorvalpos{0.7712} & \colorvalpos{0.8708} & \colorvalneg{0.2288} & \colorvalpos{0.9525} & 0.8\\
+        & & 64 & \colorvalpos{0.9466} & \colorvalpos{1} & \colorvalpos{0.7059} & \colorvalpos{0.8276} & \colorvalneg{0.2941} & \colorvalpos{0.9639} & 0.85\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+            & 1  & \colorvalpos{0.8269} & \colorvalpos{1} & \colorvalpos{0.1526} & \colorvalpos{0.2649} & \colorvalneg{0.8473} & \colorvalpos{0.4787} & 0.8\\
+        & & 8  & \colorvalpos{0.8840} & \colorvalpos{1} & \colorvalpos{0.4247} & \colorvalpos{0.5962} & \colorvalneg{0.5753} & \colorvalpos{0.9878} & 0.8\\
+        & & 16 & \colorvalpos{0.8935} & \colorvalpos{1} & \colorvalpos{0.4645} & \colorvalpos{0.6344} & \colorvalneg{0.5355} & \colorvalpos{0.9969} & 0.8\\
+        & & 64 & \colorvalpos{0.8973} & \colorvalpos{1} & \colorvalpos{0.4348} & \colorvalpos{0.6061} & \colorvalneg{0.5652} & \colorvalpos{0.9974}& 0.8\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8269} & \colorvalpos{1} & \colorvalpos{0.1527} & \colorvalpos{0.2649} & \colorvalneg{0.8473} & \colorvalpos{0.4787} & 0.8\\
+        & & 8  & \colorvalpos{0.8785} & \colorvalpos{1} & \colorvalpos{0.3978} & \colorvalpos{0.5691} & \colorvalneg{0.6022} & \colorvalpos{0.9345} & 0.8\\
+        & & 16 & \colorvalpos{0.8903} & \colorvalpos{1} & \colorvalpos{0.4485} & \colorvalpos{0.6193} & \colorvalneg{0.5515} & \colorvalpos{0.9425} & 0.8\\
+        & & 64 & \colorvalpos{0.8922} & \colorvalpos{1} & \colorvalpos{0.4066} & \colorvalpos{0.5782} & \colorvalneg{0.5934} & \colorvalpos{0.9780}& 0.8\\
+    \midrule
+    \multirow{12}{*}{COMP} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \posorneg{-1.13} & \posorneg{0.00} & \posorneg{-5.53}& \posorneg{-8.75}& \posorneg{-5.53}& \posorneg{2.36} & \\
+        & & 8  & \posorneg{-8.84} & \posorneg{0.00} & \posorneg{-43.82} & \posorneg{-52.25} & \posorneg{-43.82} & \posorneg{-6.37} &\\
+        & & 16 & \posorneg{-12.33} & \posorneg{0.00} & \posorneg{-62.01} & \posorneg{-60.84} & \posorneg{-62.01} & \posorneg{-3.18} &\\
+        & & 64 & \posorneg{-6.51} & \posorneg{0.00} & \posorneg{-35.81} & \posorneg{-31.15} & \posorneg{-35.81} & \posorneg{-1.32} &\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+            & 1  & \posorneg{-1.13} & \posorneg{0.00} & \posorneg{-5.53} & \posorneg{-8.75} & \posorneg{-5.53} & \posorneg{2.36} &\\
+        & & 8  & \posorneg{-1.63} & \posorneg{0.00} & \posorneg{-8.09} & \posorneg{-8.45} & \posorneg{-8.09} & \posorneg{-0.05}&\\
+        & & 16 & \posorneg{-0.91} & \posorneg{0.00} & \posorneg{-4.58} & \posorneg{-4.41} & \posorneg{-4.58} & \posorneg{0.80} &\\
+        & & 64 & \posorneg{-3.86} & \posorneg{0.00} & \posorneg{-21.23} & \posorneg{-24.20} & \posorneg{-21.23} & \posorneg{-1.46}&\\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \posorneg{-1.13} & \posorneg{0.00} & \posorneg{-5.53} & \posorneg{-8.75} & \posorneg{-5.53} & \posorneg{2.36} &\\
+        & & 8  & \posorneg{-0.91} & \posorneg{0.00} & \posorneg{-4.49} & \posorneg{-4.75} & \posorneg{-4.49} & \posorneg{-1.62} &\\
+        & & 16 & \posorneg{-0.55} & \posorneg{0.00} & \posorneg{-2.75} & \posorneg{-2.67} & \posorneg{-2.75} & \posorneg{-0.26} &\\
+        & & 64 & \posorneg{-3.99} & \posorneg{0.00} & \posorneg{-18.67} & \posorneg{-21.76} & \posorneg{-18.67} & \posorneg{-1.69}&\\
+    \bottomrule
+    \end{tabular}
+    \caption{SV Convolutional Models (Minimizing Only False Positive)}
+\end{table}
+\newpage
+\section{Dense Models (EER Thresholds)}
+\begin{longtable}{llc|ccccccc}
+    \caption{SV Dense Models (EER Threshold)} \label{table:dnnerr} \\
+    \toprule
+    \textbf{Model} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1} & \textbf{EER} & \textbf{AUC} & \textbf{Thres} \\
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{9}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \toprule
+    \textbf{Model} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1} & \textbf{EER} & \textbf{AUC} & \textbf{Thres} \\
+    \midrule
+    \endhead
+    
+    \midrule \multicolumn{9}{r}{{Continued on next page}} \\ \bottomrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+    
+    \multirow{12}{*}{128-256} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.9322} & \colorvalpos{0.7770} & \colorvalpos{0.9382} & \colorvalpos{0.8500} & \colorvalneg{0.0693} & \colorvalpos{0.8083} & 0.55 \\
+        & & 8  & \colorvalpos{0.9033} & \colorvalpos{0.7268} & \colorvalpos{0.8455} & \colorvalpos{0.7816} & \colorvalneg{0.1545} & \colorvalpos{0.9256} & 0.7 \\
+        & & 16 & \colorvalpos{0.9562} & \colorvalpos{0.8546} & \colorvalpos{0.9470} & \colorvalpos{0.8984} & \colorvalneg{0.0530} & \colorvalpos{0.9695} & 0.75 \\
+        & & 64 & \colorvalpos{0.9481} & \colorvalpos{0.8449} & \colorvalpos{0.9139} & \colorvalpos{0.8780} & \colorvalneg{0.0861} & \colorvalpos{0.9684} & 0.8 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.9322} & \colorvalpos{0.7770} & \colorvalpos{0.9382} & \colorvalpos{0.8500} & \colorvalneg{0.0693} & \colorvalpos{0.8083} & 0.55 \\
+        & & 8  & \colorvalpos{0.9372} & \colorvalpos{0.7985} & \colorvalpos{0.9271} & \colorvalpos{0.8580} & \colorvalneg{0.0728} & \colorvalpos{0.9164} & 0.65 \\
+        & & 16 & \colorvalpos{0.9490} & \colorvalpos{0.8360} & \colorvalpos{0.9338} & \colorvalpos{0.8822} & \colorvalneg{0.0662} & \colorvalpos{0.9221} & 0.65 \\
+        & & 64 & \colorvalpos{0.9426} & \colorvalpos{0.8064} & \colorvalpos{0.9470} & \colorvalpos{0.8711} & \colorvalneg{0.0585} & \colorvalpos{0.9285} & 0.65 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.9322} & \colorvalpos{0.7770} & \colorvalpos{0.9382} & \colorvalpos{0.8500} & \colorvalneg{0.0693} & \colorvalpos{0.8083} & 0.55 \\
+        & & 8  & \colorvalpos{0.9354} & \colorvalpos{0.7913} & \colorvalpos{0.9293} & \colorvalpos{0.8548} & \colorvalneg{0.0706} & \colorvalpos{0.9201} & 0.65 \\
+        & & 16 & \colorvalpos{0.9476} & \colorvalpos{0.8222} & \colorvalpos{0.9492} & \colorvalpos{0.8814} & \colorvalneg{0.0528} & \colorvalpos{0.9318} & 0.65 \\
+        & & 64 & \colorvalpos{0.9426} & \colorvalpos{0.8041} & \colorvalpos{0.9514} & \colorvalpos{0.8716} & \colorvalneg{0.0596} & \colorvalpos{0.9299} & 0.65 \\
+    \midrule
+    
+    \multirow{12}{*}{256U} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8347} & \colorvalpos{0.5598} & \colorvalpos{0.8985} & \colorvalpos{0.6898} & \colorvalneg{0.1817} & \colorvalpos{0.8813} & 0.75 \\
+        & & 8  & \colorvalpos{0.9435} & \colorvalpos{0.7971} & \colorvalpos{0.9713} & \colorvalpos{0.8756} & \colorvalneg{0.0636} & \colorvalpos{0.9806} & 0.8 \\
+        & & 16 & \colorvalpos{0.9377} & \colorvalpos{0.7989} & \colorvalpos{0.9294} & \colorvalpos{0.8592} & \colorvalneg{0.0706} & \colorvalpos{0.9743} & 0.8 \\
+        & & 64 & \colorvalpos{0.9228} & \colorvalpos{0.7311} & \colorvalpos{0.9845} & \colorvalpos{0.8391} & \colorvalneg{0.0931} & \colorvalpos{0.9776} & 0.8 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8347} & \colorvalpos{0.5598} & \colorvalpos{0.8985} & \colorvalpos{0.6898} & \colorvalneg{0.1817} & \colorvalpos{0.8813} & 0.75 \\
+        & & 8  & \colorvalpos{0.9553} & \colorvalpos{0.8430} & \colorvalpos{0.9603} & \colorvalpos{0.8978} & \colorvalneg{0.0460} & \colorvalpos{0.9827} & 0.8 \\
+        & & 16 & \colorvalpos{0.9485} & \colorvalpos{0.8098} & \colorvalpos{0.9779} & \colorvalpos{0.8860} & \colorvalneg{0.0591} & \colorvalpos{0.9837} & 0.8 \\
+        & & 64 & \colorvalpos{0.9539} & \colorvalpos{0.8382} & \colorvalpos{0.9603} & \colorvalpos{0.8951} & \colorvalneg{0.0477} & \colorvalpos{0.9820} & 0.75 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8347} & \colorvalpos{0.5598} & \colorvalpos{0.8985} & \colorvalpos{0.6898} & \colorvalneg{0.1817} & \colorvalpos{0.8813} & 0.75 \\
+        & & 8  & \colorvalpos{0.9593} & \colorvalpos{0.8682} & \colorvalpos{0.9448} & \colorvalpos{0.9049} & \colorvalneg{0.0552} & \colorvalpos{0.9818} & 0.8 \\
+        & & 16 & \colorvalpos{0.9435} & \colorvalpos{0.7918} & \colorvalpos{0.9823} & \colorvalpos{0.8768} & \colorvalneg{0.0664} & \colorvalpos{0.9809} & 0.8 \\
+        & & 64 & \colorvalpos{0.9544} & \colorvalpos{0.8385} & \colorvalpos{0.9625} & \colorvalpos{0.8962} & \colorvalneg{0.0477} & \colorvalpos{0.9817} & 0.8 \\
+    \midrule
 
-%\section{MFE Generation}
+\multirow{12}{*}{256-192} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8098} & \colorvalpos{0.5220} & \colorvalpos{0.8389} & \colorvalpos{0.6435} & \colorvalneg{0.1976} & \colorvalpos{0.7227} & 0.5 \\
+        & & 8  & \colorvalpos{0.9517} & \colorvalpos{0.8366} & \colorvalpos{0.9492} & \colorvalpos{0.8893} & \colorvalneg{0.0508} & \colorvalpos{0.9767} & 0.8 \\
+        & & 16 & \colorvalpos{0.9616} & \colorvalpos{0.8658} & \colorvalpos{0.9625} & \colorvalpos{0.9112} & \colorvalneg{0.0386} & \colorvalpos{0.9884} & 0.8 \\
+        & & 64 & \colorvalpos{0.9377} & \colorvalpos{0.7739} & \colorvalpos{0.9823} & \colorvalpos{0.8658} & \colorvalneg{0.0738} & \colorvalpos{0.9885} & 0.8 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8098} & \colorvalpos{0.5220} & \colorvalpos{0.8389} & \colorvalpos{0.6435} & \colorvalneg{0.1976} & \colorvalpos{0.7227} & 0.5 \\
+        & & 8  & \colorvalpos{0.8022} & \colorvalpos{0.5110} & \colorvalpos{0.7704} & \colorvalpos{0.6144} & \colorvalneg{0.2296} & \colorvalpos{0.7819} & 0.65 \\
+        & & 16 & \colorvalpos{0.9277} & \colorvalpos{0.7479} & \colorvalpos{0.9757} & \colorvalpos{0.8467} & \colorvalneg{0.0846} & \colorvalpos{0.9797} & 0.7 \\
+        & & 64 & \colorvalpos{0.9341} & \colorvalpos{0.7642} & \colorvalpos{0.9801} & \colorvalpos{0.8588} & \colorvalneg{0.0778} & \colorvalpos{0.9830} & 0.7 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8098} & \colorvalpos{0.5220} & \colorvalpos{0.8389} & \colorvalpos{0.6435} & \colorvalneg{0.1976} & \colorvalpos{0.7227} & 0.5 \\
+        & & 8  & \colorvalpos{0.8035} & \colorvalpos{0.5120} & \colorvalpos{0.8477} & \colorvalpos{0.6384} & \colorvalneg{0.2078} & \colorvalpos{0.8422} & 0.65 \\
+        & & 16 & \colorvalpos{0.9169} & \colorvalpos{0.7245} & \colorvalpos{0.9581} & \colorvalpos{0.8251} & \colorvalneg{0.0937} & \colorvalpos{0.9727} & 0.7 \\
+        & & 64 & \colorvalpos{0.9268} & \colorvalpos{0.7522} & \colorvalpos{0.9581} & \colorvalpos{0.8427} & \colorvalneg{0.0812} & \colorvalpos{0.9778} & 0.7 \\
+    \midrule
+    
+    \multirow{6}{*}{256-240} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8180} & \colorvalpos{0.5392} & \colorvalpos{0.7594} & \colorvalpos{0.6306} & \colorvalneg{0.2406} & \colorvalpos{0.8094} & 0.65 \\
+        & & 8  & \colorvalpos{0.9359} & \colorvalpos{0.8008} & \colorvalpos{0.9139} & \colorvalpos{0.8536} & \colorvalneg{0.0861} & \colorvalpos{0.9548} & 0.75 \\
+        & & 16 & \colorvalpos{0.9187} & \colorvalpos{0.7241} & \colorvalpos{0.9735} & \colorvalpos{0.8305} & \colorvalneg{0.0954} & \colorvalpos{0.9763} & 0.75 \\
+        & & 64 & \colorvalpos{0.9413} & \colorvalpos{0.7931} & \colorvalpos{0.9646} & \colorvalpos{0.8705} & \colorvalneg{0.0647} & \colorvalpos{0.9800} & 0.8 \\
+    \cmidrule(lr){2-9}
+        & \multirow{2}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8180} & \colorvalpos{0.5392} & \colorvalpos{0.7594} & \colorvalpos{0.6306} & \colorvalneg{0.2406} & \colorvalpos{0.8094} & 0.65 \\
+        & & 8  & \colorvalpos{0.7778} & \colorvalpos{0.4744} & \colorvalpos{0.7969} & \colorvalpos{0.5947} & \colorvalneg{0.2271} & \colorvalpos{0.7585} & 0.6 \\
+        \multirow{6}{*}{256-240} & \multirow{2}{*}{GEOM} & 16 & \colorvalpos{0.9291} & \colorvalpos{0.7662} & \colorvalpos{0.9404} & \colorvalpos{0.8444} & \colorvalneg{0.0738} & \colorvalpos{0.9579} & 0.7 \\
+        & & 64 & \colorvalpos{0.9277} & \colorvalpos{0.7584} & \colorvalpos{0.9492} & \colorvalpos{0.8431} & \colorvalneg{0.0778} & \colorvalpos{0.9587} & 0.7 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8180} & \colorvalpos{0.5392} & \colorvalpos{0.7594} & \colorvalpos{0.6306} & \colorvalneg{0.2406} & \colorvalpos{0.8094} & 0.65 \\
+        & & 8  & \colorvalpos{0.8722} & \colorvalpos{0.6221} & \colorvalpos{0.9558} & \colorvalpos{0.7537} & \colorvalneg{0.1493} & \colorvalpos{0.9224} & 0.65 \\
+        & & 16 & \colorvalpos{0.9291} & \colorvalpos{0.7711} & \colorvalpos{0.9294} & \colorvalpos{0.8428} & \colorvalneg{0.0710} & \colorvalpos{0.9590} & 0.7 \\
+        & & 64 & \colorvalpos{0.9268} & \colorvalpos{0.7594} & \colorvalpos{0.9404} & \colorvalpos{0.8402} & \colorvalneg{0.0767} & \colorvalpos{0.9582} & 0.7 \\
+    \midrule
 
-%\section{DNN Implementation}
+    \multirow{12}{*}{256-256} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.6576} & \colorvalpos{0.3470} & \colorvalpos{0.7638} & \colorvalpos{0.4772} & \colorvalneg{0.3697} & \colorvalpos{0.6119} & 0.5 \\
+        & & 8  & \colorvalpos{0.9589} & \colorvalpos{0.8935} & \colorvalpos{0.9073} & \colorvalpos{0.9003} & \colorvalneg{0.0927} & \colorvalpos{0.9858} & 0.8 \\
+        & & 16 & \colorvalpos{0.9702} & \colorvalpos{0.8832} & \colorvalpos{0.9845} & \colorvalpos{0.9311} & \colorvalneg{0.0335} & \colorvalpos{0.9919} & 0.8 \\
+        & & 64 & \colorvalpos{0.9883} & \colorvalpos{0.9692} & \colorvalpos{0.9735} & \colorvalpos{0.9714} & \colorvalneg{0.0265} & \colorvalpos{0.9957} & 0.85 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.6576} & \colorvalpos{0.3470} & \colorvalpos{0.7638} & \colorvalpos{0.4772} & \colorvalneg{0.3697} & \colorvalpos{0.6119} & 0.5 \\
+        & & 8  & \colorvalpos{0.8410} & \colorvalpos{0.5716} & \colorvalpos{0.8896} & \colorvalpos{0.6960} & \colorvalneg{0.1715} & \colorvalpos{0.9111} & 0.65 \\
+        & & 16 & \colorvalpos{0.9377} & \colorvalpos{0.7702} & \colorvalpos{0.9912} & \colorvalpos{0.8668} & \colorvalneg{0.0761} & \colorvalpos{0.9829} & 0.7 \\
+        & & 64 & \colorvalpos{0.9738} & \colorvalpos{0.9229} & \colorvalpos{0.9514} & \colorvalpos{0.9370} & \colorvalneg{0.0486} & \colorvalpos{0.9868} & 0.75 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.6576} & \colorvalpos{0.3470} & \colorvalpos{0.7638} & \colorvalpos{0.4772} & \colorvalneg{0.3697} & \colorvalpos{0.6119} & 0.5 \\
+        & & 8  & \colorvalpos{0.9029} & \colorvalpos{0.7179} & \colorvalpos{0.8653} & \colorvalpos{0.7848} & \colorvalneg{0.1347} & \colorvalpos{0.9382} & 0.7 \\
+        & & 16 & \colorvalpos{0.9652} & \colorvalpos{0.9052} & \colorvalpos{0.9272} & \colorvalpos{0.9160} & \colorvalneg{0.0728} & \colorvalpos{0.9852} & 0.75 \\
+        & & 64 & \colorvalpos{0.9733} & \colorvalpos{0.9191} & \colorvalpos{0.9536} & \colorvalpos{0.9361} & \colorvalneg{0.0464} & \colorvalpos{0.9887} & 0.75 \\
+    \midrule
+\end{longtable}
+   
+\section{Dense Models (Minimizing Only False Positive)}
+\begin{longtable}{llc|ccccccc}
+    \caption{SV Dense Models (Minimizing Only False Positive)} \label{table:dnnnofp} \\
+    \toprule
+    \textbf{Model} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1} & \textbf{EER} & \textbf{AUC} & \textbf{Thres} \\
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{9}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \toprule
+    \textbf{Model} & \textbf{Method} & \textbf{N° Refs} & \textbf{Acc} & \textbf{Prec} & \textbf{Recall} & \textbf{F1} & \textbf{EER} & \textbf{AUC} & \textbf{Thres} \\
+    \midrule
+    \endhead
+    
+    \midrule \multicolumn{9}{r}{{Continued on next page}} \\ \bottomrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+    
+    \multirow{12}{*}{128-256} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.7967} & \colorvalpos{0.8000} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.8083} & 0.85 \\
+        & & 8  & \colorvalpos{0.8026} & \colorvalpos{0.9444} & \colorvalpos{0.0375} & \colorvalpos{0.0722} & \colorvalneg{0.9625} & \colorvalpos{0.9256} & 0.9 \\
+        & & 16 & \colorvalpos{0.7994} & \colorvalpos{1} & \colorvalpos{0.0199} & \colorvalpos{0.0390} & \colorvalneg{0.9801} & \colorvalpos{0.9695} & 0.95 \\
+        & & 64 & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0131} & \colorvalneg{0.9934} & \colorvalpos{0.9684} & 0.95 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.7967} & \colorvalpos{0.8} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.8083} & 0.85 \\
+        & & 8  & \colorvalpos{0.7967} & \colorvalpos{0.8} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.9164} & 0.9 \\
+        & & 16 & \colorvalpos{0.7985} & \colorvalpos{1} & \colorvalpos{0.0154} & \colorvalpos{0.0304} & \colorvalneg{0.9845} & \colorvalpos{0.9221} & 0.9 \\
+        & & 64 & \colorvalpos{0.7958} & \colorvalpos{1} & \colorvalpos{0.0022} & \colorvalpos{0.0044} & \colorvalneg{0.9978} & \colorvalpos{0.9285} & 0.95 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.7967} & \colorvalpos{0.8} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.8083} & 0.85 \\
+        & & 8  & \colorvalpos{0.7967} & \colorvalpos{0.8} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.9201} & 0.9 \\
+        & & 16 & \colorvalpos{0.7990} & \colorvalpos{1} & \colorvalpos{0.0177} & \colorvalpos{0.0347} & \colorvalneg{0.9823} & \colorvalpos{0.9318} & 0.9 \\
+        & & 64 & \colorvalpos{0.7995} & \colorvalpos{0.9091} & \colorvalpos{0.0221} & \colorvalpos{0.0347} & \colorvalneg{0.9779} & \colorvalpos{0.9299} & 0.9 \\
+    \midrule
+    
+    \multirow{8}{*}{256U} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0132} & \colorvalneg{0.9934} & \colorvalpos{0.8813} & 0.85 \\
+        & & 8  & \colorvalpos{0.7972} & \colorvalpos{1} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.9806} & 0.9 \\
+        & & 16 & \colorvalpos{0.8907} & \colorvalpos{0.9607} & \colorvalpos{0.4856} & \colorvalpos{0.6452} & \colorvalneg{0.5143} & \colorvalpos{0.9743} & 0.85 \\
+        & & 64 & \colorvalpos{0.8053} & \colorvalpos{1} & \colorvalpos{0.0486} & \colorvalpos{0.0926} & \colorvalneg{0.9514} & \colorvalpos{0.9776} & 0.9 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0132} & \colorvalneg{0.9934} & \colorvalpos{0.8813} & 0.85 \\
+        & & 8  & \colorvalpos{0.9205} & \colorvalpos{0.9759} & \colorvalpos{0.6269} & \colorvalpos{0.7634} & \colorvalneg{0.3731} & \colorvalpos{0.9827} & 0.85 \\
+        & & 16 & \colorvalpos{0.9336} & \colorvalpos{0.9722} & \colorvalpos{0.6954} & \colorvalpos{0.8108} & \colorvalneg{0.3046} & \colorvalpos{0.9837} & 0.85 \\
+        & & 64 & \colorvalpos{0.7958} & \colorvalpos{1} & \colorvalpos{0.0022} & \colorvalpos{0.0044} & \colorvalneg{0.9978} & \colorvalpos{0.9820} & 0.9 \\
+        \cmidrule(lr){2-9}
+        \multirow{4}{*}{256U} & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0132} & \colorvalneg{0.9934} & \colorvalpos{0.8813} & 0.85 \\
+        & & 8  & \colorvalpos{0.8925} & \colorvalpos{0.9909} & \colorvalpos{0.4790} & \colorvalpos{0.6458} & \colorvalneg{0.5210} & \colorvalpos{0.9818} & 0.85 \\
+        & & 16 & \colorvalpos{0.7958} & \colorvalpos{1} & \colorvalpos{0.0022} & \colorvalpos{0.0044} & \colorvalneg{0.9978} & \colorvalpos{0.9809} & 0.9 \\
+        & & 64 & \colorvalpos{0.7958} & \colorvalpos{1} & \colorvalpos{0.0022} & \colorvalpos{0.0044} & \colorvalneg{0.9978} & \colorvalpos{0.9817} & 0.9 \\
+    \midrule
 
-%\section{D-vector Extraction}
-%\chapter{Detailed Architecture Diagrams}
+\multirow{12}{*}{256-192} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8415} & \colorvalpos{1} & \colorvalpos{0.2252} & \colorvalpos{0.3676} & \colorvalneg{0.7748} & \colorvalpos{0.7227} & 0.75 \\
+        & & 8  & \colorvalpos{0.8270} & \colorvalpos{1} & \colorvalpos{0.1545} & \colorvalpos{0.2677} & \colorvalneg{0.8455} & \colorvalpos{0.9767} & 0.9 \\
+        & & 16 & \colorvalpos{0.8306} & \colorvalpos{1} & \colorvalpos{0.1722} & \colorvalpos{0.2938} & \colorvalneg{0.8278} & \colorvalpos{0.9884} & 0.9 \\
+        & & 64 & \colorvalpos{0.8785} & \colorvalpos{1} & \colorvalpos{0.4062} & \colorvalpos{0.5777} & \colorvalneg{0.5938} & \colorvalpos{0.9885} & 0.9 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8415} & \colorvalpos{1} & \colorvalpos{0.2252} & \colorvalpos{0.3676} & \colorvalneg{0.7748} & \colorvalpos{0.7227} & 0.75 \\
+        & & 8  & \colorvalpos{0.8103} & \colorvalpos{1} & \colorvalpos{0.0728} & \colorvalpos{0.1358} & \colorvalneg{0.9272} & \colorvalpos{0.7819} & 0.9 \\
+        & & 16 & \colorvalpos{0.8406} & \colorvalpos{1} & \colorvalpos{0.2208} & \colorvalpos{0.3617} & \colorvalneg{0.7792} & \colorvalpos{0.9797} & 0.85 \\
+        & & 64 & \colorvalpos{0.8514} & \colorvalpos{1} & \colorvalpos{0.2737} & \colorvalpos{0.4298} & \colorvalneg{0.7263} & \colorvalpos{0.9830} & 0.85 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8415} & \colorvalpos{1} & \colorvalpos{0.2252} & \colorvalpos{0.3676} & \colorvalneg{0.7748} & \colorvalpos{0.7227} & 0.75 \\
+        & & 8  & \colorvalpos{0.8098} & \colorvalpos{1} & \colorvalpos{0.0706} & \colorvalpos{0.1320} & \colorvalneg{0.9293} & \colorvalpos{0.8422} & 0.9 \\
+        & & 16 & \colorvalpos{0.8505} & \colorvalpos{1} & \colorvalpos{0.2693} & \colorvalpos{0.4243} & \colorvalneg{0.7307} & \colorvalpos{0.9727} & 0.85 \\
+        & & 64 & \colorvalpos{0.8613} & \colorvalpos{1} & \colorvalpos{0.3223} & \colorvalpos{0.4875} & \colorvalneg{0.6777} & \colorvalpos{0.9778} & 0.85 \\
+    \midrule
+    
+    \multirow{12}{*}{256-240} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.7977} & \colorvalpos{1} & \colorvalpos{0.0110} & \colorvalpos{0.0218} & \colorvalneg{0.9890} & \colorvalpos{0.8094} & 0.9 \\
+        & & 8  & \colorvalpos{0.7967} & \colorvalpos{0.8000} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.9549} & 0.9 \\
+        & & 16 & \colorvalpos{0.8139} & \colorvalpos{1} & \colorvalpos{0.0905} & \colorvalpos{0.1660} & \colorvalneg{0.9095} & \colorvalpos{0.9763} & 0.9 \\
+        & & 64 & \colorvalpos{0.8482} & \colorvalpos{0.9916} & \colorvalpos{0.2605} & \colorvalpos{0.4126} & \colorvalneg{0.7395} & \colorvalpos{0.9800} & 0.9 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.7977} & \colorvalpos{1} & \colorvalpos{0.0110} & \colorvalpos{0.0218} & \colorvalneg{0.9890} & \colorvalpos{0.8094} & 0.9 \\
+        & & 8  & \colorvalpos{0.7958} & \colorvalpos{1} & \colorvalpos{0.0022} & \colorvalpos{0.0044} & \colorvalneg{0.9978} & \colorvalpos{0.7585} & 0.9 \\
+        & & 16 & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0132} & \colorvalneg{0.9934} & \colorvalpos{0.9579} & 0.9 \\
+        & & 64 & \colorvalpos{0.7967} & \colorvalpos{1} & \colorvalpos{0.0066} & \colorvalpos{0.0132} & \colorvalneg{0.9934} & \colorvalpos{0.9587} & 0.9 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.7977} & \colorvalpos{1} & \colorvalpos{0.0011} & \colorvalpos{0.0218} & \colorvalneg{0.9890} & \colorvalpos{0.8094} & 0.9 \\
+        & & 8  & \colorvalpos{0.8031} & \colorvalpos{1} & \colorvalpos{0.0375} & \colorvalpos{0.0723} & \colorvalneg{0.9625} & \colorvalpos{0.9224} & 0.85 \\
+        & & 16 & \colorvalpos{0.7963} & \colorvalpos{1} & \colorvalpos{0.0044} & \colorvalpos{0.0088} & \colorvalneg{0.9956} & \colorvalpos{0.9590} & 0.9 \\
+        & & 64 & \colorvalpos{0.7972} & \colorvalpos{1} & \colorvalpos{0.0088} & \colorvalpos{0.0175} & \colorvalneg{0.9912} & \colorvalpos{0.9582} & 0.9 \\
+    \midrule
 
-%\section{NDP101 Block Diagram}
-
-%\section{Audio Pipeline Flowchart}
-
-%\section{SV System Architecture}
-
-%\chapter{Experimental Results}
-
-%\section{Quantization Performance Tables}
-%\section{Confusion Matrices}
-%\section{ROC Curves for Different Enrollment Sizes}
+    \multirow{12}{*}{256-256} 
+        & \multirow{4}{*}{BEST} 
+            & 1  & \colorvalpos{0.8342} & \colorvalpos{1} & \colorvalpos{0.1898} & \colorvalpos{0.3191} & \colorvalneg{0.8102} & \colorvalpos{0.6119} & 0.75 \\
+        & & 8  & \colorvalpos{0.8975} & \colorvalpos{1} & \colorvalpos{0.4989} & \colorvalpos{0.6657} & \colorvalneg{0.5011} & \colorvalpos{0.9858} & 0.9 \\
+        & & 16 & \colorvalpos{0.8541} & \colorvalpos{1} & \colorvalpos{0.2870} & \colorvalpos{0.4460} & \colorvalneg{0.7130} & \colorvalpos{0.9919} & 0.9 \\
+        & & 64 & \colorvalpos{0.9417} & \colorvalpos{1} & \colorvalpos{0.7152} & \colorvalpos{0.8340} & \colorvalneg{0.2848} & \colorvalpos{0.9957} & 0.9 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{GEOM} 
+           & 1  & \colorvalpos{0.8342} & \colorvalpos{1} & \colorvalpos{0.1898} & \colorvalpos{0.3191} & \colorvalneg{0.8102} & \colorvalpos{0.6119} & 0.75 \\
+        & & 8  & \colorvalpos{0.8993} & \colorvalpos{1} & \colorvalpos{0.5077} & \colorvalpos{0.6735} & \colorvalneg{0.4922} & \colorvalpos{0.9111} & 0.85 \\
+        & & 16 & \colorvalpos{0.8717} & \colorvalpos{1} & \colorvalpos{0.3731} & \colorvalpos{0.5434} & \colorvalneg{0.6269} & \colorvalpos{0.9829} & 0.85 \\
+        & & 64 & \colorvalpos{0.8921} & \colorvalpos{1} & \colorvalpos{0.4724} & \colorvalpos{0.6417} & \colorvalneg{0.5276} & \colorvalpos{0.9868} & 0.85 \\
+    \cmidrule(lr){2-9}
+        & \multirow{4}{*}{MEAN} 
+            & 1  & \colorvalpos{0.8342} & \colorvalpos{1} & \colorvalpos{0.1898} & \colorvalpos{0.3191} & \colorvalneg{0.8102} & \colorvalpos{0.6120} & 0.75 \\
+        & & 8  & \colorvalpos{0.9101} & \colorvalpos{1} & \colorvalpos{0.5607} & \colorvalpos{0.7185} & \colorvalneg{0.4393} & \colorvalpos{0.9382} & 0.85 \\
+        & & 16 & \colorvalpos{0.8848} & \colorvalpos{1} & \colorvalpos{0.4371} & \colorvalpos{0.6083} & \colorvalneg{0.5629} & \colorvalpos{0.9852} & 0.85 \\
+        & & 64 & \colorvalpos{0.9110} & \colorvalpos{1} & \colorvalpos{0.5661} & \colorvalpos{0.7221} & \colorvalneg{0.4349} & \colorvalpos{0.9887} & 0.85 \\
+    \midrule
+\end{longtable}
+\newpage

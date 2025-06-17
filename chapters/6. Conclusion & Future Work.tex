@@ -1,32 +1,16 @@
 \chapter{Conclusion \& Future Work}
-
-1 PAGE\newline\newline
-
 \label{cha:conclusion}
-\section{Technical Limitations}
-\label{sec:technical limits}
-• SDK Barriers (NDA limitations)\newline
-• Hardware Constraints (DNN-only architecture limiting SV capabilities)\newline
-• Quantization Challenges (Maintaining accuracy at 4-bit precision)\newline
 
-\section{Design Trade-offs}
-\label{sec:design trade-offs}
-• Accuracy vs Power (Best-matching vs mean-cosine approaches)\newline
-• Security vs User experience (Enrollment samples)\newline
-• Model Size vs Complexity (Feature extraction capabilities)\newline
+\section{Technical Limitations and Trade-offs}
+\label{sec:technical limits and trade-offs}
+The limitations of information accessing to Syntiant documentation limited the effective model testing, because of the inability to quantize effectively the model to 4-int weights. The choice of the device was limited, too, because it supports only DNN architectures limiting SV capabilities. However, the models obtained both convolution and distilled may be still used on other TinyML microcontrollers, in case they meet the size requirements and have a MFE block generator integrated in it, because the library and spectrogram computation occupies almost 20KB, which may be not optimal and with TinyML can exhaust memory, if an external memory is not use for dataset saving. So, introducing a SD card, even though it requires more output elaboration time, may be the best solution.\newline
+During the discussion of the results, various trade-offs emerges in the choose of a model configuration respect to the other:\newline
+• Security vs User Experience: the choosing of the threshold is crucial in determining how a model satisfies the user objective. Choosing a too low threshold, leads in having a high rate of both TP and FP, accepting every samples, but on the other hand choosing a too low one, leads in having a high rate of TN and FN, accepting no samples.\newline 
+• Model Size vs Complexity: there were both presented convolutional and dense layers, which are pretty different in the operations they do. The CNN performs more articulated and power requirement operations, but on the other hand they are small sized in training parameters terms, instead DNN performs easier operations, but they require more parameters to describe harder patterns, occupying more space.\newline
+• Cosine Similarity vs Dataset Space: there were presented 3 methods to handle references d-vectors. Bestmatching is the technique that requires N references occupying xN times the space of geometrical median and mean techniques. However, the cosine similarity has higher values with the bestmatching, instead of the other two, because they are an average and not exactly a recorded sample\newline
 
-\section{Key Contributions}
+\section{Key Contributions and Future Directions}
 \label{sec:key contributions}
-• MFE/DNN Code - Full C implementation for Simulation in reproducing the behavior (the model is not quantized, so the behavior is ideal)\newline 
-• Speaker Verification Distilled\newline 
-• Quantization - Systematic approach to 8-bit quantization, not 4-bit (too experimental)\newline 
-
-\section{Future Directions}
-\label{sec:future directions}
-• If able to access to Syntiant, can deploy a compatible binary SV model\newline 
-• Integration with existing system, that according to my system response will act as consequence\newline
-• Adaptive Training (The code is ready, but can't be tested properly)\newline\newline
-
-PAGE 30\newline
-
+This thesis provides a complete software pipeline of the system, that is easily modifiable to integrate other audio neural networks. The models are only optimized in terms of performance, meanwhile a code quantization in GitHub repository, is proposed it gives different results by Tensorflow version, so this feature was not be dissected during the analysis. Comparing it with the solution TinySV proposed\cite{dvector_extractor_TinySV}\cite{dvector_extractor_code}, it was proposed a solution with 128-sized output to reduce the model dimension inspired by that solution. It turned out not being as good as the original, but still usable in general purpose case, but it is to avoid in perfect precision one. From that it was proposed a distillation method of the models to simply the operations computation proposing various alternatives compatible and deployable (if an access to Syntiant SDK is granted) with Syntiant NDP101.\newline
+The results of this work may be still used on other TinyML devices and if some company can access to the SDK, the work, that was done, may help in generating a compatible SV model directly on the device. Other than this, it can be integrated in a bigger system that may unlock a door or give a precise response depending on the case and on which threshold is used. In practice, the code is ready and on paper according to the results obtained using this One-Time Training Approach with Speaker Verification on Syntiant NDP101 is possible, but as of now, because of means limitations cannot be tested. In the end, the many focus in the future on this project should be exploring hybrid architectures that combine the efficiency of TinySV with larger models accuracy and precision and build a Syntiant NDP101 full compatible integration. Other interesting in-depth may be digging in system's security aspects from spoofing attacks and noise robustness in edge environment scenario, actions that require a deploying first. The implementation as of now serves as a foundation that could extended to support multi-modal authentication systems for one-precision requirement or general purpose deployment.
 \newpage

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  11 JUN 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.6)  17 JUN 2025 17:58
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Gottardelli_Matteo_ICE_2024_2025.tex
-(./Gottardelli_Matteo_ICE_2024_2025.tex
+**/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
+(/Users/matteogottardelligmail.com/Thesis/Gottardelli_Matteo_ICE_2024_2025.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22>
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -23,29 +23,22 @@ File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
@@ -53,14 +46,12 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
 \epsfxsize=\dimen143
 \epsfysize=\dimen144
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/plain.sty
 Package: plain 1996/04/22 Plain TeX emulation (DPC)
 \tabs@latex=\box51
 \tabsyet@latex=\box52
 \tabsdone@latex=\box53
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -68,25 +59,21 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen145
-))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen146
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count194
@@ -136,14 +123,11 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen154
 \captionmargin=\dimen155
@@ -162,32 +146,26 @@ Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count274
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count275
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen162
 \WF@size=\dimen163
 \c@WF@wrappedlines=\count276
 \WF@box=\box56
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count277
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip53
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count278
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip54
@@ -225,17 +203,13 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count281
 \algocf@algoframe=\box63
 \algocf@algobox=\box64
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count282
@@ -250,8 +224,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen176
 \Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks24
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box65
 \beforetitleunit=\skip72
@@ -262,13 +235,305 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen180
 \titlewidthlast=\dimen181
 \titlewidthfirst=\dimen182
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box66
+\extrarowheight=\dimen184
+\NC@list=\toks26
+\extratabsurround=\skip74
+\backup@length=\skip75
+\ar@cellbox=\box67
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks27
+\minrowclearance=\skip76
+\rownum=\count285
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip77
+\multirow@cntb=\count286
+\multirow@dima=\skip78
+\bigstrutjot=\dimen185
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count287
+\@cmidlb=\count288
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count289
+\@lastruleclass=\count290
+\@thisrulewidth=\dimen198
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen199
+\pgfutil@tempdimb=\dimen256
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box68
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\pgf@xd=\dimen265
+\pgf@yd=\dimen266
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count295
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count296
+\pgfsyssoftpath@bigbuffer@items=\count297
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count298
+\pgfmath@box=\box69
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count299
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count300
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen286
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen290
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count301
+\pgf@shadingcount=\count302
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box73
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box74
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count303
+\pgfplotmarksize=\dimen296
+)
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikz@lastmovetox=\dimen301
+\tikz@lastmovetoy=\dimen302
+\tikzleveldistance=\dimen303
+\tikzsiblingdistance=\dimen304
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count304
+\tikznumberofchildren=\count305
+\tikznumberofcurrentchild=\count306
+\tikz@fig@count=\count307
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count308
+\pgfmatrixcurrentcolumn=\count309
+\pgf@matrix@numberofcolumns=\count310
+)
+\tikz@expandcount=\count311
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks40
+\t@pgfplots@tokb=\toks41
+\t@pgfplots@tokc=\toks42
+\pgfplots@tmpa=\dimen305
+\c@pgfplots@coordindex=\count312
+\c@pgfplots@scanlineindex=\count313
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count314
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count315
+\t@pgfplotstable@a=\toks46
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count316
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen306
+\pgfdecoratedremainingdistance=\dimen307
+\pgfdecoratedinputsegmentcompleteddistance=\dimen308
+\pgfdecoratedinputsegmentremainingdistance=\dimen309
+\pgf@decorate@distancetomove=\dimen310
+\pgf@decorate@repeatstate=\count317
+\pgfdecorationsegmentamplitude=\dimen311
+\pgfdecorationsegmentlength=\dimen312
+)
+\tikz@lib@dec@box=\box79
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count318
+\pgfplots@xmin@reg=\dimen313
+\pgfplots@xmax@reg=\dimen314
+\pgfplots@ymin@reg=\dimen315
+\pgfplots@ymax@reg=\dimen316
+\pgfplots@zmin@reg=\dimen317
+\pgfplots@zmax@reg=\dimen318
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count319
+\LTcapwidth=\dimen319
+\LT@head=\box80
+\LT@firsthead=\box81
+\LT@foot=\box82
+\LT@lastfoot=\box83
+\LT@gbox=\box84
+\LT@cols=\count320
+\LT@rows=\count321
+\c@LT@tables=\count322
+\c@LT@chunks=\count323
+\LT@p@ftn=\toks47
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks26
-\inpenc@posthook=\toks27
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2022/08/07 UCS: Input encoding UTF-8
 
 
@@ -281,8 +546,7 @@ Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -293,8 +557,7 @@ File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -342,8 +605,7 @@ File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -622,8 +884,7 @@ File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -715,11 +976,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-)))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count324
+\l__pdf_internal_box=\box85
 )
 
 LaTeX Warning: Unused global option(s):
@@ -728,73 +988,65 @@ LaTeX Warning: Unused global option(s):
 (./Gottardelli_Matteo_ICE_2024_2025.aux)
 \openout1 = `Gottardelli_Matteo_ICE_2024_2025.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-
-(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+ (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen183
-\scratchbox=\box67
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen184
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count325
+\scratchdimen=\dimen320
+\scratchbox=\box86
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen321
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -832,92 +1084,218 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
+ on input line 69.
+
 (./front.tex
 Package epstopdf Info: Source file: <marchio_unitrento_colore_it_202002.eps>
 (epstopdf)                    date: 2020-02-12 00:03:20
 (epstopdf)                    size: 222744 bytes
-(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-con
-verted-to.pdf>
+(epstopdf)             Output file: <marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-02-12 00:12:40
 (epstopdf)                    size: 183512 bytes
-(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_i
-t_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
+(epstopdf)             Command: <repstopdf --outfile=marchio_unitrento_colore_it_202002-eps-converted-to.pdf marchio_unitrento_colore_it_202002.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=1, 369.7815pt x 11
-4.6684pt>
-File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (typ
-e pdf)
+<marchio_unitrento_colore_it_202002-eps-converted-to.pdf, id=4, 369.7815pt x 114.6684pt>
+File: marchio_unitrento_colore_it_202002-eps-converted-to.pdf Graphic file (type pdf)
 <use marchio_unitrento_colore_it_202002-eps-converted-to.pdf>
-Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pd
-f  used on input line 7.
+Package pdftex.def Info: marchio_unitrento_colore_it_202002-eps-converted-to.pdf  used on input line 7.
 (pdftex.def)             Requested size: 290.22107pt x 90.00262pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
-
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
-
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./march
-io_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./marchio_unitrento_colore_it_202002-eps-converted-to.pdf>] [2
 
 
-]
-(./Gottardelli_Matteo_ICE_2024_2025.toc [1
+] (./Gottardelli_Matteo_ICE_2024_2025.toc [1
 
 ])
-\tf@toc=\write3
-\openout3 = `Gottardelli_Matteo_ICE_2024_2025.toc'.
+\tf@toc=\write4
+\openout4 = `Gottardelli_Matteo_ICE_2024_2025.toc'.
 
  [2] (./abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--15
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--15
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--18
+
+ []
+
+
+LaTeX Warning: Citation `edgeimpulse_syntiant_tinyml' on page 3 undefined on input line 21.
+
+
+LaTeX Warning: Citation `edgeimpulse_kws_example' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Citation `edgeimpulse_firmware_syntiant' on page 3 undefined on input line 23.
+
+
+LaTeX Warning: Citation `edgeimpulse_processing_blocks' on page 3 undefined on input line 24.
 
 [3
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
- [4]) (./chapters/1. Introduction.tex
+
+LaTeX Warning: Citation `nodejs_repository' on page 4 undefined on input line 28.
+
+
+LaTeX Warning: Citation `edgeimpulse_dataset_499022' on page 4 undefined on input line 29.
+
+
+LaTeX Warning: Citation `speechcommands' on page 4 undefined on input line 30.
+
+
+LaTeX Warning: Citation `netron' on page 4 undefined on input line 31.
+
+
+LaTeX Warning: Citation `portaudio' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Citation `FFTW' on page 4 undefined on input line 33.
+
+
+LaTeX Warning: Citation `librispeech' on page 4 undefined on input line 34.
+
+
+LaTeX Warning: Citation `pqt_tensorflow' on page 4 undefined on input line 35.
+
+
+LaTeX Warning: Citation `qat_tensorflow' on page 4 undefined on input line 36.
+
+
+LaTeX Warning: Citation `esp32documentation' on page 4 undefined on input line 40.
+
+
+LaTeX Warning: Citation `syntiant_tutorial_edgeimpulse' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `tinyML_2021_summit' on page 4 undefined on input line 45.
+
+
+LaTeX Warning: Citation `experimental_try_on_ndp101' on page 4 undefined on input line 46.
+
+
+LaTeX Warning: Citation `origin_code_1' on page 4 undefined on input line 47.
+
+
+LaTeX Warning: Citation `analysis_syntiant_performances' on page 4 undefined on input line 48.
+
+
+LaTeX Warning: Citation `description_ndp101' on page 4 undefined on input line 49.
+
+
+LaTeX Warning: Citation `syntiant_audio_block' on page 4 undefined on input line 50.
+
+
+LaTeX Warning: Citation `hardware_ndp101' on page 4 undefined on input line 51.
+
+
+LaTeX Warning: Citation `neural_network_theory' on page 4 undefined on input line 55.
+
+
+LaTeX Warning: Citation `PDM_module' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `audio_processing_theory' on page 4 undefined on input line 57.
+
+
+LaTeX Warning: Citation `neural_network_training' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `distillation_from_cnn_to_dnn' on page 4 undefined on input line 59.
+
+
+LaTeX Warning: Citation `knowledge_distillation' on page 4 undefined on input line 60.
+
+
+LaTeX Warning: Citation `wu2023understandingint4quantizationtransformer' on page 4 undefined on input line 61.
+
+
+LaTeX Warning: Citation `introduction_CNN' on page 4 undefined on input line 62.
+
+
+LaTeX Warning: Citation `ptq_and_qat_indepth_quantization' on page 4 undefined on input line 63.
+
+
+LaTeX Warning: Citation `weiszfeldsalgorithm' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Citation `dnn_speaker_verification' on page 4 undefined on input line 68.
+
+
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation `dvector_extractor_code' on page 4 undefined on input line 70.
+
+[4]) (./chapters/1. Introduction.tex
 Chapter 1.
+
+LaTeX Warning: Citation `edgeimpulse_syntiant_tinyml' on page 5 undefined on input line 13.
+
+
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 5 undefined on input line 13.
+
 [5]) [6] (./chapters/2. Background Notions.tex
 Chapter 2.
-<images/2.01 NDP101 High Level Workflow.png, id=47, 1373.13pt x 497.86pt>
+
+LaTeX Warning: Citation `description_ndp101' on page 7 undefined on input line 6.
+
+<images/2.01 NDP101 High Level Workflow.png, id=50, 1373.13pt x 497.86pt>
 File: images/2.01 NDP101 High Level Workflow.png Graphic file (type png)
 <use images/2.01 NDP101 High Level Workflow.png>
-Package pdftex.def Info: images/2.01 NDP101 High Level Workflow.png  used on in
-put line 11.
+Package pdftex.def Info: images/2.01 NDP101 High Level Workflow.png  used on input line 11.
 (pdftex.def)             Requested size: 435.32422pt x 157.8295pt.
-<images/2.02 Design with peripherals.png, id=49, 413.545pt x 203.76125pt>
+
+LaTeX Warning: Citation `syntiant_audio_block' on page 7 undefined on input line 14.
+
+<images/2.02 Design with peripherals.png, id=52, 413.545pt x 203.76125pt>
 File: images/2.02 Design with peripherals.png Graphic file (type png)
 <use images/2.02 Design with peripherals.png>
-Package pdftex.def Info: images/2.02 Design with peripherals.png  used on input
- line 23.
+Package pdftex.def Info: images/2.02 Design with peripherals.png  used on input line 23.
 (pdftex.def)             Requested size: 435.32422pt x 214.4966pt.
+
+LaTeX Warning: Citation `analysis_syntiant_performances' on page 7 undefined on input line 26.
+
 [7 <./images/2.01 NDP101 High Level Workflow.png>]
-<images/2.03 MFE Block Processing.png, id=54, 808.9723pt x 121.50394pt>
+
+LaTeX Warning: Citation `syntiant_audio_block' on page 8 undefined on input line 29.
+
+<images/2.03 MFE Block Processing.png, id=57, 808.9723pt x 121.50394pt>
 File: images/2.03 MFE Block Processing.png Graphic file (type png)
 <use images/2.03 MFE Block Processing.png>
-Package pdftex.def Info: images/2.03 MFE Block Processing.png  used on input li
-ne 32.
+Package pdftex.def Info: images/2.03 MFE Block Processing.png  used on input line 32.
 (pdftex.def)             Requested size: 483.69687pt x 72.64891pt.
+
+LaTeX Warning: Citation `PDM_module' on page 8 undefined on input line 35.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-[8 <./images/2.02 Design with peripherals.png> <./images/2.03 MFE Block Process
-ing.png>]
+[8 <./images/2.02 Design with peripherals.png> <./images/2.03 MFE Block Processing.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
@@ -926,11 +1304,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--47
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<images/2.04 Neuron.png, id=71, 1002.74625pt x 1039.885pt>
+<images/2.04 Neuron.png, id=74, 1002.74625pt x 1039.885pt>
 File: images/2.04 Neuron.png Graphic file (type png)
 <use images/2.04 Neuron.png>
 Package pdftex.def Info: images/2.04 Neuron.png  used on input line 95.
 (pdftex.def)             Requested size: 183.80716pt x 190.61444pt.
+
+
+LaTeX Warning: Citation `neural_network_theory' on page 10 undefined on input line 99.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -939,11 +1321,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
-<images/2.05 Neural Network Structure.png, id=76, 747.79375pt x 518.93875pt>
+<images/2.05 Neural Network Structure.png, id=79, 747.79375pt x 518.93875pt>
 File: images/2.05 Neural Network Structure.png Graphic file (type png)
 <use images/2.05 Neural Network Structure.png>
-Package pdftex.def Info: images/2.05 Neural Network Structure.png  used on inpu
-t line 121.
+Package pdftex.def Info: images/2.05 Neural Network Structure.png  used on input line 121.
 (pdftex.def)             Requested size: 362.77264pt x 251.74834pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
@@ -956,6 +1337,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--131
  []
 
 [11 <./images/2.05 Neural Network Structure.png>]
+
+LaTeX Warning: Citation `introduction_CNN' on page 12 undefined on input line 137.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
@@ -983,12 +1368,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
 
-<images/2.06 Convolutional Neural Network.png, id=85, 408.52625pt x 221.82875pt
->
+<images/2.06 Convolutional Neural Network.png, id=88, 408.52625pt x 221.82875pt>
 File: images/2.06 Convolutional Neural Network.png Graphic file (type png)
 <use images/2.06 Convolutional Neural Network.png>
-Package pdftex.def Info: images/2.06 Convolutional Neural Network.png  used on 
-input line 167.
+Package pdftex.def Info: images/2.06 Convolutional Neural Network.png  used on input line 167.
 (pdftex.def)             Requested size: 386.95897pt x 210.1302pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 172--174
@@ -1036,18 +1419,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--206
  []
 
 
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 14 undefined on input line 213.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
+
+LaTeX Warning: Citation `kws_rnn_based' on page 14 undefined on input line 217.
+
 [14]) (./chapters/3. Keyword Spotting and Speaker Verification Models.tex
 Chapter 3.
-<images/3.01 KWS Model.png, id=93, 1357.07pt x 189.70876pt>
+
+LaTeX Warning: Citation `speechcommands' on page 15 undefined on input line 7.
+
+
+LaTeX Warning: Citation `edgeimpulse_dataset_499022' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Citation `edgeimpulse_kws_example' on page 15 undefined on input line 10.
+
+<images/3.01 KWS Model.png, id=96, 1357.07pt x 189.70876pt>
 File: images/3.01 KWS Model.png Graphic file (type png)
 <use images/3.01 KWS Model.png>
 Package pdftex.def Info: images/3.01 KWS Model.png  used on input line 15.
 (pdftex.def)             Requested size: 483.69687pt x 67.61484pt.
 [15 <./images/3.01 KWS Model.png>]
+
+LaTeX Warning: Citation `librispeech' on page 16 undefined on input line 30.
+
+
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 16 undefined on input line 35.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 
  []
@@ -1057,45 +1462,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--36
 
  []
 
-
-Underfull \vbox (badness 1997) has occurred while \output is active []
-
- [16]
-<images/3.02 D-vector Extractor.png, id=101, 1297.84875pt x 576.1525pt>
+[16]
+<images/3.02 D-vector Extractor.png, id=104, 1297.84875pt x 576.1525pt>
 File: images/3.02 D-vector Extractor.png Graphic file (type png)
 <use images/3.02 D-vector Extractor.png>
-Package pdftex.def Info: images/3.02 D-vector Extractor.png  used on input line
- 39.
+Package pdftex.def Info: images/3.02 D-vector Extractor.png  used on input line 39.
 (pdftex.def)             Requested size: 483.69687pt x 214.72035pt.
+ [17 <./images/3.02 D-vector Extractor.png>]
 
-[17 <./images/3.02 D-vector Extractor.png>]
-<images/3.03 Distillation Technique.png, id=107, 483.8075pt x 220.825pt>
+LaTeX Warning: Citation `distillation_from_cnn_to_dnn' on page 18 undefined on input line 50.
+
+
+LaTeX Warning: Citation `knowledge_distillation' on page 18 undefined on input line 50.
+
+<images/3.03 Distillation Technique.png, id=110, 483.8075pt x 220.825pt>
 File: images/3.03 Distillation Technique.png Graphic file (type png)
 <use images/3.03 Distillation Technique.png>
-Package pdftex.def Info: images/3.03 Distillation Technique.png  used on input 
-line 53.
+Package pdftex.def Info: images/3.03 Distillation Technique.png  used on input line 54.
 (pdftex.def)             Requested size: 483.69687pt x 220.78401pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
 [18 <./images/3.03 Distillation Technique.png>]
-<images/3.04 Quantization Flow.jpg, id=112, 1405.25pt x 849.1725pt>
+<images/3.04 Quantization Flow.jpg, id=115, 1405.25pt x 849.1725pt>
 File: images/3.04 Quantization Flow.jpg Graphic file (type jpg)
 <use images/3.04 Quantization Flow.jpg>
-Package pdftex.def Info: images/3.04 Quantization Flow.jpg  used on input line 
-65.
+Package pdftex.def Info: images/3.04 Quantization Flow.jpg  used on input line 66.
 (pdftex.def)             Requested size: 169.29684pt x 102.29797pt.
-<images/3.05 Quantized Model Int8.png, id=113, 1362.08875pt x 498.86375pt>
+
+
+LaTeX Warning: Citation `description_ndp101' on page 19 undefined on input line 70.
+
+
+LaTeX Warning: Citation `pqt_tensorflow' on page 19 undefined on input line 70.
+
+
+LaTeX Warning: Citation `wu2023understandingint4quantizationtransformer' on page 19 undefined on input line 70.
+
+
+LaTeX Warning: Citation `qat_tensorflow' on page 19 undefined on input line 70.
+
+<images/3.05 Quantized Model Int8.png, id=116, 1362.08875pt x 498.86375pt>
 File: images/3.05 Quantized Model Int8.png Graphic file (type png)
 <use images/3.05 Quantized Model Int8.png>
-Package pdftex.def Info: images/3.05 Quantized Model Int8.png  used on input li
-ne 74.
+Package pdftex.def Info: images/3.05 Quantized Model Int8.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 177.15495pt.
- [19 <./images/3.04 Quantization Flow.jpg> <./images/3.05 Quantized Model Int8.
-png>]) [20]
-(./chapters/4. SW and HW Implementation.tex
+[19 <./images/3.04 Quantization Flow.jpg> <./images/3.05 Quantized Model Int8.png>]) [20] (./chapters/4. SW and HW Implementation.tex
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--19
@@ -1112,13 +1526,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--19
 
  []
 
-<images/4.01 Software Pipeline.png, id=121, 1309.89375pt x 436.63126pt>
+<images/4.01 Software Pipeline.png, id=124, 1309.89375pt x 436.63126pt>
 File: images/4.01 Software Pipeline.png Graphic file (type png)
 <use images/4.01 Software Pipeline.png>
-Package pdftex.def Info: images/4.01 Software Pipeline.png  used on input line 
-22.
+Package pdftex.def Info: images/4.01 Software Pipeline.png  used on input line 22.
 (pdftex.def)             Requested size: 483.69687pt x 161.23123pt.
 [21 <./images/4.01 Software Pipeline.png>]
+
+LaTeX Warning: Citation `portaudio' on page 22 undefined on input line 37.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
@@ -1128,27 +1545,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
 
-<images/4.02 Spectrogram Edge Impulse.png, id=126, 286.06876pt x 261.97874pt>
+
+LaTeX Warning: Citation `FFTW' on page 22 undefined on input line 43.
+
+
+LaTeX Warning: Citation `edgeimpulse_processing_blocks' on page 22 undefined on input line 43.
+
+<images/4.02 Spectrogram Edge Impulse.png, id=129, 286.06876pt x 261.97874pt>
 File: images/4.02 Spectrogram Edge Impulse.png Graphic file (type png)
 <use images/4.02 Spectrogram Edge Impulse.png>
-Package pdftex.def Info: images/4.02 Spectrogram Edge Impulse.png  used on inpu
-t line 48.
+Package pdftex.def Info: images/4.02 Spectrogram Edge Impulse.png  used on input line 48.
 (pdftex.def)             Requested size: 193.47578pt x 177.18379pt.
-<images/4.03 Spectrogram My Code.png, id=127, 814.04124pt x 560.0925pt>
+<images/4.03 Spectrogram My Code.png, id=130, 814.04124pt x 560.0925pt>
 File: images/4.03 Spectrogram My Code.png Graphic file (type png)
 <use images/4.03 Spectrogram My Code.png>
-Package pdftex.def Info: images/4.03 Spectrogram My Code.png  used on input lin
-e 54.
+Package pdftex.def Info: images/4.03 Spectrogram My Code.png  used on input line 54.
 (pdftex.def)             Requested size: 241.84843pt x 166.3967pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22]
+
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+ [22]
 Overfull \vbox (36.582pt too high) has occurred while \output is active []
 
-
-[23 <./images/4.02 Spectrogram Edge Impulse.png> <./images/4.03 Spectrogram My 
-Code.png>]
+ [23 <./images/4.02 Spectrogram Edge Impulse.png> <./images/4.03 Spectrogram My Code.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -1159,11 +1581,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--163
  []
 
 [24]
-<images/4.04 D-Vector Processing.png, id=145, 1299.85625pt x 683.55376pt>
+<images/4.04 D-Vector Processing.png, id=148, 1299.85625pt x 683.55376pt>
 File: images/4.04 D-Vector Processing.png Graphic file (type png)
 <use images/4.04 D-Vector Processing.png>
-Package pdftex.def Info: images/4.04 D-Vector Processing.png  used on input lin
-e 166.
+Package pdftex.def Info: images/4.04 D-Vector Processing.png  used on input line 166.
 (pdftex.def)             Requested size: 483.69687pt x 254.36072pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--182
@@ -1171,393 +1592,191 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--182
  []
 
 [25 <./images/4.04 D-Vector Processing.png>]
-<images/4.05 Hardware Pipeline 2 NDP101.png, id=150, 1418.29875pt x 447.17062pt
->
+<images/4.05 Hardware Pipeline 2 NDP101.png, id=153, 1418.29875pt x 447.17062pt>
 File: images/4.05 Hardware Pipeline 2 NDP101.png Graphic file (type png)
 <use images/4.05 Hardware Pipeline 2 NDP101.png>
-Package pdftex.def Info: images/4.05 Hardware Pipeline 2 NDP101.png  used on in
-put line 185.
+Package pdftex.def Info: images/4.05 Hardware Pipeline 2 NDP101.png  used on input line 185.
 (pdftex.def)             Requested size: 483.69687pt x 152.49997pt.
- [26 <./images/4.05 Hardware Pipeline 2 NDP101.png>]) (./chapters/5. Results Ob
-tained.tex
+ [26 <./images/4.05 Hardware Pipeline 2 NDP101.png>]) (./chapters/5. Results Obtained.tex
 Chapter 5.
 
-LaTeX Warning: Citation `edge_impulse_kws_example' on page 27 undefined on inpu
-t line 3.
+LaTeX Warning: Citation `edgeimpulse_kws_example' on page 27 undefined on input line 5.
 
 
-LaTeX Warning: Citation `TinySV' on page 27 undefined on input line 3.
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 27 undefined on input line 5.
 
 
-Overfull \hbox (23.43134pt too wide) in paragraph at lines 14--30
+Overfull \hbox (21.95613pt too wide) in paragraph at lines 17--33
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--36
-
- []
+LaTeX Warning: Citation `weiszfeldsalgorithm' on page 27 undefined on input line 43.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--36
+Underfull \hbox (badness 10000) in paragraph at lines 12--70
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 71--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [28]
+
+LaTeX Warning: Citation `librispeech' on page 29 undefined on input line 107.
+
+
+LaTeX Warning: Citation `syntiant_tutorial_edgeimpulse' on page 29 undefined on input line 109.
+
+
+LaTeX Warning: Citation `speechcommands' on page 29 undefined on input line 110.
+
+
+LaTeX Warning: Citation `speechcommands' on page 29 undefined on input line 111.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 107--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 107--121
 
  []
 
-[28] [29] [30] [31] [32] [33]) [34] (./chapters/6. Conclusion & Future Work.tex
+[29]
+
+LaTeX Warning: Citation `description_ndp101' on page 30 undefined on input line 125.
+
+<images/5.01 CCN Confusion Matrix.png, id=170, 1280.6244pt x 1401.3153pt>
+File: images/5.01 CCN Confusion Matrix.png Graphic file (type png)
+<use images/5.01 CCN Confusion Matrix.png>
+Package pdftex.def Info: images/5.01 CCN Confusion Matrix.png  used on input line 170.
+(pdftex.def)             Requested size: 159.62085pt x 174.6508pt.
+<images/5.02 CNN Training Details.png, id=171, 1073.00874pt x 787.94376pt>
+File: images/5.02 CNN Training Details.png Graphic file (type png)
+<use images/5.02 CNN Training Details.png>
+Package pdftex.def Info: images/5.02 CNN Training Details.png  used on input line 177.
+(pdftex.def)             Requested size: 259.26178pt x 190.3848pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 168--181
+[][]  [] 
+ []
+
+[30 <./images/5.01 CCN Confusion Matrix.png> <./images/5.02 CNN Training Details.png>]
+
+Package caption Warning: \label without proper reference on input line 4.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:cnneer' on page 31 undefined on input line 189.
+
+
+Package caption Warning: \label without proper reference on input line 73.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:cnnnofp' on page 31 undefined on input line 189.
+
+
+Package caption Warning: \label without proper reference on input line 73.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:cnnnofp' on page 31 undefined on input line 194.
+
+<images/5.03 F1 Score 16 CNN.png, id=177, 450.68375pt x 208.78pt>
+File: images/5.03 F1 Score 16 CNN.png Graphic file (type png)
+<use images/5.03 F1 Score 16 CNN.png>
+Package pdftex.def Info: images/5.03 F1 Score 16 CNN.png  used on input line 198.
+(pdftex.def)             Requested size: 241.84843pt x 112.03864pt.
+<images/5.04 F1 Score 16 CNN prec1.png, id=178, 455.7025pt x 207.77625pt>
+File: images/5.04 F1 Score 16 CNN prec1.png Graphic file (type png)
+<use images/5.04 F1 Score 16 CNN prec1.png>
+Package pdftex.def Info: images/5.04 F1 Score 16 CNN prec1.png  used on input line 205.
+(pdftex.def)             Requested size: 241.84843pt x 110.27306pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 196--209
+[][]  [] 
+ []
+
+[31]
+<images/5.05 F1 Score 16 DNN.png, id=182, 519.9425pt x 438.63875pt>
+File: images/5.05 F1 Score 16 DNN.png Graphic file (type png)
+<use images/5.05 F1 Score 16 DNN.png>
+Package pdftex.def Info: images/5.05 F1 Score 16 DNN.png  used on input line 217.
+(pdftex.def)             Requested size: 241.84843pt x 204.03183pt.
+<images/5.06 F1 Score 16 DNN prec1.png, id=183, 367.3725pt x 312.16624pt>
+File: images/5.06 F1 Score 16 DNN prec1.png Graphic file (type png)
+<use images/5.06 F1 Score 16 DNN prec1.png>
+Package pdftex.def Info: images/5.06 F1 Score 16 DNN prec1.png  used on input line 224.
+(pdftex.def)             Requested size: 241.84843pt x 205.51115pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 215--228
+[][]  [] 
+ []
+
+[32 <./images/5.03 F1 Score 16 CNN.png> <./images/5.04 F1 Score 16 CNN prec1.png> <./images/5.05 F1 Score 16 DNN.png> <./images/5.06 F1 Score 16 DNN prec1.png>]
+<images/5.07 F1 Score 64 DNN.png, id=191, 485.815pt x 408.52625pt>
+File: images/5.07 F1 Score 64 DNN.png Graphic file (type png)
+<use images/5.07 F1 Score 64 DNN.png>
+Package pdftex.def Info: images/5.07 F1 Score 64 DNN.png  used on input line 239.
+(pdftex.def)             Requested size: 241.84843pt x 203.37122pt.
+<images/5.08 F1 Score 64 DNN prec1.png, id=192, 459.7175pt x 383.4325pt>
+File: images/5.08 F1 Score 64 DNN prec1.png Graphic file (type png)
+<use images/5.08 F1 Score 64 DNN prec1.png>
+Package pdftex.def Info: images/5.08 F1 Score 64 DNN prec1.png  used on input line 246.
+(pdftex.def)             Requested size: 241.84843pt x 201.72047pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 237--250
+[][]  [] 
+ []
+
+[33 <./images/5.07 F1 Score 64 DNN.png> <./images/5.08 F1 Score 64 DNN prec1.png>]) [34] (./chapters/6. Conclusion & Future Work.tex
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 35 undefined on input line 14.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
-
- []
+LaTeX Warning: Citation `dvector_extractor_code' on page 35 undefined on input line 14.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
- []
+ [35] [36]) (./Gottardelli_Matteo_ICE_2024_2025.bbl) (./attachments.tex
+Appendix A.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
-
- []
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 37 undefined on input line 29.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-[35]) [36] (./Gottardelli_Matteo_ICE_2024_2025.bbl
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11   https://www.tensorflow.org/model_
-                                        optimization/guide/quantization/post...
-
-? r
-OK, entering \nonstopmode...
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.13 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (158.26292pt too wide) in paragraph at lines 9--13
-[]\OT1/cmr/m/n/10.95 Post train-ing quan-ti-za-tion ten-sor-flow lite.  https:/
-/www.tensorflow.org/model$[]\OML/cmm/m/it/10.95 ptimization=guide=quantization=
-post[]raining\OT1/cmr/m/n/10.95 ?\OML/cmm/m/it/10.95 hl \OT1/cmr/m/n/10.95 =
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.13 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17   https://www.tensorflow.org/model_
-                                        optimization/guide/quantization/trai...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.19 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.19 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (125.17787pt too wide) in paragraph at lines 15--19
-[]\OT1/cmr/m/n/10.95 Quantization aware train-ing ten-sor-flow lite.  https://w
-ww.tensorflow.org/model$[]\OML/cmm/m/it/10.95 ptimization=guide=quantization=tr
-aining\OT1/cmr/m/n/10.95 ?\OML/cmm/m/it/10.95 hl \OT1/cmr/m/n/10.95 =
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.19 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-[]\OT1/cmr/m/n/10.95 Neural net-work def-i-ni-tion and com-po-nents.  https://s
-.mriquestions.com/what-is-a-neural-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.35 ... https://github.com/happychriss/Goodwatch_
-                                                  NDP101_SpeeechRecognition,
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.38 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.38 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\OT1/cmr/m/n/10.95 Neuhaus Chris-tian.  Code ex-per-i-men-tal im-ple-men-ta-t
-ion on ndp101.
- []
-
-
-Overfull \hbox (12.14912pt too wide) in paragraph at lines 33--38
-\OT1/cmr/m/n/10.95 https://github.com/happychriss/Goodwatch$[]\OML/cmm/m/it/10.
-95 DP\OT1/cmr/m/n/10.95 101[]\OML/cmm/m/it/10.95 peeechRecognition; \OT1/cmr/m/
-n/10.95 2021\OML/cmm/m/it/10.95 : LastAccess\OT1/cmr/m/n/10.95 28\OML/cmm/m/it/
-10.95 =\OT1/cmr/m/n/10.95 05\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 2025\OML/cm
-m/m/it/10.95 :[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.38 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 55--60
-[]\OT1/cmr/m/n/10.95 Espressif.  Esp32 doc-u-men-ta-tion.  https://www.espressi
-f.com/en/support/documents/technical-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
-[]\OT1/cmr/m/n/10.95 Ostrovan Eu-ge-niu.  Tinyml on-device neu-ral net-work tra
-in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
-\OT1/cmr/m/n/10.95 ing.  https://www.politesi.polimi.it/retrieve/e9f5774c-592d-
-4741-a6d4-
- []
-
-
-Overfull \hbox (32.4988pt too wide) in paragraph at lines 116--120
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Au-dio clas-si-fi-ca-tion - key-word spot-
-ting.  https://studio.edgeimpulse.com/public/499022/latest,
+Overfull \hbox (0.94809pt too wide) in paragraph at lines 6--68
+ [][] 
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
-[]\OT1/cmr/m/n/10.95 Edge Im-pulse.  Firmware syn-tiant tinyml github repos-i-t
-ory.
+
+LaTeX Warning: Citation `dvector_extractor_TinySV' on page 38 undefined on input line 98.
+
+[38] [39] [40] [41]) [42] (./acknowledgements.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 11--230
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
-\OT1/cmr/m/n/10.95 https://github.com/edgeimpulse/firmware-syntiant-tinyml/tree
-/master, 2025.  Last Ac-cess
- []
-
-
-Overfull \hbox (49.07596pt too wide) in paragraph at lines 178--184
-[]\OT1/cmr/m/n/10.95 Syntiant.  Syn-tiant tu-to-rial edge im-pulse.  https://ww
-w.eetree.cn/wiki/[]media/syntiant[]tinyml[]tutorial[]mac[].pdf,
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.196 ...as.edu/~bevans/courses/rtdsp/lectures/10_
-                                                  Data_Conversion/AP_Underst...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.199 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.199 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (470.71371pt too wide) in paragraph at lines 193--199
-[]\OT1/cmr/m/n/10.95 Kite Thomas.  Un-der-stand-ing pdm dig-i-tal au-dio.  http
-s://users.ece.utexas.edu/ bevans/courses/rtdsp/lectures/10$[]\OML/cmm/m/it/10.9
-5 ata[]onversion=AP[]nderstanding[]DM[]igital[]udio:pdf; \OT1/cmr/m/n/10.95 201
-2\OML/cmm/m/it/10.95 : LastAccess\OT1/cmr/m/n/10.95 28\OML/cmm/m/it/10.95 =\OT1
-/cmr/m/n/10.95 05\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 2025\OML/cmm/m/it/10.9
-5 :[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.199 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.204 ...nt/uploads/summit2021/tinyMLSummit2021d1_
-                                                  Awards_Syntiant.pdf,
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.207 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.207 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 201--207
-[]\OT1/cmr/m/n/10.95 TinyML.  Tinyml 2021 sum-mit pre-sen-ta-tion syn-tiant ndp
-120.  https://cms.tinyml.org/wp-
- []
-
-
-Overfull \hbox (10.47276pt too wide) in paragraph at lines 201--207
-\OT1/cmr/m/n/10.95 content/uploads/summit2021/tinyMLSummit2021d1$[]\OML/cmm/m/i
-t/10.95 wards[]yntiant:pdf; \OT1/cmr/m/n/10.95 2021\OML/cmm/m/it/10.95 : LastAc
-cess\OT1/cmr/m/n/10.95 28\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 05\OML/cmm/m/i
-t/10.95 =\OT1/cmr/m/n/10.95 2025\OML/cmm/m/it/10.95 :[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.207 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-) (./attachments.tex) [38] (./acknowledgements.tex)
 (./Gottardelli_Matteo_ICE_2024_2025.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1565,45 +1784,21 @@ LaTeX Warning: There were undefined references.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 62 (\begingroup)
+### semi simple group (level 1) entered at line 105 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6683 strings out of 476025
- 119013 string characters out of 5790018
- 1872388 words of memory out of 5000000
- 26964 multiletter control sequences out of 15000+600000
- 527167 words of font info for 89 fonts, out of 8000000 for 9000
+ 27595 strings out of 476025
+ 693731 string characters out of 5790018
+ 1962388 words of memory out of 5000000
+ 47495 multiletter control sequences out of 15000+600000
+ 528751 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,18n,77p,1944b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mitt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Gottardelli_Matteo_ICE_2024_2025.pdf (40 pages, 7356226 bytes
-).
+ 84i,18n,80p,1989b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Gottardelli_Matteo_ICE_2024_2025.pdf (44 pages, 8153849 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
