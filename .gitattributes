@@ -1,3 +1,6 @@
 analysis/data/dataset.zip filter=lfs diff=lfs merge=lfs -text
 analysis/data/librispeech-train-100-clean-mfe-1sec.npz filter=lfs diff=lfs merge=lfs -text
 analysis/results/Results[[:space:]]Full[[:space:]]Analysis.xlsx filter=lfs diff=lfs merge=lfs -text
+analysis/data/*.zip filter=lfs diff=lfs merge=lfs -text
+analysis/data/*.npz filter=lfs diff=lfs merge=lfs -text
+analysis/results/*.xlsx filter=lfs diff=lfs merge=lfs -text
