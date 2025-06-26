@@ -15,23 +15,46 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 
 ```bash
 Syntiant-NDP101-Speaker-Verification-Thesis/
-├── models/
-│   ├── kws_model.h
-│   ├── sv_dnn_128.h
-│   └── sv_cnn_reference/
-├── src/
-│   ├── main.c
-│   ├── mfe.c
-│   ├── kws.c
-│   └── sv.c
-├── data/
-│   ├── sheila_ours.wav
-│   └── sheila_google.wav
-├── test/
-│   └── results/
+├── analysis/
+│   ├── data/
+│   │   ├── dataset.zip
+|   │   └── librispeech-train-100-clean-mfe-1sec.npz
+│   ├── deploy/
+│   │   ├── kws_sheila_arduino/
+|   │   └── sv_sheila_arduino/
+│   ├── include/
+│   │   ├── fft/
+│   │   ├── svconv/
+│   │   ├── svdense/
+│   │   ├── svq8/
+│   │   ├── svq4
+|   │   └── *.h
+│   ├── libraries/
+│   ├── models/
+│   │   ├── Dvector128/
+|   |   │   └── sv128256/
+|   │   └──Dvector256/
+|   |   │   ├── sv256U/
+|   |   │   ├── sv256192/
+|   |   │   ├── sv256240/
+|   |   │   └── sv256256/
+|   │   └── kws_sheila_model.tflite
+│   ├── results/
+│   │   ├── other_words
+│   │   ├── sheila_0
+│   │   ├── sheila_others
+|   │   └── Results Full Analysis.xlsx
+│   ├── src/
+|   │   └── *.c
+│   ├── draw_epochs_graphs.py
+│   ├── epochs.txt
+│   ├── extract_scales.sh
+│   ├── folder_flash.sh
+│   ├── ndp_flash.sh
+│   └── refresh.sh
+├── chapters/ì
 ├── images/
-│   └── *.png
-└── README.md
+└── Gottardelli_Matteo_ICE_20242025.pdf
 ```
 To reproduce the code and the analysis, go to analysis folder and read the readME. This one is a general explanation of what achieved but not on how to make it work. 
 
