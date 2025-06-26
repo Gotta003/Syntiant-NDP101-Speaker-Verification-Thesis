@@ -190,8 +190,10 @@ Tested using a balanced dataset of “Sheila” utterances from both Google Spee
 - **F1 Score**: in general good F1 with high number of references
 - **Cosine Similarity Matching**: Stable across batches
 - **Weakness**: Non-deployable on NDP101, used as reference for distillation
-![16 EER](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png)
-![16 PREC](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png)
+<p float="left">
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png" width=45%)>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png" width=45%)>
+</p>
 
 ### SV with Distilled DNN Models
 
