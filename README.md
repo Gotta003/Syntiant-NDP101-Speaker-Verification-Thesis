@@ -36,13 +36,14 @@ Syntiant-NDP101-Speaker-Verification-Thesis/
 To reproduce the code and the analysis, go to analysis folder and read the readME. This one is a general explanation of what achieved but not on how to make it work. 
 
 ## Syntiant Overview
-The Syntiant NDP101 is neural decision processor designed for real-time, ultra-low power audio applications. It integrates:
-• Audio capture via dual **PDM microphone**
-• An **MFE (Mel-Feature Extractor)** hardware block
-• A **DNN inference** engine with limited support (no CNN)
-• SPI and GPIO interfaces for embedded communication
+![Syntiant Overview](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/2.01%20NDP101%20High%20Level%20Workflow.png)
 
-//IMAGE
+The Syntiant NDP101 is neural decision processor designed for real-time, ultra-low power audio applications. It integrates:
+   - Audio capture via dual **PDM microphone**\
+   - A core NDP101 integrated with an Arduino Zero TinyML board
+   - An **MFE (Mel-Feature Extractor)** hardware block
+   - A **DNN inference** engine with limited support (no CNN)
+   - SPI and GPIO interfaces for embedded communication
 
 Despite powerful hardware features, its SDK is limited under NDA, restricting CNN-based models, requiring **software simulation** and **knowledge distillation**
 
@@ -59,7 +60,7 @@ Despite powerful hardware features, its SDK is limited under NDA, restricting CN
 
 ### Hardware Pipeline  
 
-//IMAGE
+![Hardware Pipeline](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/4.05%20Hardware%20Pipeline%202%20NDP101.png)
 
 Two **Syntiant NDP101** processors act as independent agents:
 - **Master**: handles KWS
@@ -75,7 +76,7 @@ This modular architecture allows scalable expansion by associating each microcon
 
 ### Software Pipeline  
 
-//IMAGE
+![Software Pipeline](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/4.01%20Software%20Pipeline.png)
 
 The pipeline contains 5 major stages:
 
@@ -89,23 +90,19 @@ The pipeline contains 5 major stages:
    - **Log Energy + Flattening**, logarithmic compression and noise non-audible energy discarded
 It generates a spectrogram 40x40.
 
-   //IMAGE
+![Feature Extraction](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/2.03%20MFE%20Block%20Processing.png)
    
 3. **KWS Inference**:
-
-    //IMAGE
-    
     - Triggers SV only if keyword detected
     - Trained via Edge Impulse
     - Input Spectrogram 40x40
     - Structure FC256 -> FC256 -> FC256 -> Softmax 
     - Output belonging or not to a class (classification)
     - Fully compatible with Syntiant DNN constraints
+  
+![KWS inference](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/3.01%20KWS%20Model.png)
     
-4. **SV Inference**:
-
-    //IMAGE
-    
+4. **SV Inference**:    
     - Trained with Tensorflow
     - Input Spectrogram 40x40
     - Model is a one-time trained, so it does not require retraining using reference d-vectors to differentiate people and words (text-dependency)
@@ -113,15 +110,15 @@ It generates a spectrogram 40x40.
     - Structure of CNN composed by Convolution 2D with BatchNorm and ReLu and Max-Pooling that gives a d-vector 128 or 256 size output
     - Various distillation DNN, consisting in 3 intermediate layers and one output and the 3 internal have varying neurons
     - Outputs a **d-vector**
-    
+
+![SV Inference](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/3.02%20D-vector%20Extractor.png)
 5. **References' comparison Phase**:
-
-    //IMAGE
-
     - Receives in input the d-vector
     - Compares it to stored references using **cosine similarity**.
     - The comparison is done only on reference in the words dominion given by KWS
+    - The d-vector are stored in a permanent database
     
+![Comparison Phase](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/4.04%20D-Vector%20Processing.png)
 6. **Enrollment**: Stores N reference vectors per user/word in memory (options: BEST, MEAN, GEOM MEDIAN)
 
 ---
