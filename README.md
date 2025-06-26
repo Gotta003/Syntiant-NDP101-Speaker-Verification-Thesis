@@ -161,22 +161,6 @@ Capability in dataset:
 | Words Float        | 64       | 8       | 4       | 1       | 64         | 64          |
 | Words 4-int        | 512      | 64      | 32      | 8       | 512        | 512         |
 
-### KWS Model
-Trained on ~3000 samples for "Sheila" and similar-sounding words.
-Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
-
-- Accuracy: 90.1%
-- Precision: 97.9%
-- Recall: 90.1%
-- F1 Score: 93.9%
-- EER: 10.1%
-- AUC: 0.885
-
-### SV Models  
-- **CNN**: deeper semantics, fewer weights, not supported by Syntiant. Two models where explored:
-- **DNN (Dense)**: deployable, higher memory, shallower understanding.
-- Distilled using cosine similarity loss, achieving average similarity ~87.5%.
-
 ---
 
 ## Aggregation & Reference Management
@@ -198,12 +182,25 @@ Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
 - EER: 10.1%
 - AUC: 0.885
 
-### SV with CNN
-- Optimal at 64 references (recall ~94%, F1 ~0.82)
+Tested using a balanced dataset of “Sheila” utterances from both Google Speech Commands and custom recordings. Training was done with Edge Impulse using 40×40 Mel-spectrograms, targeting 2 classes: "sheila" and "not sheila". "not sheila" consisted in unknown words, similar words and sounds. 
 
-### SV with DNN
-- Best deployable: 256-192 (F1 ~0.58, recall ~60%)
-- Optimal memory trade-off: 128-128, Mean aggregation
+### SV (Speaker Verification) with CNN Teacher Model
+
+- **Recall**: up to 94% with 64 references (Best aggregation), but too many references, so good trade-off in 
+- **F1 Score**: ~0.85
+- **Cosine Similarity Matching**: Stable across batches
+- **Weakness**: Non-deployable on NDP101, used as reference for distillation
+![16 EER](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png)
+![16 PREC](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png)
+
+### SV with Distilled DNN Models
+
+- **Best deployable configuration**: 256-192 (Intermediate layer = 192 neurons), F1 score around 70% with precision=1
+- **Memory usage**: Fits within NDP101 flash constraints
+- **F1 Score**: ~0.58 with Best aggregation and 8 references
+- **Recall**: ~60% at 100% precision
+- **Best memory-efficient configuration**: 128-128 with Mean aggregation, but at the same time too low recall
+- **False Positive Rate**: Tunable via threshold; precision=1 achieved with reduced recall
 
 ---
 
@@ -226,19 +223,21 @@ Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
 ---
 
 ## Future Work
-- Deploy with SDK once accessible
-- Test adaptive SV training
-- Port to boards with CNN support (e.g., NDP120)
+- Deploy with SDK if accessible (there are already in deploy folder a working KWS deployable on Syntiant NDP101 and a setup for SV but it is missing 
+- Trying optimize these algorithms in DNN
+- Port to boards with CNN support to have higher control
+- Try changing to more complex and solid Neural Network
 
 ---
 
-## References
+## Main References
 
 - Edge Impulse
 - Google Speech Commands
 - TinySV
 - LibriSpeech
 - Syntiant Docs
+The other minor ones are in the thesis pdf file.
 
 ---
 
