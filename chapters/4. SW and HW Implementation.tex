@@ -184,13 +184,13 @@ Viewing the system from a hardware perspective, it will be made up of 2 Syntiant
 • MISO (Master Input/Slave Output) - line that slave uses to send data to the master\newline
 • SCLK (Clock) - line for the clock signal\newline 
 • SS/CS (Slave Select) - line to select which slave to send data to, allowing for the scalability\newline
-The setup in practice is like the one in \textbf{Figure \ref{hardware setup}}:\newline
+The setup in practice is like the one in \textbf{Figure \ref{fig:hardware setup}}:\newline
 \begin{center}
     \centering
     \begin{figure}[!h]
         \includegraphics[width=1.0\textwidth]{images/4.05 Hardware Pipeline 2 NDP101.png}
         \caption{System Hardware Setup}
-        \label{fig:hardware setup}
+         \label{fig:hardware setup}
     \end{figure}
 \end{center}
 The pseudocode of each MCU consists in a setup function, called only once when the devices are turned on or after a reset and another that is continuously running and it is instead the core of the implementation.
