@@ -280,7 +280,7 @@ Tested using a balanced dataset of “Sheila” utterances from both Google Spee
 - TinySV
 - LibriSpeech
 - Syntiant Docs
-The other minor ones are in the thesis pdf file.
+- The other minor ones are in the thesis pdf file.
 
 ---
 
