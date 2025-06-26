@@ -112,6 +112,7 @@ It generates a spectrogram 40x40.
     - Outputs a **d-vector**
 
 ![SV Inference](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/3.02%20D-vector%20Extractor.png)
+
 5. **Cosine Similarity Output**:
     - Receives in input the d-vector
     - Compares it to stored references using **cosine similarity**.
