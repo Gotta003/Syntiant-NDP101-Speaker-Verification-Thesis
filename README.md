@@ -192,8 +192,8 @@ Tested using a balanced dataset of “Sheila” utterances from both Google Spee
 - **Weakness**: Non-deployable on NDP101, used as reference for distillation
   
 <p float="left">
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png" width=45%>
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png" width=45%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png" width=49%>
 </p>
 
 ### SV with Distilled DNN Models
@@ -206,12 +206,12 @@ Tested using a balanced dataset of “Sheila” utterances from both Google Spee
 - **False Positive Rate**: Tunable via threshold; precision=1 achieved with reduced recall
 - 
 <p float="left">
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.05%20F1%20Score%2016%20DNN.png" width=45%>
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.06%20F1%20Score%2016%20DNN%20prec1.png" width=45%)
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.05%20F1%20Score%2016%20DNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.06%20F1%20Score%2016%20DNN%20prec1.png" width=49%)
 </p>
 <p float="left">
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.07%20F1%20Score%2064%20DNN.png" width=45%>
-   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.08%20F1%20Score%2064%20DNN%20prec1.png" width=45%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.07%20F1%20Score%2064%20DNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.08%20F1%20Score%2064%20DNN%20prec1.png" width=49%>
 </p>
 
 ---
