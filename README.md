@@ -8,7 +8,7 @@
 ![Dataset](https://img.shields.io/badge/dataset-GSC%20v2%20%7C%20LibriSpeech-orange)
 ![TinyML](https://img.shields.io/badge/tinyml-enabled-brightgreen)
 ![Thesis](https://img.shields.io/badge/thesis-BSc-blueviolet)
-![Status](https://img.shields.io/badge/status-Completed-green)
+![Status](https://img.shields.io/badge/status-Partially_Completed-lightgrey)
 
 This repository contains the implementation code and documentation for my Bachelor's Degree final dissertation in **Computer, Communication and Electronic Engineering** at the **Department of Information Engineering and Computer Science** in Trento.
 
