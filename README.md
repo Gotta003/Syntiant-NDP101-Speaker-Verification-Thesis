@@ -187,7 +187,7 @@ Tested using a balanced dataset of “Sheila” utterances from both Google Spee
 ### SV (Speaker Verification) with CNN Teacher Model
 
 - **Recall**: up to 94% with 64 references (Best aggregation), but too many references, so good trade-off in 
-- **F1 Score**: ~0.85
+- **F1 Score**: in general good F1 with high number of references
 - **Cosine Similarity Matching**: Stable across batches
 - **Weakness**: Non-deployable on NDP101, used as reference for distillation
 ![16 EER](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png)
