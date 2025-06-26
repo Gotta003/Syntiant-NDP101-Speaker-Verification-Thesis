@@ -18,34 +18,34 @@ Syntiant-NDP101-Speaker-Verification-Thesis/
 ├── analysis/
 │   ├── data/
 │   │   ├── dataset.zip
-|   │   └── librispeech-train-100-clean-mfe-1sec.npz
+│   │   └── librispeech-train-100-clean-mfe-1sec.npz
 │   ├── deploy/
 │   │   ├── kws_sheila_arduino/
-|   │   └── sv_sheila_arduino/
+│   │   └── sv_sheila_arduino/
 │   ├── include/
 │   │   ├── fft/
 │   │   ├── svconv/
 │   │   ├── svdense/
 │   │   ├── svq8/
 │   │   ├── svq4
-|   │   └── *.h
+│   │   └── *.h
 │   ├── libraries/
 │   ├── models/
 │   │   ├── Dvector128/
-|   |   │   └── sv128256/
-|   │   └──Dvector256/
-|   |   │   ├── sv256U/
-|   |   │   ├── sv256192/
-|   |   │   ├── sv256240/
-|   |   │   └── sv256256/
-|   │   └── kws_sheila_model.tflite
+│   │   │   └── sv128256/
+│   │   └──Dvector256/
+│   │   │   ├── sv256U/
+│   │   │   ├── sv256192/
+│   │   │   ├── sv256240/
+│   │   │   └── sv256256/
+│   │   └── kws_sheila_model.tflite
 │   ├── results/
 │   │   ├── other_words
 │   │   ├── sheila_0
 │   │   ├── sheila_others
-|   │   └── Results Full Analysis.xlsx
+│   │   └── Results Full Analysis.xlsx
 │   ├── src/
-|   │   └── *.c
+│   │   └── *.c
 │   ├── draw_epochs_graphs.py
 │   ├── epochs.txt
 │   ├── extract_scales.sh
