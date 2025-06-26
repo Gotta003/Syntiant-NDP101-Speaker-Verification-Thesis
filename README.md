@@ -120,11 +120,14 @@ It generates a spectrogram 40x40.
     - The d-vector are stored in a permanent database
     
 ![Cosine Similarity Output](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5236d2728b30072128ad53e0efb447b9f43adcd1/images/4.04%20D-Vector%20Processing.png)
+
 6. **Enrollment**: Stores N reference vectors per user/word in memory (options: BEST, MEAN, GEOM MEDIAN)
 
 ---
 
-## 🧱 Model In-depth
+## 🧱 Models
+
+
 
 ### KWS Model
 Trained on ~3000 samples for "Sheila" and similar-sounding words.
