@@ -20,7 +20,7 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 - SPI between master (KWS) and slave (SV) devices  
 
 ### Software Pipeline
-|[Software Pipeline](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/923e9f506ef6f5606b0ae7bde84b3dad58e3bdc6/images/4.01%20Software%20Pipeline.png)
+![Software Pipeline](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/923e9f506ef6f5606b0ae7bde84b3dad58e3bdc6/images/4.01%20Software%20Pipeline.png)
 1. **Signal Capture**: 968ms PDM audio, 15488 samples at 16kHz  
 2. **Feature Extraction**: Log-mel spectrogram (40×40) using custom C implementation of Syntiant MFE  
 3. **Keyword Spotting**: DNN model trained using Edge Impulse  
