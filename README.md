@@ -1,6 +1,14 @@
 
 # TinyML-Based Voice Recognition System on Syntiant NDP101 - From Keyword Spotting to Speaker Verification - Thesis   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Platform](https://img.shields.io/badge/platform-Syntiant%20NDP101-blue)
+![Language](https://img.shields.io/badge/language-C%20%7C%20Python-blue)
+![Tool](https://img.shields.io/badge/tool-Edge%20Impulse-brightgreen)
+![Framework](https://img.shields.io/badge/framework-TensorFlow-orange)
+![Dataset](https://img.shields.io/badge/dataset-GSC%20v2%20%7C%20LibriSpeech-orange)
+![TinyML](https://img.shields.io/badge/tinyml-enabled-brightgreen)
+![Thesis](https://img.shields.io/badge/thesis-BSc-blueviolet)
+![Status](https://img.shields.io/badge/status-Completed-green)
 
 This repository contains the implementation code and documentation for my Bachelor's Degree final dissertation in **Computer, Communication and Electronic Engineering** at the **Department of Information Engineering and Computer Science** in Trento.
 
@@ -52,7 +60,7 @@ Syntiant-NDP101-Speaker-Verification-Thesis/
 │   ├── folder_flash.sh
 │   ├── ndp_flash.sh
 │   └── refresh.sh
-├── chapters/ì
+├── chapters/
 ├── images/
 └── Gottardelli_Matteo_ICE_20242025.pdf
 ```
