@@ -19,7 +19,7 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 
 ---
 
-## Repo Structure (suggested)
+## Repository Structure
 
 ```bash
 Syntiant-NDP101-Speaker-Verification-Thesis/
