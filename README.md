@@ -13,11 +13,11 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 - Emulate **d-vector-based SV** in software due to NDA limitations on NDP101 SDK.
 
 ## System Architecture
-
 ### Hardware
+
 - Dual **Syntiant NDP101** neural processors  
-- **PDM microphone input**  
-- SPI interface between master (KWS) and slave (SV) devices  
+- **PDM microphone input** integrated in Syntiant
+- SPI between master (KWS) and slave (SV) devices  
 
 ### Software Pipeline
 1. **Signal Capture**: 968ms PDM audio, 15488 samples at 16kHz  
