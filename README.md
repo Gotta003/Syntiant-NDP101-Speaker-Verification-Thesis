@@ -125,9 +125,41 @@ It generates a spectrogram 40x40.
 
 ---
 
-## 🧱 Models
+## Models
 
+Structure:
+| Model Name | KWS     | SV128      | SV256      | SVD128 | SVDU256 | SVD192 | SVD240 | SVD2256 |
+|------------|---------|------------|------------|--------|---------|--------|--------|---------|
+| Type       | Dense   | Conv       | Conv       | Dense  | Dense   | Dense  | Dense  | Dense   |
+| Origin     | -       | -          | -          | SV128  | SV256   | SV256  | SV256  | SV256   |
+| Input      | 1600    | (40x40x1)  | (40x40x1)  | 1600   | 1600    | 1600   | 1600   | 1600    |
+| Layer 1    | 256     | (13x13x8)  | (13x13x8)  | 256    | 256     | 192    | 240    | 256     |
+| Layer 2    | 256     | (6x6x16)   | (6x6x16)   | 256    | 256     | 192    | 240    | 256     |
+| Layer 3    | 256     | (3x3x32)   | (3x3x32)   | 256    | 128     | 192    | 240    | 256     |
+| Layer 4    | -       | (2x2x64)   | -          | -      | -       | -      | -      | -       |
+| Layer Out  | 2       | 128        | 256        | 128    | 256     | 256    | 256    | 256     |
+| Total (KB) | 2117    | 383,6      | 95,2       | 2243,5 | 2115,5  | 1683,25| 2193,8 | 2372    |
+| Deployable | YES     | NO         | NO         | YES    | YES     | YES    | YES    | NO      |
 
+Capability in dataset:
+
+| Type               | D-vector = 128                              |         |         |         |       |  |
+|--------------------|---------------------------------------------|---------|---------|---------|------------|-------------|
+| Aggregation        | Best                                        |         |         |         | Mean           | Geom_Median  |
+| N° Refs            | 1         | 8       | 16      | 64      | All        | All         |
+| Size of Word (B)   | 512      | 4096    | 8192    | 32768   | 512        | 512         |
+| Quant (B)          | 64       | 512     | 1024    | 4096    | 64         | 64          |
+| Words Float        | 128      | 16      | 8       | 2       | 128        | 128         |
+| Words 4-int        | 1024     | 128     | 64      | 16      | 1024       | 1024        |
+
+| Type               | D-vector = 256                              |         |         |         |        |  |
+|--------------------|---------------------------------------------|---------|---------|---------|------------|-------------|
+| Aggregation        | Best                                        |         |         |         | Mean           |  Geom_Median           |
+| N° Refs            | 1         | 8       | 16      | 64      | All        | All         |
+| Size of Word (B)   | 1024     | 8192    | 16384   | 65536   | 1024       | 1024        |
+| Quant (B)          | 128      | 1024    | 2048    | 8192    | 128        | 128         |
+| Words Float        | 64       | 8       | 4       | 1       | 64         | 64          |
+| Words 4-int        | 512      | 64      | 32      | 8       | 512        | 512         |
 
 ### KWS Model
 Trained on ~3000 samples for "Sheila" and similar-sounding words.
