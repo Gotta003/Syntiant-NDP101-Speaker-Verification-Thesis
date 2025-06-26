@@ -14,7 +14,7 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 
 ## System Architecture
 ### Hardware
-![hardware](images/4.05 Hardware Pipeline 2 NDP101.png)
+![images/4.05 Hardware Pipeline 2 NDP101.png](https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/5f6004833dd493d917eaffe0157fbbd1eeba2c24/images/4.05%20Hardware%20Pipeline%202%20NDP101.png)
 - Dual **Syntiant NDP101** neural processors  
 - **PDM microphone input** integrated in Syntiant
 - SPI between master (KWS) and slave (SV) devices  
