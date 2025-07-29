@@ -1,6 +1,14 @@
 
 # TinyML-Based Voice Recognition System on Syntiant NDP101 - From Keyword Spotting to Speaker Verification - Thesis   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Platform](https://img.shields.io/badge/platform-Syntiant%20NDP101-blue)
+![Language](https://img.shields.io/badge/language-C%20%7C%20Python-blue)
+![Tool](https://img.shields.io/badge/tool-Edge%20Impulse-brightgreen)
+![Framework](https://img.shields.io/badge/framework-TensorFlow-orange)
+![Dataset](https://img.shields.io/badge/dataset-GSC%20v2%20%7C%20LibriSpeech-orange)
+![TinyML](https://img.shields.io/badge/tinyml-enabled-brightgreen)
+![Thesis](https://img.shields.io/badge/thesis-BSc-blueviolet)
+![Status](https://img.shields.io/badge/status-Partially_Completed-lightgrey)
 
 This repository contains the implementation code and documentation for my Bachelor's Degree final dissertation in **Computer, Communication and Electronic Engineering** at the **Department of Information Engineering and Computer Science** in Trento.
 
@@ -11,27 +19,50 @@ This thesis explores the implementation of a **TinyML voice recognition system**
 
 ---
 
-## Repo Structure (suggested)
+## Repository Structure
 
 ```bash
 Syntiant-NDP101-Speaker-Verification-Thesis/
-├── models/
-│   ├── kws_model.h
-│   ├── sv_dnn_128.h
-│   └── sv_cnn_reference/
-├── src/
-│   ├── main.c
-│   ├── mfe.c
-│   ├── kws.c
-│   └── sv.c
-├── data/
-│   ├── sheila_ours.wav
-│   └── sheila_google.wav
-├── test/
-│   └── results/
+├── analysis/
+│   ├── data/
+│   │   ├── dataset.zip
+│   │   └── librispeech-train-100-clean-mfe-1sec.npz
+│   ├── deploy/
+│   │   ├── kws_sheila_arduino/
+│   │   └── sv_sheila_arduino/
+│   ├── include/
+│   │   ├── fft/
+│   │   ├── svconv/
+│   │   ├── svdense/
+│   │   ├── svq8/
+│   │   ├── svq4
+│   │   └── *.h
+│   ├── libraries/
+│   ├── models/
+│   │   ├── Dvector128/
+│   │   │   └── sv128256/
+│   │   └──Dvector256/
+│   │   │   ├── sv256U/
+│   │   │   ├── sv256192/
+│   │   │   ├── sv256240/
+│   │   │   └── sv256256/
+│   │   └── kws_sheila_model.tflite
+│   ├── results/
+│   │   ├── other_words
+│   │   ├── sheila_0
+│   │   ├── sheila_others
+│   │   └── Results Full Analysis.xlsx
+│   ├── src/
+│   │   └── *.c
+│   ├── draw_epochs_graphs.py
+│   ├── epochs.txt
+│   ├── extract_scales.sh
+│   ├── folder_flash.sh
+│   ├── ndp_flash.sh
+│   └── refresh.sh
+├── chapters/
 ├── images/
-│   └── *.png
-└── README.md
+└── Gottardelli_Matteo_ICE_20242025.pdf
 ```
 To reproduce the code and the analysis, go to analysis folder and read the readME. This one is a general explanation of what achieved but not on how to make it work. 
 
@@ -125,25 +156,41 @@ It generates a spectrogram 40x40.
 
 ---
 
-## 🧱 Models
+## Models
 
+Structure:
+| Model Name | KWS     | SV128      | SV256      | SVD128 | SVDU256 | SVD192 | SVD240 | SVD2256 |
+|------------|---------|------------|------------|--------|---------|--------|--------|---------|
+| Type       | Dense   | Conv       | Conv       | Dense  | Dense   | Dense  | Dense  | Dense   |
+| Origin     | -       | -          | -          | SV128  | SV256   | SV256  | SV256  | SV256   |
+| Input      | 1600    | (40x40x1)  | (40x40x1)  | 1600   | 1600    | 1600   | 1600   | 1600    |
+| Layer 1    | 256     | (13x13x8)  | (13x13x8)  | 256    | 256     | 192    | 240    | 256     |
+| Layer 2    | 256     | (6x6x16)   | (6x6x16)   | 256    | 256     | 192    | 240    | 256     |
+| Layer 3    | 256     | (3x3x32)   | (3x3x32)   | 256    | 128     | 192    | 240    | 256     |
+| Layer 4    | -       | (2x2x64)   | -          | -      | -       | -      | -      | -       |
+| Layer Out  | 2       | 128        | 256        | 128    | 256     | 256    | 256    | 256     |
+| Total (KB) | 2117    | 383,6      | 95,2       | 2243,5 | 2115,5  | 1683,25| 2193,8 | 2372    |
+| Deployable | YES     | NO         | NO         | YES    | YES     | YES    | YES    | NO      |
 
+Capability in dataset:
 
-### KWS Model
-Trained on ~3000 samples for "Sheila" and similar-sounding words.
-Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
+| Type               | D-vector = 128                              |         |         |         |       |  |
+|--------------------|---------------------------------------------|---------|---------|---------|------------|-------------|
+| Aggregation        | Best                                        |         |         |         | Mean           | Geom_Median  |
+| N° Refs            | 1         | 8       | 16      | 64      | All        | All         |
+| Size of Word (B)   | 512      | 4096    | 8192    | 32768   | 512        | 512         |
+| Quant (B)          | 64       | 512     | 1024    | 4096    | 64         | 64          |
+| Words Float        | 128      | 16      | 8       | 2       | 128        | 128         |
+| Words 4-int        | 1024     | 128     | 64      | 16      | 1024       | 1024        |
 
-- Accuracy: 90.1%
-- Precision: 97.9%
-- Recall: 90.1%
-- F1 Score: 93.9%
-- EER: 10.1%
-- AUC: 0.885
-
-### SV Models  
-- **CNN**: deeper semantics, fewer weights, not supported by Syntiant. Two models where explored:
-- **DNN (Dense)**: deployable, higher memory, shallower understanding.
-- Distilled using cosine similarity loss, achieving average similarity ~87.5%.
+| Type               | D-vector = 256                              |         |         |         |        |  |
+|--------------------|---------------------------------------------|---------|---------|---------|------------|-------------|
+| Aggregation        | Best                                        |         |         |         | Mean           |  Geom_Median           |
+| N° Refs            | 1         | 8       | 16      | 64      | All        | All         |
+| Size of Word (B)   | 1024     | 8192    | 16384   | 65536   | 1024       | 1024        |
+| Quant (B)          | 128      | 1024    | 2048    | 8192    | 128        | 128         |
+| Words Float        | 64       | 8       | 4       | 1       | 64         | 64          |
+| Words 4-int        | 512      | 64      | 32      | 8       | 512        | 512         |
 
 ---
 
@@ -166,12 +213,37 @@ Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
 - EER: 10.1%
 - AUC: 0.885
 
-### SV with CNN
-- Optimal at 64 references (recall ~94%, F1 ~0.82)
+Tested using a balanced dataset of “Sheila” utterances from both Google Speech Commands and custom recordings. Training was done with Edge Impulse using 40×40 Mel-spectrograms, targeting 2 classes: "sheila" and "not sheila". "not sheila" consisted in unknown words, similar words and sounds. 
 
-### SV with DNN
-- Best deployable: 256-192 (F1 ~0.58, recall ~60%)
-- Optimal memory trade-off: 128-128, Mean aggregation
+### SV (Speaker Verification) with CNN Teacher Model
+
+- **Recall**: up to 94% with 64 references (Best aggregation), but too many references, so good trade-off in 
+- **F1 Score**: in general good F1 with high number of references
+- **Cosine Similarity Matching**: Stable across batches
+- **Weakness**: Non-deployable on NDP101, used as reference for distillation
+  
+<p float="left">
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.03%20F1%20Score%2016%20CNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/2c3e31d64a4494648086e1055daf7e0827ca9b3f/images/5.04%20F1%20Score%2016%20CNN%20prec1.png" width=49%>
+</p>
+
+### SV with Distilled DNN Models
+
+- **Best deployable configuration**: 256-192 (Intermediate layer = 192 neurons), F1 score around 70% with precision=1
+- **Memory usage**: Fits within NDP101 flash constraints
+- **F1 Score**: ~0.58 with Best aggregation and 8 references
+- **Recall**: ~60% at 100% precision
+- **Best memory-efficient configuration**: 128-128 with Mean aggregation, but at the same time too low recall
+- **False Positive Rate**: Tunable via threshold; precision=1 achieved with reduced recall
+- 
+<p float="left">
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.05%20F1%20Score%2016%20DNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.06%20F1%20Score%2016%20DNN%20prec1.png" width=49%)
+</p>
+<p float="left">
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.07%20F1%20Score%2064%20DNN.png" width=49%>
+   <img src="https://github.com/Gotta003/Syntiant-NDP101-Speaker-Verification-Thesis/blob/45f505e947047a611e86193e648939ce41a16c92/images/5.08%20F1%20Score%2064%20DNN%20prec1.png" width=49%>
+</p>
 
 ---
 
@@ -194,19 +266,21 @@ Structure: [40x40]->FC256 -> FC256 -> FC256 -> Softmax("Sheila", "Other Word")
 ---
 
 ## Future Work
-- Deploy with SDK once accessible
-- Test adaptive SV training
-- Port to boards with CNN support (e.g., NDP120)
+- Deploy with SDK if accessible (there are already in deploy folder a working KWS deployable on Syntiant NDP101 and a setup for SV but it is missing 
+- Trying optimize these algorithms in DNN
+- Port to boards with CNN support to have higher control
+- Try changing to more complex and solid Neural Network
 
 ---
 
-## References
+## Main References
 
 - Edge Impulse
 - Google Speech Commands
 - TinySV
 - LibriSpeech
 - Syntiant Docs
+- The other minor ones are in the thesis pdf file.
 
 ---
 
