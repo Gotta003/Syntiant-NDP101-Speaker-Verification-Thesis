@@ -1,8 +1,5 @@
 
 # TinyML-Based Voice Recognition System on Syntiant NDP101 - From Keyword Spotting to Speaker Verification - Thesis   
-
-This repository contains the implementation code and documentation for my Bachelor's Degree final dissertation in **Computer, Communication and Electronic Engineering** at the **Department of Information Engineering and Computer Science** in Trento.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Platform](https://img.shields.io/badge/platform-Syntiant%20NDP101-blue)
 ![Language](https://img.shields.io/badge/language-C%20%7C%20Python-blue)
@@ -12,6 +9,7 @@ This repository contains the implementation code and documentation for my Bachel
 ![TinyML](https://img.shields.io/badge/tinyml-enabled-brightgreen)
 ![Thesis](https://img.shields.io/badge/thesis-BSc-blueviolet)
 ![Status](https://img.shields.io/badge/status-Completed-lightgrey)
+This repository contains the implementation code and documentation for my Bachelor's Degree final dissertation in **Computer, Communication and Electronic Engineering** at the **Department of Information Engineering and Computer Science** in Trento.
 
 ---
 
