@@ -291,7 +291,9 @@ Bachelor’s Degree in Computer, Communication and Electronic Engineering
 Department of Information Engineering and Computer Science  
 Academic Year 2024/2025  
 Supervisor: Prof. Kasim Sinan Yildirim
+
 Email: matteogottardelli@gmail.com
+
 [GitHub Profile](https://github.com/Gotta003)
 
 ---
